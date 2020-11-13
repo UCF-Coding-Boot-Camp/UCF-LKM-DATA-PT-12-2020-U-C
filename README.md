@@ -77,7 +77,7 @@ After your homework is graded, you can do anything you like with the repos. We r
 
 For projects, all group members should submit the same links. All contributing group members will receive the same grade.
 
-You are not allowed to skip any projects. In order to pass and recieve your cert, all projects must have a passing grade (D- or higher).
+You are not allowed to skip any projects. In order to pass and recieve your cert, all 4 projects must have a passing grade (D- or higher).
 
 Submit the following links to BCS:
 
