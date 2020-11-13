@@ -102,7 +102,7 @@ If you add your link to BCS even a minute late, your homework will be considered
 
 There is no grading penalty for late homework. However, late homework is not sent to Central Grading automatically - we have to manually request it. This can lead to grading delays.
 
-To turn in your homework late, add your link to BCS as normal and contact your instructional staff (Sondra, TA1, TA2(?)) to request your homework be regraded.
+To turn in your homework late, add your link to BCS as normal and contact your instructional staff (Sondra, TA1, TA2) to request your homework be regraded.
 
 Please turn in homework no later than 2 weeks before class ends. Grading delays near the end of class may delay your certificate.
 
@@ -122,7 +122,7 @@ You can request a regrade on your homework if you have modified your homework ba
 
 Before requesting a regrade, write a short note explaining what you changed on Bootcampspot so the next grader understands why your work is being regraded. You must add this note to the BCS feedback thread for assignment.
 
-To request your regrade, send a group slack message to Sondra, Bay, and Josh. You must leave a note on your BCS homework page first - we'll bounce the request back if you haven't.
+To request your regrade, send a group slack message to Sondra, TA2, and TA1. You must leave a note on your BCS homework page first - we'll bounce the request back if you haven't.
 
 </details>
 
