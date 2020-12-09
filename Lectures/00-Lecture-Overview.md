@@ -97,7 +97,9 @@ You are free to use additional libraries for your projects; this list is just a 
 
 <details><summary><strong>Module 01 - Excel</strong></summary>
 
-### 01-1 Course Intro
+### [01-1 Course Intro](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=945aebe9-2ac7-4112-8b25-ac8b018498d6)
+
+Zoom Recording (Not Yet Posted)
 
 * Introductions
 * Thought experiments
@@ -105,7 +107,11 @@ You are free to use additional libraries for your projects; this list is just a 
 
 ##### 01-1 Additional Coverage
 
-* Git SSH setup
+* [Git Intro 1](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=ba3c7078-083f-44dd-9d7b-ac8c002bd395)
+    * `git clone`
+    * `git pull`
+    * *Never* edit files in the cloned folder!
+        * Copy to "InClass" instead.
 
 ### 01-2 Excel Basics
 
@@ -119,10 +125,15 @@ You are free to use additional libraries for your projects; this list is just a 
 
 ##### 01-2 Additional Coverage
 
-* Git Intro 1
+* Git Intro 2
     * Git Installation
-    * `git clone`
-    * `git pull`
+    * Adding SSH Key
+    * (Training Wheels) "Open Terminal Window Here" from Finder and "Open Git Bash Here" from Windows Explorer
+    * Review: 
+        * `git clone`
+        * `git pull`
+        * *Never* edit files in the cloned folder!
+            * Copy to "InClass" instead.
 * Open OH for TA assistance (custom for questions/ install issues)
 
 ### 01-3 Excel Charting
