@@ -1,8 +1,6 @@
 # Lesson Overview
 
-Links will be posted once class begins!
-
-**Note:** These lecture notes are not final - just a handy reference. Previous notes may be updated depending on what we cover.
+**Note:** These lecture notes are not final - just a handy reference. Notes may be updated any time depending on what we cover.
 
 Lectures are linked to the corresponding Panopto video.
 
@@ -20,15 +18,15 @@ Links to our class's Panopto folders are below. As part of your tuition, you hav
 
 Recordings:
 
-* Lecture Recordings
+* [Lecture Recordings](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?folderID=2c76d6e4-8319-419b-a635-ac8c003c1a6a)
 * Office Hours Recordings
-    * Homework-related
-    * Misc (i.e. Git tutorials, installs, career services chats)
+    * [Homework Help and Solutions](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?folderID=3e647d04-dc2b-4c88-9d07-ac8c01721eb8)
+    * [Misc (i.e. Git tutorials, installs, career services chats)](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?folderID=b128a7f9-6114-4e56-8bc5-ac8c01725a4f)
 
 <details><summary>Raw Files:</summary>
 In case I forgot to include something in the processed videos above, you can check out the full class folder here:
 
-* Class Panopto Recordings
+* [Class Panopto Recordings](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?folderID=188ece76-73ee-44c8-ba5b-ac8b017afaad)
     * Contains all recordings (lecture, office hours, _and copies of the raw recordings before I combine them_).
     * Searching this folder will return duplicates because it includes those raw copies.
     * You can't see folders, so this will look empty (I put all the videos in folders). But you can search with the bar at the top and the videos will show up in the search results.
@@ -91,15 +89,15 @@ You are free to use additional libraries for your projects; this list is just a 
 
 ## <!-- 01-02 Excel, VBA -->
 
-<details><summary><em>Module 01-02: Intro to Programming with Excel and VBA</em></summary>
+<details open><summary><em>Module 01-02: Intro to Programming with Excel and VBA</em></summary>
 
 <br/>
 
-<details><summary><strong>Module 01 - Excel</strong></summary>
+<details open><summary><strong>Module 01 - Excel</strong></summary>
 
 ### [01-1 Course Intro](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=945aebe9-2ac7-4112-8b25-ac8b018498d6)
 
-Zoom Recording (Not Yet Posted)
+[Zoom Recording](https://zoom.us/rec/share/VelJsDmIXp1E22mo9jBV0RH84kSuTrvZYrJByIc2d7n6w0cqfd_mi84j3DNA9g-m.8j8kRfchlyr8gxva)
 
 * Introductions
 * Thought experiments
