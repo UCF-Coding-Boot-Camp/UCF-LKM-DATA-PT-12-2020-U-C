@@ -113,7 +113,7 @@ You are free to use additional libraries for your projects; this list is just a 
 
 ### [01-2 Excel Basics](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=deaa8e10-66a1-46b5-9fc4-ac8d017d8fd3)
 
-Zoom Recording (Not Yet Posted)
+[Zoom Recording](https://zoom.us/rec/share/eiE-MNi53gYlq6Ku47iZXzdPWgCRWjD0XT2YD5gQlPvRkgVzwPXAhl88svKyvOFx._4NTCFe3ca-5rX7Q)
 
 * Functions and arguments
 * Pivot Tables
