@@ -111,7 +111,9 @@ You are free to use additional libraries for your projects; this list is just a 
     * *Never* edit files in the cloned folder!
         * Copy to "InClass" instead.
 
-### 01-2 Excel Basics
+### [01-2 Excel Basics](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=deaa8e10-66a1-46b5-9fc4-ac8d017d8fd3)
+
+Zoom Recording (Not Yet Posted)
 
 * Functions and arguments
 * Pivot Tables
@@ -123,7 +125,7 @@ You are free to use additional libraries for your projects; this list is just a 
 
 ##### 01-2 Additional Coverage
 
-* Git Intro 2
+* Git Intro 2 (Not Yet Posted)
     * Git Installation
     * Adding SSH Key
     * (Training Wheels) "Open Terminal Window Here" from Finder and "Open Git Bash Here" from Windows Explorer
