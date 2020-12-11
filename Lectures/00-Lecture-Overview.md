@@ -125,7 +125,7 @@ Zoom Recording (Not Yet Posted)
 
 ##### 01-2 Additional Coverage
 
-* Git Intro 2 (Not Yet Posted)
+* [Git Intro 2 (Not Yet Posted)](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=0a51cb65-a3a2-4762-9f9d-ac8e002cf338)
     * Git Installation
     * Adding SSH Key
     * (Training Wheels) "Open Terminal Window Here" from Finder and "Open Git Bash Here" from Windows Explorer
