@@ -115,6 +115,8 @@ You are free to use additional libraries for your projects; this list is just a 
 
 [Zoom Recording](https://zoom.us/rec/share/eiE-MNi53gYlq6Ku47iZXzdPWgCRWjD0XT2YD5gQlPvRkgVzwPXAhl88svKyvOFx._4NTCFe3ca-5rX7Q)
 
+The first ~10 mins of this recording are missing, I go through how to navigate the Github repo. Read though the [README.md](../README.md) and this file, [00-Lecture-Overview](), to see what I covered.
+
 * Functions and arguments
 * Pivot Tables
 * Formatting
