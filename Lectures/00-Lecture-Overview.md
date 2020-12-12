@@ -140,6 +140,8 @@ The first ~10 mins of this recording are missing, I go through how to navigate t
 
 ### [01-3 Excel Charting](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=43f4346a-f834-4b34-9e7b-ac8f00e95262)
 
+Zoom Meeting (Not Yet Posted)
+
 * Line, Scatter, Bar, Pie charts
 * Trend lines
 * Pivot Charts
