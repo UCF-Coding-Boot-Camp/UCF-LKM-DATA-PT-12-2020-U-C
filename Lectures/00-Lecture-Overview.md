@@ -127,7 +127,7 @@ The first ~10 mins of this recording are missing, I go through how to navigate t
 
 ##### 01-2 Additional Coverage
 
-* [Git Intro 2 (Not Yet Posted)](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=0a51cb65-a3a2-4762-9f9d-ac8e002cf338)
+* [Git Intro 2](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=0a51cb65-a3a2-4762-9f9d-ac8e002cf338)
     * Git Installation
     * Adding SSH Key
     * (Training Wheels) "Open Terminal Window Here" from Finder and "Open Git Bash Here" from Windows Explorer
@@ -138,7 +138,7 @@ The first ~10 mins of this recording are missing, I go through how to navigate t
             * Copy to "InClass" instead.
 * Open OH for TA assistance (custom for questions/ install issues)
 
-### 01-3 Excel Charting
+### [01-3 Excel Charting](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=43f4346a-f834-4b34-9e7b-ac8f00e95262)
 
 * Line, Scatter, Bar, Pie charts
 * Trend lines
@@ -151,8 +151,8 @@ The first ~10 mins of this recording are missing, I go through how to navigate t
 
 ##### 01-3 Additional Coverage
 
-* Creating a git repository
-* Open OH for TA assistance (custom for questions/ install issues)
+* [01 Excel Homework Help 1/1](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=6f9e4a43-15a8-41d5-8960-ac8f0121f79a)
+* Open Office Hours for install help/ questions
 
 </details>
 
