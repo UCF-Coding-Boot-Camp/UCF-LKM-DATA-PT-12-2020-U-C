@@ -111,7 +111,11 @@ You are free to use additional libraries for your projects; this list is just a 
     * *Never* edit files in the cloned folder!
         * Copy to "InClass" instead.
 
-### 01-2 Excel Basics
+### [01-2 Excel Basics](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=deaa8e10-66a1-46b5-9fc4-ac8d017d8fd3)
+
+[Zoom Recording](https://zoom.us/rec/share/eiE-MNi53gYlq6Ku47iZXzdPWgCRWjD0XT2YD5gQlPvRkgVzwPXAhl88svKyvOFx._4NTCFe3ca-5rX7Q)
+
+The first ~10 mins of this recording are missing, I go through how to navigate the Github repo. Read though the [README.md](../README.md) and this file, [00-Lecture-Overview](), to see what I covered.
 
 * Functions and arguments
 * Pivot Tables
@@ -123,7 +127,7 @@ You are free to use additional libraries for your projects; this list is just a 
 
 ##### 01-2 Additional Coverage
 
-* Git Intro 2
+* [Git Intro 2](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=0a51cb65-a3a2-4762-9f9d-ac8e002cf338)
     * Git Installation
     * Adding SSH Key
     * (Training Wheels) "Open Terminal Window Here" from Finder and "Open Git Bash Here" from Windows Explorer
@@ -134,7 +138,9 @@ You are free to use additional libraries for your projects; this list is just a 
             * Copy to "InClass" instead.
 * Open OH for TA assistance (custom for questions/ install issues)
 
-### 01-3 Excel Charting
+### [01-3 Excel Charting](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=43f4346a-f834-4b34-9e7b-ac8f00e95262)
+
+Zoom Meeting (Not Yet Posted)
 
 * Line, Scatter, Bar, Pie charts
 * Trend lines
@@ -147,8 +153,8 @@ You are free to use additional libraries for your projects; this list is just a 
 
 ##### 01-3 Additional Coverage
 
-* Creating a git repository
-* Open OH for TA assistance (custom for questions/ install issues)
+* [01 Excel Homework Help 1/1](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=6f9e4a43-15a8-41d5-8960-ac8f0121f79a)
+* Open Office Hours for install help/ questions
 
 </details>
 
