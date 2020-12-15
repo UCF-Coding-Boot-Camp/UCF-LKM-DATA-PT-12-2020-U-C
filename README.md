@@ -31,6 +31,39 @@ Welcome to UCF's Data Visualization class running December 2020 - June 2021!
 
 You have read-only access to this repository, and you'll have access to it forever as part of your tuition. This access is available to the Github username you provided to Trilogy.
 
+## Class Expectations
+
+ ### Lectures
+
+
+You're expected to attend all lecture periods. If you need more than the allowed 8 absences due to work or family emergencies, contact Chavon and the instructional team as soon as you know. We'll be your advocates.
+
+If you're running late, come anyway! If you're very late, we will mark you as absent, but you should still come to learn as much as you can.
+
+You have 15 minutes to sign into Bootcampspot at the beginning of class. If you forget, let us know - we have admin privileges and can sign you in later.
+
+### Office Hours
+ 
+Office Hours attendance is optional, but you are expected to watch the recordings.
+
+Generally, only after-class office hours are recorded. Homework Help, Homework Solutions, and bonus sessions (git, statistics, pimping your terminal, publishing websites) will be covered, and built on in the main lectures.
+
+Before class, office hours are generally not recorded. This time is for you to bring questions, chat, or get individual help with set up or problems.
+
+### Etiquette
+
+We're generally very laid-back. Come as you are, wear clothes (lol, i know), and turn on your camera as long as your bandwidth allows. (You can turn your camera off for a bit to eat during class.)
+
+You should keep your mics on mute to minimize background noise. You can unmute anytime to ask questions.
+
+This is a safe space, so be yourself! We're here to support each other. We're all human though, so avoid being rude or hurtful.
+
+It's fine for your pets/ little ones/ family members to be on the camera for a few moments, btw. Standard video meeting etiquette.
+
+</details>
+
+<br/>
+
 ### Helpful Links
 
 * [Lecture Notes](Lectures/00-Lecture-Overview.md) 
@@ -41,6 +74,7 @@ You have read-only access to this repository, and you'll have access to it forev
     * Solutions are posted in the same folders as the instructions.
     * Homework Solutions are typically posted two lectures after the due date.
 * [In-Class Exercises](Lectures)
+    * Organized by module (each module is ~3 classes), then by day.
 * [Projects](Projects)
 * [Bootcampspot (BCS)](https://www.bootcampspot.com/)
 
@@ -55,7 +89,7 @@ Homework and projects are submitted via Bootcampspot.
 
 <br/>
 
-You are allowed to skip up to 2 homeworks in Homework 1-20. Homework must recieve a grade higher than Incomplete to count towards your cert. 
+You are allowed to skip up to 2 homeworks in Homeworks 1-20. Homework must recieve a grade higher than Incomplete to count towards your cert. 
 
 Homeworks 21 and 22 are optional whether you skip other assignments or not.
 
@@ -88,7 +122,7 @@ Submit the following links to BCS:
 
 The non-required links are optional if you did not complete them. All team members should submit the same links.
 
-With the exception of the final project, project presentations are not recorded.
+Project presentations are recorded using Zoom and Panopto. Groups will be split up in the video using slides with group member names.
 
 </details>
 
@@ -102,13 +136,14 @@ If you add your link to BCS even a minute late, your homework will be considered
 
 There is no grading penalty for late homework. However, late homework is not sent to Central Grading automatically - we have to manually request it. This can lead to grading delays.
 
-To turn in your homework late, add your link to BCS as normal and contact your instructional staff (Sondra, TA1, TA2) to request your homework be regraded.
+To turn in your homework late, add your link to BCS as normal and contact your instructional staff (Sondra and Bay) to request your homework be regraded.
 
 Please turn in homework no later than 2 weeks before class ends. Grading delays near the end of class may delay your certificate.
 
 Don't hesitate to reach out if you're behind or have questions. We're here for you, and our goal is your success!
 </details>
 
+<br/>
 
 ### Regrading Homework And Projects
 
