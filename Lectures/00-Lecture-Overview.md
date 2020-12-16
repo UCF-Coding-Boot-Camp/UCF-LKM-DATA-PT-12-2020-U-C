@@ -110,6 +110,7 @@ You are free to use additional libraries for your projects; this list is just a 
     * `git pull`
     * *Never* edit files in the cloned folder!
         * Copy to "InClass" instead.
+    * Bash Commands: `ls`, `cd`, `..`, `open` (`explorer` on windows), `pwd`
 
 ### [01-2 Excel Basics](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=deaa8e10-66a1-46b5-9fc4-ac8d017d8fd3)
 
@@ -136,6 +137,7 @@ The first ~10 mins of this recording are missing, I go through how to navigate t
         * `git pull`
         * *Never* edit files in the cloned folder!
             * Copy to "InClass" instead.
+        * Bash Commands: `ls`, `cd`, `..`, `open` (`explorer` on windows), `pwd`
 * Open OH for TA assistance (custom for questions/ install issues)
 
 ### [01-3 Excel Charting](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=43f4346a-f834-4b34-9e7b-ac8f00e95262)
@@ -154,13 +156,20 @@ Zoom Meeting (Not Yet Posted)
 ##### 01-3 Additional Coverage
 
 * [01 Excel Homework Help 1/1](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=6f9e4a43-15a8-41d5-8960-ac8f0121f79a)
+    * Conditional Formatting
+    * Pivot Table Breakout Columns
+    * Class Questions
+        * Splitting categories
+        * Date conversion
+        * Finding live campaigns
+        * Variance & Std Deviation
 * Open Office Hours for install help/ questions
 
 </details>
 
 <details><summary><strong>Module 02 - VBA</strong></summary>
 
-### 02-1 VBA Day 1 - Intro to Programming
+### [02-1 VBA Day 1 - Intro to Programming](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=6878a1ba-2284-4be5-bcca-ac920179fdf2)
 
 * Installs
     * VSCode
@@ -173,38 +182,31 @@ Zoom Meeting (Not Yet Posted)
 * Fundamentals of programming
     * Primitives (aka basic types)
     * Conditionals - `If`, `Elseif`, `Else`, `End If`
+* Basics of navigating bash terminals
+    * Bash Commands: `mkdir`, `~`, `code`, `cp`
 
 ##### 02-1 Additional Coverage
 
-* Before Class:
-    * Excel Statistics Addon (moving average calcs)
-    * Questions in #02-parkin-lot
 * After Class:
-    * 01 Excel Homework Help 1/1
-        * Conditional Formatting
-        * Pivot Table Breakout Columns
-        * Class Questions
-            * Splitting categories
-            * Date conversion
-            * Finding live campaigns
-            * Variance & Std Deviation
+    * [02 VBA Homework Help 1/3](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=039eeab3-e6d4-4b6f-a2d1-ac93002bf51d)
+        * Review of VSCode set up and creating a git repo (used a local repo tonight)
+        * Getting started - reading values out of columns
 
 ### 02-2 VBA Day 2 - Loops
 
+* 2-1 Review Ex 09-10
+* Warm up: 2-1 Ex 11
 * Loops
-* Conditionals
+* Conditionals (includes 2-1 Ex 12, 13)
 * Installations for Module 3
     * Jupyter Notebook
     * Conda
     * Python
-* Basics of navigating bash terminals
 
 ##### 02-2 Additional Coverage
 
-* Before Class:
-   * 2-1 Exercises 10 - 13 (included in full lecture video)
 * After Class:
-   * N/A (open office hours)
+   * 02 VBA Homework Help 2/3
 
 ### 02-3 VBA Day 3 - More Practice
 
@@ -218,7 +220,7 @@ Zoom Meeting (Not Yet Posted)
    * Open Office Hours
    * VBA Review
 * After Class:
-    * 02 VBA Homework Help 1/1
+    * 02 VBA Homework Help 3/3
     * 03 Python Installation Help
 
 
