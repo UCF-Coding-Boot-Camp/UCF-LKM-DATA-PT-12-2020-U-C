@@ -93,7 +93,7 @@ You are free to use additional libraries for your projects; this list is just a 
 
 <br/>
 
-<details open><summary><strong>Module 01 - Excel</strong></summary>
+<details><summary><strong>Module 01 - Excel</strong></summary>
 
 ### [01-1 Course Intro](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=945aebe9-2ac7-4112-8b25-ac8b018498d6)
 
@@ -142,7 +142,7 @@ The first ~10 mins of this recording are missing, I go through how to navigate t
 
 ### [01-3 Excel Charting](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=43f4346a-f834-4b34-9e7b-ac8f00e95262)
 
-Zoom Meeting (Not Yet Posted)
+[Zoom Recording](https://zoom.us/rec/share/fmOz8_8Wl1-GOzPdAeYYQEPCy2Jcw_qSDLBnQdnTf6qswoYTrRN7zttcqyrA4jQ.82I9y2-cjvPCI-Es)
 
 * Line, Scatter, Bar, Pie charts
 * Trend lines
@@ -167,7 +167,7 @@ Zoom Meeting (Not Yet Posted)
 
 </details>
 
-<details><summary><strong>Module 02 - VBA</strong></summary>
+<details open><summary><strong>Module 02 - VBA</strong></summary>
 
 ### [02-1 VBA Day 1 - Intro to Programming](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=6878a1ba-2284-4be5-bcca-ac920179fdf2)
 
@@ -218,7 +218,6 @@ Zoom Meeting (Not Yet Posted)
 
 * Before Class:
    * Open Office Hours
-   * VBA Review
 * After Class:
     * 02 VBA Homework Help 3/3
     * 03 Python Installation Help
