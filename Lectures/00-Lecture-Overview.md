@@ -210,7 +210,7 @@ Zoom Recording (Not Yet Posted)
 ##### 02-2 Additional Coverage
 
 * After Class:
-   * 02 VBA Homework Help 2/3
+   * [02 VBA Homework Help 2/3](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=36bfc6b0-594b-4b42-8ecc-ac9500165044)
 
 ### 02-3 VBA Day 3 - More Practice
 
