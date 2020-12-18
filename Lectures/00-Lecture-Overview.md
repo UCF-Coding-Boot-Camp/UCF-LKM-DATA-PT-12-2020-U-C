@@ -171,6 +171,8 @@ The first ~10 mins of this recording are missing, I go through how to navigate t
 
 ### [02-1 VBA Day 1 - Intro to Programming](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=6878a1ba-2284-4be5-bcca-ac920179fdf2)
 
+[Zoom Recording](https://zoom.us/rec/share/ppVQMz497qsaYR6m9c1g_Ha13-rLeCjA-50lfeZagd2jRUlnu4kguONyp9sbAwtl.Yed1O_L7ildQuSAb)
+
 * Installs
     * VSCode
         * Git Bash/ Terminal Integration
@@ -193,6 +195,8 @@ The first ~10 mins of this recording are missing, I go through how to navigate t
         * Getting started - reading values out of columns
 
 ### [02-2 VBA Day 2 - Loops](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=1c3aea1c-8b4d-4a60-acaa-ac94017e222f)
+
+Zoom Recording (Not Yet Posted)
 
 * 2-1 Review Ex 09-10
 * Warm up: 2-1 Ex 11
