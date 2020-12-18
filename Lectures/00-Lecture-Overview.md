@@ -192,7 +192,7 @@ The first ~10 mins of this recording are missing, I go through how to navigate t
         * Review of VSCode set up and creating a git repo (used a local repo tonight)
         * Getting started - reading values out of columns
 
-### 02-2 VBA Day 2 - Loops
+### [02-2 VBA Day 2 - Loops](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=1c3aea1c-8b4d-4a60-acaa-ac94017e222f)
 
 * 2-1 Review Ex 09-10
 * Warm up: 2-1 Ex 11
