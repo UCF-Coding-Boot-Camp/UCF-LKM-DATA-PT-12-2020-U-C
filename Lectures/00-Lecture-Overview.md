@@ -212,7 +212,7 @@ Zoom Recording (Not Yet Posted)
 * After Class:
    * [02 VBA Homework Help 2/3](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=36bfc6b0-594b-4b42-8ecc-ac9500165044)
 
-### 02-3 VBA Day 3 - More Practice
+### [02-3 VBA Day 3 - More Practice](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=65c42e5c-c01b-4954-ad66-ac9600ea57b5)
 
 * Formatting sheets with VBA
 * Nested Loops
