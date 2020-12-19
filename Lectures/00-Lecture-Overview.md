@@ -220,8 +220,8 @@ Zoom Recording (Not Yet Posted)
 
 ##### 02-3 Additional Coverage
 
-* Before Class:
-   * Open Office Hours
+*No office hours before class.*
+
 * After Class:
     * 02 VBA Homework Help 3/3
     * 03 Python Installation Help
