@@ -196,7 +196,7 @@ The first ~10 mins of this recording are missing, I go through how to navigate t
 
 ### [02-2 VBA Day 2 - Loops](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=1c3aea1c-8b4d-4a60-acaa-ac94017e222f)
 
-Zoom Recording (Not Yet Posted)
+[Zoom Recording](https://zoom.us/rec/share/0KmRA_77KwCVgl_vbj7tPa2HxETLNBNF5pnu2eUFEQDTBmyU4wnXDwYtrt6wRpVC.s1W9NVKDOpEVd2KA)
 
 * 2-1 Review Ex 09-10
 * Warm up: 2-1 Ex 11
@@ -216,15 +216,14 @@ Zoom Recording (Not Yet Posted)
 
 * Formatting sheets with VBA
 * Nested Loops
-* 03 Python Installations
+* Lots of practice
 
 ##### 02-3 Additional Coverage
 
 *No office hours before class.*
 
 * After Class:
-    * 02 VBA Homework Help 3/3
-    * 03 Python Installation Help
+    * [02 VBA Homework Help 3/3 - Creating a Github Repo](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=2b220836-c9c3-4b71-bfde-ac9601262249)
 
 
 </details>
