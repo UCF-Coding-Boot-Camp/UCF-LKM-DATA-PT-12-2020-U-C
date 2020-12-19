@@ -214,6 +214,8 @@ The first ~10 mins of this recording are missing, I go through how to navigate t
 
 ### [02-3 VBA Day 3 - More Practice](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=65c42e5c-c01b-4954-ad66-ac9600ea57b5)
 
+[Zoom Recording](https://zoom.us/rec/share/EDZ7fB3Q7SjF5o-pX3X_QwCcwMQFcYJGyhOvaLP1OYi8h01oWZTd2BNIk2BlnAm3.qISPBlONhBoRyy-j)
+
 * Formatting sheets with VBA
 * Nested Loops
 * Lots of practice
