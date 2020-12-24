@@ -242,7 +242,7 @@ The first ~10 mins of this recording are missing, I go through how to navigate t
 
 <details><summary><strong>Module 03 - Python</strong></summary>
 
-### 03-1 Python Day 1 - Intro to Programming
+### [03-1 Python Day 1 - Intro to Programming](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=f26bdb6c-4160-4fb1-b0d1-ac9b0014dfc1)
 
 [Zoom Recording](https://zoom.us/rec/share/4R8DGCJueVRRIMttMkEaR1Sru2EKXETTStLsBlo6SyTaC1oiFwjdr_X1Tv0eQzwA.AxyogBFtlgM-kbRe)
 
