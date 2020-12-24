@@ -244,6 +244,8 @@ The first ~10 mins of this recording are missing, I go through how to navigate t
 
 ### 03-1 Python Day 1 - Intro to Programming
 
+[Zoom Recording](https://zoom.us/rec/share/4R8DGCJueVRRIMttMkEaR1Sru2EKXETTStLsBlo6SyTaC1oiFwjdr_X1Tv0eQzwA.AxyogBFtlgM-kbRe)
+
 * Review Installations and PythonData environment
 * Variables
 * User Input
@@ -255,28 +257,24 @@ The first ~10 mins of this recording are missing, I go through how to navigate t
 * Before Class:
     * 03 Python Installation Help
 * After Class:
-    * 03 Python Help 1/2
+    * 03 Python Installation Help
 
 ### 03-2 Python Day 2 - CSVs, Python, and Lists
 
-
-
+* Review Python, VSCode, Git
+* Conditionals - `if`, `elif`, `else`
+* Loops - `for` and `while`
 * Read/ write CSVs
 
 ##### 03-2 Additional Coverage
 
-*No office hours before class.*
-
+* Before Class:
+    * Open Office Hours
 * After Class:
     * 01 Excel Homework Solution
-    * Making a Git Repo (Re-run)
-        * `git add .`
-        * `git commit -m "commit message"`
-        * `git push`
+    * 03 Python Homework Help 1/3
 
 ### 03-3 Python Day 3 - Intermediate Python
-
-
 
 * Dictionaries
 * List and Dictionary Comprehensions
@@ -288,7 +286,8 @@ The first ~10 mins of this recording are missing, I go through how to navigate t
 * Before Class:
     * 03 Python Installation Help
 * After Class:
-    * 03 Python Help 2/2
+    * 03 Python Help 2/3
+    * Git Review
 
 </details>
 
@@ -296,8 +295,6 @@ The first ~10 mins of this recording are missing, I go through how to navigate t
 <details><summary><strong>Module 04 - Pandas</strong></summary>
 
 ### 04-1 Pandas Day 1 - Intro to DataFrames
-
-
 
 * Intro to Jupyter Notebooks
 * Review Python (`input`, loops, `open`, `csv.reader`, conditionals)
@@ -308,14 +305,13 @@ The first ~10 mins of this recording are missing, I go through how to navigate t
 
 ##### 04-1 Additional Coverage
 
-* Before Class:
-    * Open Office Hours
+*No office hours before class.*
+
 * After Class:
-    * Open Office Hours
+    * 03 Python Homework Help 3/3
+    * Statistics (Review, topics TBA)
 
 ### 04-2 Pandas Day 2 - Data Cleaning
-
-
 
 * Filtering (`loc` and `iloc`, `dropna`)
 * Cleaning duplicates
@@ -325,16 +321,18 @@ The first ~10 mins of this recording are missing, I go through how to navigate t
 
 ##### 04-2 Additional Coverage
 
-*No office hours before class.*
-
+* Before Class:
+    * Open Office Hours
 * After Class:
     * 04 Pandas Homework Help 1/3
-    * Tips and Tricks for Jupyter
-         * Enabling Jupyter Extensions
+    * Tips and Tricks for Jupyter 1/2
+        * Enabling Jupyter Extensions
+    * Pimp My Terminal 1/2
+        * Terminal Emulators And U
+            * Mac: iTerm, Alacritty, Kitty
+            * Windows: WSL, Alacritty
 
 ### 04-3 Pandas Day 3 - Intermediate Data Cleaning
-
-
 
 * Merging DataFrames
 * Binning
@@ -346,20 +344,14 @@ The first ~10 mins of this recording are missing, I go through how to navigate t
 * Before Class:
     * Open Office Hours
 * After Class:
-    * Intro to Git Branches
-         * What is a branch?
-         * Best Practice: Never break master!
-         * Viewing Git commit history
-         * VSCode Extensions
-         * Real-life applications
+    * 04 Pandas Homework Help 2/3
+    * Statistics (TBA)
 
 </details>
 
 <details><summary><strong>Module 05 - Intro to Plots and Statistics</strong></summary>
 
 ### 05-1 Intro to Plots and Statistics Day 1 - Matplotlib
-
-
 
 * Using Matplotlib in Jupyter Notebook
     * Interactive and static inline plots
@@ -369,14 +361,15 @@ The first ~10 mins of this recording are missing, I go through how to navigate t
 
 ##### 05-1 Additional Coverage
 
-* Before Class
-    * Open Office Hours
+*No office hours before class.*
+
 * After Class
+    * 04 Pandas Homework Help 3/3
     * 02 VBA Homework Solution
+    * Tips and Tricks for Jupyter 2/2
+        * Jupyter Widgets
     
 ### 05-2 Intro to Plots and Statistics Day 2 - Pandas Plots
-
-
 
 * `DataFrame.plot()`
 * Line, bar, scatter, pie charts
@@ -384,15 +377,13 @@ The first ~10 mins of this recording are missing, I go through how to navigate t
 
 ##### 05-2 Additional Coverage
 
-*No office hours before class.*
-
+* Before Class
+    * Open Office Hours
 * After Class
-    * 04 Pandas Homework Help 2/2
-    * 05 Python Plotting Homework Help 1/2
+    * Statistics (TBA)
+    * 05 Python Plotting Homework Help 1/3
 
 ### 05-3 Intro to Plots and Statistics Day 3 - Intro to Statistics
-
-
 
 * Basic measures of central tendency: Mean, median, mode
 * Variance and standard deviation
@@ -406,18 +397,21 @@ The first ~10 mins of this recording are missing, I go through how to navigate t
 ##### 05-3 Additional Coverage
 
 * Before Class
-    * Fixing Git Pull Conflicts
+    * Open Office Hours
 * After Class
-    * Pandas Homework Help 3/2 (answering questions, live code)
+    * 05 Python Plotting Homework Help 2/3
+    * Pimp My Terminal 2/2
+        * Easy Themes And Extensions with ZSH
+            * Installing ZSH
+            * Installing Oh-My-Zsh (for plugins)
+            * Installing Powerlevel10k (snazzy theme)
+            * What Is .zshrc Anyway?
     
-
 </details>
 
 <details><summary><strong>Module 06 - Python and APIs - Intro</strong></summary>
 
 ### 06-1 Python and APIs
-
-No zoom recording this time.
 
 * GET requests using the `requests` library
 * JSON -> Python dictionaries
@@ -430,17 +424,13 @@ No zoom recording this time.
 
 ##### 06-1 Additional Coverage
 
+*No office hours before class.*
+
 * After Class
-    * 05 Matplotlib Homework Help 2/2
-    * Git Branches Continued
-        * Concept Review
-        * VSCode Plugins
+    * 05 Python Plotting Homework Help 3/3
+    * Collaborating with Git - Intro to Git Branches
 
 ### 06-2 Python and APIs - JSON
-
-No panopto recording this time. (There are some raw videos, but they're mising parts of the stream so I won't create a video from them.)
-
-
 
 * More API practice
     * OpenWeatherMaps
@@ -451,11 +441,10 @@ No panopto recording this time. (There are some raw videos, but they're mising p
 ##### 06-2 Additional Coverage
 
 * After Class
-    * 06 APIs Homework Help 1/2
+    * 06 APIs Homework Help 1/3
+    * Git Branches Continued
 
 ### 06-3 Python and APIs
-
-
 
 * Practice Google Maps and Places APIs
 * Visualizations with Maps
