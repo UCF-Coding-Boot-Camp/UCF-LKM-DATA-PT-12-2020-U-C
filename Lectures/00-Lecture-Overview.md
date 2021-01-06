@@ -250,7 +250,7 @@ The first ~10 mins of this recording are missing, I go through how to navigate t
 * Variables
 * User Input
 * Conditionals - `if`, `elif`, `else`
-* Loops - `for` and `while`
+* Loops - `for` and **`while`**
 
 ##### 03-1 Additional Coverage
 
@@ -259,7 +259,7 @@ The first ~10 mins of this recording are missing, I go through how to navigate t
 * After Class:
     * 03 Python Installation Help
 
-### 03-2 Python Day 2 - CSVs, Python, and Lists
+### [03-2 Python Day 2 - CSVs, Python, and Lists](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d1528e56-f864-4e8c-b13a-aca70183d34b)
 
 * Review Python, VSCode, Git
 * Conditionals - `if`, `elif`, `else`
@@ -271,8 +271,7 @@ The first ~10 mins of this recording are missing, I go through how to navigate t
 * Before Class:
     * Open Office Hours
 * After Class:
-    * 01 Excel Homework Solution
-    * 03 Python Homework Help 1/3
+    * [03 Python Homework Help 1/3 + Git LFS Install Help](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=b8ed0a29-1b4a-4817-a151-aca8002ccc5b)
 
 ### 03-3 Python Day 3 - Intermediate Python
 
@@ -286,8 +285,8 @@ The first ~10 mins of this recording are missing, I go through how to navigate t
 * Before Class:
     * 03 Python Installation Help
 * After Class:
+    * 01 Excel Homework Solution
     * 03 Python Help 2/3
-    * Git Review
 
 </details>
 
