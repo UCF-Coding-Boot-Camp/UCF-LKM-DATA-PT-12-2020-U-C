@@ -89,7 +89,7 @@ You are free to use additional libraries for your projects; this list is just a 
 
 ## <!-- 01-02 Excel, VBA -->
 
-<details open><summary><em>Module 01-02: Intro to Programming with Excel and VBA</em></summary>
+<details><summary><em>Module 01-02: Intro to Programming with Excel and VBA</em></summary>
 
 <br/>
 
@@ -167,7 +167,7 @@ The first ~10 mins of this recording are missing, I go through how to navigate t
 
 </details>
 
-<details open><summary><strong>Module 02 - VBA</strong></summary>
+<details><summary><strong>Module 02 - VBA</strong></summary>
 
 ### [02-1 VBA Day 1 - Intro to Programming](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=6878a1ba-2284-4be5-bcca-ac920179fdf2)
 
@@ -236,11 +236,11 @@ The first ~10 mins of this recording are missing, I go through how to navigate t
 
 ## <!-- 03-06 Python, Pd, Plots, JSON -->
 
-<details><summary><em>Module 03-06: Python, Pandas, Plotting, and APIs</em></summary>
+<details open><summary><em>Module 03-06: Python, Pandas, Plotting, and APIs</em></summary>
 
 <br/>
 
-<details><summary><strong>Module 03 - Python</strong></summary>
+<details open><summary><strong>Module 03 - Python</strong></summary>
 
 ### [03-1 Python Day 1 - Intro to Programming](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=f26bdb6c-4160-4fb1-b0d1-ac9b0014dfc1)
 
