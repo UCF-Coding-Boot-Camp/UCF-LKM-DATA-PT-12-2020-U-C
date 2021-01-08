@@ -273,20 +273,25 @@ The first ~10 mins of this recording are missing, I go through how to navigate t
 * After Class:
     * [03 Python Homework Help 1/3 + Git LFS Install Help](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=b8ed0a29-1b4a-4817-a151-aca8002ccc5b)
 
-### 03-3 Python Day 3 - Intermediate Python
+### [03-3 Python Day 3 - Intermediate Python](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=f4d1e63f-83bb-4172-b10e-aca901833eba)
 
 * Dictionaries
-* List and Dictionary Comprehensions
+* List Comprehensions
+  * Btw, you can also do dictionary comprehensions ...
+    * ... but we won't cover that just yet.
+    * If you're comfortable with list comprehensions, check 'em out!
 * Functions
-* `*args` and `**kwargs`
+  * Later on, we'll talk about using lists and dictionaries to pass arguments to functions
+  * aka `*args` and `**kwargs`.
+* Sets (Extra Material)
 
 ##### 03-3 Additional Coverage
 
 * Before Class:
     * 03 Python Installation Help
 * After Class:
-    * 01 Excel Homework Solution
-    * 03 Python Help 2/3
+    * [01 Excel Homework Solution](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=4109e75c-e5ab-4ab5-b7a2-acaa00310789)
+    * [03 Python Help 2/3](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=b9996c0f-bb81-4aa2-8eba-acaa002c4c2b)
 
 </details>
 
