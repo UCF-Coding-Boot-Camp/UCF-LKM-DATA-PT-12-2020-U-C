@@ -261,6 +261,8 @@ The first ~10 mins of this recording are missing, I go through how to navigate t
 
 ### [03-2 Python Day 2 - CSVs, Python, and Lists](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d1528e56-f864-4e8c-b13a-aca70183d34b)
 
+[Zoom Recording](https://zoom.us/rec/share/meIovFPS_nXNvz5_BqglfKMr7MNFl6uB6VjLa-P0A4bL19LBRKyL-UrOSnm07EQ8.pN61E6sb2gLjjdfL)
+
 * Review Python, VSCode, Git
 * Conditionals - `if`, `elif`, `else`
 * Loops - `for` and `while`
