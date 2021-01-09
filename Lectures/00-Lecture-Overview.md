@@ -277,6 +277,8 @@ The first ~10 mins of this recording are missing, I go through how to navigate t
 
 ### [03-3 Python Day 3 - Intermediate Python](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=f4d1e63f-83bb-4172-b10e-aca901833eba)
 
+[Zoom Recording](https://zoom.us/rec/share/B_is_r9vb4vumdYez4HUN4X4h4ccwYvoBnDs5NofiKQWGDrPmetk_RpNDHnuzJmu.nZCxpbHwus-4AEyP)
+
 * Dictionaries
 * List Comprehensions
   * Btw, you can also do dictionary comprehensions ...
@@ -300,7 +302,7 @@ The first ~10 mins of this recording are missing, I go through how to navigate t
 
 <details><summary><strong>Module 04 - Pandas</strong></summary>
 
-### 04-1 Pandas Day 1 - Intro to DataFrames
+### [04-1 Pandas Day 1 - Intro to DataFrames](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=35515ab7-1467-466e-a01e-acab00e7b104)
 
 * Intro to Jupyter Notebooks
 * Review Python (`input`, loops, `open`, `csv.reader`, conditionals)
@@ -314,8 +316,7 @@ The first ~10 mins of this recording are missing, I go through how to navigate t
 *No office hours before class.*
 
 * After Class:
-    * 03 Python Homework Help 3/3
-    * Statistics (Review, topics TBA)
+    * [03 Python Homework Help 3/3](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=51b0be79-29e6-4762-856d-acab0122cdd4)
 
 ### 04-2 Pandas Day 2 - Data Cleaning
 
