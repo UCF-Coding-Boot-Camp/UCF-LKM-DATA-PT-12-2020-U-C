@@ -304,6 +304,8 @@ The first ~10 mins of this recording are missing, I go through how to navigate t
 
 ### [04-1 Pandas Day 1 - Intro to DataFrames](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=35515ab7-1467-466e-a01e-acab00e7b104)
 
+[Zoom Recording](https://zoom.us/rec/share/KaSkjCh3OJra4nkaGJQsW0C0ie0pS6UQkCtqRRSuHnS2Xrbgq2J3NJ22Q6_a5aA.NMb8-KZOK6GKNu3O)
+
 * Intro to Jupyter Notebooks
 * Review Python (`input`, loops, `open`, `csv.reader`, conditionals)
 * Intro to Pandas
