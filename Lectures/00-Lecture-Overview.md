@@ -320,7 +320,7 @@ The first ~10 mins of this recording are missing, I go through how to navigate t
 * After Class:
     * [03 Python Homework Help 3/3](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=51b0be79-29e6-4762-856d-acab0122cdd4)
 
-### 04-2 Pandas Day 2 - Data Cleaning
+### [04-2 Pandas Day 2 - Data Cleaning](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=169c97de-bad5-4a2a-9a3c-acae017c3cb3)
 
 * Filtering (`loc` and `iloc`, `dropna`)
 * Cleaning duplicates
@@ -333,13 +333,14 @@ The first ~10 mins of this recording are missing, I go through how to navigate t
 * Before Class:
     * Open Office Hours
 * After Class:
-    * 04 Pandas Homework Help 1/3
-    * Tips and Tricks for Jupyter 1/2
-        * Enabling Jupyter Extensions
-    * Pimp My Terminal 1/2
-        * Terminal Emulators And U
-            * Mac: iTerm, Alacritty, Kitty
-            * Windows: WSL, Alacritty
+    * [04 Pandas Homework Help 1/3](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=1577f8b1-c832-479e-aca4-acaf002b0173)
+    * [Personalizing Your Environments](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=081a7e4b-6281-4def-8cee-acaf003034e0)
+        * Tips and Tricks for Jupyter 1/2
+            * Enabling Jupyter Extensions
+        * Pimp My Terminal 1/2
+            * Terminal Emulators And U
+                * Mac: iTerm (can also check out Alacritty, Kitty)
+                * Windows: WSL2 (we'll be installing Alacritty later on)
 
 ### 04-3 Pandas Day 3 - Intermediate Data Cleaning
 
