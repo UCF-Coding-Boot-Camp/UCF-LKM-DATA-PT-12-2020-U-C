@@ -322,6 +322,8 @@ The first ~10 mins of this recording are missing, I go through how to navigate t
 
 ### [04-2 Pandas Day 2 - Data Cleaning](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=169c97de-bad5-4a2a-9a3c-acae017c3cb3)
 
+[Zoom Recording](https://zoom.us/rec/share/x06_PjAopyQVboitustDtDb8Cis5oAvtTHa8HHknPE7raRuwjoiY3cV0Z1NnAdbZ.hKxosNlzbZSWKC4f)
+
 * Filtering (`loc` and `iloc`, `dropna`)
 * Cleaning duplicates
 * Data Types
@@ -342,7 +344,7 @@ The first ~10 mins of this recording are missing, I go through how to navigate t
                 * Mac: iTerm (can also check out Alacritty, Kitty)
                 * Windows: WSL2 (we'll be installing Alacritty later on)
 
-### 04-3 Pandas Day 3 - Intermediate Data Cleaning
+### [04-3 Pandas Day 3 - Intermediate Data Cleaning](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=0111a9e1-7655-466e-9eb4-acb00174e990)
 
 * Merging DataFrames
 * Binning
@@ -354,8 +356,7 @@ The first ~10 mins of this recording are missing, I go through how to navigate t
 * Before Class:
     * Open Office Hours
 * After Class:
-    * 04 Pandas Homework Help 2/3
-    * Statistics (TBA)
+    * [04 Pandas Homework Help 2/3](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5c80d4f4-6236-4247-b72c-acb1002c932b)
 
 </details>
 
@@ -378,7 +379,6 @@ The first ~10 mins of this recording are missing, I go through how to navigate t
     * 02 VBA Homework Solution
     * Tips and Tricks for Jupyter 2/2
         * Jupyter Widgets
-    
 ### 05-2 Intro to Plots and Statistics Day 2 - Pandas Plots
 
 * `DataFrame.plot()`
