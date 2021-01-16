@@ -379,8 +379,6 @@ The first ~10 mins of this recording are missing, I go through how to navigate t
 * After Class
     * [04 Pandas Homework Help 3/3](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=6c95b560-fde4-4b9a-8006-acb2011a423e)
     * [02 VBA Homework Solution](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=ecef5e6f-e35f-4448-9436-acb2011a5e9a)
-    * [Tips and Tricks for Jupyter 2/2](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=618570f1-1bbe-4f7f-a995-acb2011af0a4)
-        * Jupyter Widgets
 ### 05-2 Intro to Plots and Statistics Day 2 - Pandas Plots
 
 * `DataFrame.plot()`
@@ -453,7 +451,7 @@ The first ~10 mins of this recording are missing, I go through how to navigate t
 ##### 06-2 Additional Coverage
 
 * After Class
-    * 06 APIs Homework Help 1/3
+    * 06 APIs Homework Help 1/2
     * Git Branches Continued
 
 ### 06-3 Python and APIs
@@ -467,7 +465,9 @@ The first ~10 mins of this recording are missing, I go through how to navigate t
 * Before Class
     * Open Office Hours
 * After Class
-    * Open Office Hours
+    * 06 APIs Homework Help 2/2
+    * Tips and Tricks for Jupyter 2/2
+        * Jupyter Widgets
 
 </details>
 
