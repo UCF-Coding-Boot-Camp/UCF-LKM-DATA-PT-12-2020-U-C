@@ -346,6 +346,8 @@ The first ~10 mins of this recording are missing, I go through how to navigate t
 
 ### [04-3 Pandas Day 3 - Intermediate Data Cleaning](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=0111a9e1-7655-466e-9eb4-acb00174e990)
 
+[Zoom Recording](https://zoom.us/rec/share/yoIHRInwoXfZs39AHNP6c_VBRFvXY4TESS_KyCS-ncbvP6v5pqaoXKUvsBPGMtgp.IrKyGCoNEoe80mgN)
+
 * Merging DataFrames
 * Binning
 * Mapping (`df.map`)
@@ -362,7 +364,7 @@ The first ~10 mins of this recording are missing, I go through how to navigate t
 
 <details><summary><strong>Module 05 - Intro to Plots and Statistics</strong></summary>
 
-### 05-1 Intro to Plots and Statistics Day 1 - Matplotlib
+### [05-1 Intro to Plots and Statistics Day 1 - Matplotlib](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=8a43e4aa-b707-4ad6-b300-acb200e88a3b)
 
 * Using Matplotlib in Jupyter Notebook
     * Interactive and static inline plots
@@ -375,9 +377,9 @@ The first ~10 mins of this recording are missing, I go through how to navigate t
 *No office hours before class.*
 
 * After Class
-    * 04 Pandas Homework Help 3/3
-    * 02 VBA Homework Solution
-    * Tips and Tricks for Jupyter 2/2
+    * [04 Pandas Homework Help 3/3](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=6c95b560-fde4-4b9a-8006-acb2011a423e)
+    * [02 VBA Homework Solution](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=ecef5e6f-e35f-4448-9436-acb2011a5e9a)
+    * [Tips and Tricks for Jupyter 2/2](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=618570f1-1bbe-4f7f-a995-acb2011af0a4)
         * Jupyter Widgets
 ### 05-2 Intro to Plots and Statistics Day 2 - Pandas Plots
 
