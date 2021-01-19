@@ -358,7 +358,7 @@ The first ~10 mins of this recording are missing, I go through how to navigate t
 * Before Class:
     * Open Office Hours
 * After Class:
-    * [04 Pandas Homework Help 2/3](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5c80d4f4-6236-4247-b72c-acb1002c932b)
+    * [04 Pandas Homework Help 2/3](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5c80d4f4-6236-4247-b72c-acb1002c932b) - no audio, use the zoom recording
 
 </details>
 
