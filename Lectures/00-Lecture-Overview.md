@@ -394,8 +394,7 @@ The first ~10 mins of this recording are missing, I go through how to navigate t
     * [Open Office Hours](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=b858cdcf-e451-4c5e-a32a-acb5017b678c)
 * After Class
     * Statistics (video canceled)
-        * You can review the following chapters in "The Elements of Data Analytic Style" instead:
-            * (TBA)
+        * [You can review the following material instead (will be helpful for 05-3, but not required)](https://ucflkmdatapt1-3my1247.slack.com/archives/C01FDRD8LLF/p1611114150000300)
     * [05 Python Plotting Homework Help 1/3](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=b56bb2ba-4f6d-45fd-8f90-acb6002ce4eb)
 
 ### 05-3 Intro to Plots and Statistics Day 3 - Intro to Statistics
