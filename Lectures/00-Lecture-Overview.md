@@ -379,7 +379,7 @@ The first ~10 mins of this recording are missing, I go through how to navigate t
 * After Class
     * [04 Pandas Homework Help 3/3](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=6c95b560-fde4-4b9a-8006-acb2011a423e)
     * [02 VBA Homework Solution](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=ecef5e6f-e35f-4448-9436-acb2011a5e9a)
-### 05-2 Intro to Plots and Statistics Day 2 - Pandas Plots
+### [05-2 Intro to Plots and Statistics Day 2 - Pandas Plots](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=6f5c8fc9-3175-4269-9184-acb5017dd703)
 
 * `DataFrame.plot()`
 * Line, bar, scatter, pie charts
@@ -388,10 +388,12 @@ The first ~10 mins of this recording are missing, I go through how to navigate t
 ##### 05-2 Additional Coverage
 
 * Before Class
-    * Open Office Hours
+    * [Open Office Hours](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=b858cdcf-e451-4c5e-a32a-acb5017b678c)
 * After Class
-    * Statistics (TBA)
-    * 05 Python Plotting Homework Help 1/3
+    * Statistics (video canceled)
+        * You can review the following chapters in "The Elements of Data Analytic Style" instead:
+            * (TBA)
+    * [05 Python Plotting Homework Help 1/3](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=b56bb2ba-4f6d-45fd-8f90-acb6002ce4eb)
 
 ### 05-3 Intro to Plots and Statistics Day 3 - Intro to Statistics
 
