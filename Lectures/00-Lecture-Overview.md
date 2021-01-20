@@ -240,7 +240,7 @@ The first ~10 mins of this recording are missing, I go through how to navigate t
 
 <br/>
 
-<details open><summary><strong>Module 03 - Python</strong></summary>
+<details><summary><strong>Module 03 - Python</strong></summary>
 
 ### [03-1 Python Day 1 - Intro to Programming](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=f26bdb6c-4160-4fb1-b0d1-ac9b0014dfc1)
 
@@ -362,7 +362,7 @@ The first ~10 mins of this recording are missing, I go through how to navigate t
 
 </details>
 
-<details><summary><strong>Module 05 - Intro to Plots and Statistics</strong></summary>
+<details open><summary><strong>Module 05 - Intro to Plots and Statistics</strong></summary>
 
 ### [05-1 Intro to Plots and Statistics Day 1 - Matplotlib](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=8a43e4aa-b707-4ad6-b300-acb200e88a3b)
 

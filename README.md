@@ -77,6 +77,9 @@ It's fine for your pets/ little ones/ family members to be on the camera for a f
     * Organized by module (each module is ~3 classes), then by day.
 * [Projects](Projects)
 * [Bootcampspot (BCS)](https://www.bootcampspot.com/)
+    * Bootcampspot has a "chat" button at the bottom-right that you can use to request a tutor.
+    * We recommend everyone request a tutor! It's basically an extra hour each week with a programming professional. You get this with your tuition, and it's a great way to network and take your skills to the next level.
+    * Trilogy has limited resources, so it can sometimes take time to get a tutor assigned - better to request one before you need help on an assignment.
 
 ## Homework And Projects
 
@@ -157,7 +160,7 @@ You can request a regrade on your homework if you have modified your homework ba
 
 Before requesting a regrade, write a short note explaining what you changed on Bootcampspot so the next grader understands why your work is being regraded. You must add this note to the BCS feedback thread for assignment.
 
-To request your regrade, send a group slack message to Sondra, TA2, and TA1. You must leave a note on your BCS homework page first - we'll bounce the request back if you haven't.
+To request your regrade, send a group slack message to Sondra and Bay. You must leave a note on your BCS homework page first - we'll bounce the request back if you haven't.
 
 </details>
 
