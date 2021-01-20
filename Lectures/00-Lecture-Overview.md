@@ -22,6 +22,7 @@ Recordings:
 * Office Hours Recordings
     * [Homework Help and Solutions](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?folderID=3e647d04-dc2b-4c88-9d07-ac8c01721eb8)
     * [Misc (i.e. Git tutorials, installs, career services chats)](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?folderID=b128a7f9-6114-4e56-8bc5-ac8c01725a4f)
+    * [Open Office Hours Recordings (not always recorded, but when they are, they're here)](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?folderID=8efab66d-f657-4bec-8cab-acb60031f398)
 
 <details><summary>Raw Files:</summary>
 In case I forgot to include something in the processed videos above, you can check out the full class folder here:
@@ -365,6 +366,8 @@ The first ~10 mins of this recording are missing, I go through how to navigate t
 <details open><summary><strong>Module 05 - Intro to Plots and Statistics</strong></summary>
 
 ### [05-1 Intro to Plots and Statistics Day 1 - Matplotlib](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=8a43e4aa-b707-4ad6-b300-acb200e88a3b)
+
+[Zoom Recording](https://zoom.us/rec/share/E-T0EIiVPwf-K19J36Lqwr_Nr7qtmZHuYtY5QUf64Z0pXvJyQ7wlltLeTEf9tLeZ.CZZv1bbDFrUJOOFe)
 
 * Using Matplotlib in Jupyter Notebook
     * Interactive and static inline plots
