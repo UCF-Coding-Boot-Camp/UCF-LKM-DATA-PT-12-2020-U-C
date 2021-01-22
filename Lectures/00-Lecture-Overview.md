@@ -382,7 +382,11 @@ The first ~10 mins of this recording are missing, I go through how to navigate t
 * After Class
     * [04 Pandas Homework Help 3/3](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=6c95b560-fde4-4b9a-8006-acb2011a423e)
     * [02 VBA Homework Solution](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=ecef5e6f-e35f-4448-9436-acb2011a5e9a)
+
+
 ### [05-2 Intro to Plots and Statistics Day 2 - Pandas Plots](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=6f5c8fc9-3175-4269-9184-acb5017dd703)
+
+[Zoom Recording](https://zoom.us/rec/share/CGFjcZzfKql4Drn3uTqPoRQKYB_xrbN0IsRxf06oHF1cArUuI8xj2xGswg8VgmAl.OKLbwaQBH_Nm2nLv)
 
 * `DataFrame.plot()`
 * Line, bar, scatter, pie charts
@@ -397,7 +401,7 @@ The first ~10 mins of this recording are missing, I go through how to navigate t
         * [You can review the following material instead (will be helpful for 05-3, but not required)](https://ucflkmdatapt1-3my1247.slack.com/archives/C01FDRD8LLF/p1611114150000300)
     * [05 Python Plotting Homework Help 1/3](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=b56bb2ba-4f6d-45fd-8f90-acb6002ce4eb)
 
-### 05-3 Intro to Plots and Statistics Day 3 - Intro to Statistics
+### [05-3 Intro to Plots and Statistics Day 3 - Intro to Statistics](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=6b2d21d0-d0ab-475e-ab59-acb70182ff73)
 
 * Basic measures of central tendency: Mean, median, mode
 * Variance and standard deviation
@@ -411,15 +415,16 @@ The first ~10 mins of this recording are missing, I go through how to navigate t
 ##### 05-3 Additional Coverage
 
 * Before Class
-    * Open Office Hours
+    * [Open Office Hours](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=66a9c10c-9ff4-49b3-a197-acb70176bd09)
 * After Class
-    * 05 Python Plotting Homework Help 2/3
-    * Pimp My Terminal 2/2
+    * [05 Python Plotting Homework Help 2/3](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=7aff4e7b-4533-4bb0-8222-acb8002bbcbd)
+    * [Pimp My Terminal 2/2](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=8df929e2-92fa-4222-aae0-acb8002e37ca)
         * Easy Themes And Extensions with ZSH
             * Installing ZSH
             * Installing Oh-My-Zsh (for plugins)
             * Installing Powerlevel10k (snazzy theme)
             * What Is .zshrc Anyway?
+                * Ok, so I didn't cover this, but this is basically a configuration file for your terminal settings! More literally, it contains code/ setup that gets run whenever you start your terminal.
     
 </details>
 
