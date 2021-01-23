@@ -363,7 +363,7 @@ The first ~10 mins of this recording are missing, I go through how to navigate t
 
 </details>
 
-<details open><summary><strong>Module 05 - Intro to Plots and Statistics</strong></summary>
+<details><summary><strong>Module 05 - Intro to Plots and Statistics</strong></summary>
 
 ### [05-1 Intro to Plots and Statistics Day 1 - Matplotlib](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=8a43e4aa-b707-4ad6-b300-acb200e88a3b)
 
@@ -403,6 +403,8 @@ The first ~10 mins of this recording are missing, I go through how to navigate t
 
 ### [05-3 Intro to Plots and Statistics Day 3 - Intro to Statistics](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=6b2d21d0-d0ab-475e-ab59-acb70182ff73)
 
+[Zoom Recording](https://zoom.us/rec/share/rjUFF48z4L8bH88qIHovrk5bmumb_wy4aILlLkvmuxsI-FwsK5tOpJ5ZSFFRMh2B.NlQ4b0LYNlX0dKG3)
+
 * Basic measures of central tendency: Mean, median, mode
 * Variance and standard deviation
 * Handling outliers
@@ -428,9 +430,9 @@ The first ~10 mins of this recording are missing, I go through how to navigate t
     
 </details>
 
-<details><summary><strong>Module 06 - Python and APIs - Intro</strong></summary>
+<details open><summary><strong>Module 06 - Python and APIs - Intro</strong></summary>
 
-### 06-1 Python and APIs
+### [06-1 Python and APIs](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=158ace44-356c-4395-bbf3-acb900e832cf)
 
 * GET requests using the `requests` library
 * JSON -> Python dictionaries
@@ -446,9 +448,11 @@ The first ~10 mins of this recording are missing, I go through how to navigate t
 *No office hours before class.*
 
 * After Class
-    * 05 Python Plotting Homework Help 3/3
-    * Collaborating with Git - Intro to Git Branches
-
+    * [05 Python Plotting Homework Help 3/3](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=7456f18c-b711-42fb-8c39-acb90123b132)
+        * Also includes:
+            * 04 Pandas HW Student Questions 
+            * 03 Python HW Student Questions 
+            * Jupyter Notebook Extensions and Markdown Viewer
 ### 06-2 Python and APIs - JSON
 
 * More API practice
@@ -459,9 +463,12 @@ The first ~10 mins of this recording are missing, I go through how to navigate t
 
 ##### 06-2 Additional Coverage
 
+* Before Class
+    * Open Office Hours
 * After Class
     * 06 APIs Homework Help 1/2
-    * Git Branches Continued
+        * Key: "Managing" your API keys and git (don't commit your api key to github!!)
+    * 03 Python HW Solution
 
 ### 06-3 Python and APIs
 
