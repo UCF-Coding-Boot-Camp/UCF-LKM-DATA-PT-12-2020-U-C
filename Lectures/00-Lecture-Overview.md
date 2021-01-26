@@ -50,37 +50,78 @@ You are free to use additional libraries for your projects; this list is just a 
 
 <details><summary><strong>Excel Addons</strong></summary>
 
-
+* Statistics Addon (Moving Average)
+* Enable Developer Tools (VBA)
 
 </details>
 
 <details><summary><strong>VSCode Plugins</strong></summary>
 
-
+* Windows users: Set Git Bash to your primary terminal.
+* Rainbow CSV
+* [Git Graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph)
+* Live Share
+* Python (may already be installed)
+* Live Server
 
 </details>
 
 <details><summary><strong>Chrome Extensions</strong></summary>
 
+* JSON Formatter (just google "json formatter chrome" and install whatever comes up first, they're all pretty much the same)
 
 </details>
 
 <details><summary><strong>Jupyter Extensions</strong></summary>
+
+Be sure you are in your `PythonData` environment before running these install commands, or you'll install your extensions to the wrong environment.
+
+* <details><summary>Enable Jupyter Extensions - DO THIS FIRST</summary>
+
+    * Jupyter Lab
+        * Be sure you've updated Jupyter: `pip install -U jupyterlab`.
+        * If you don't see the Puzzle Icon on the left sidebar:
+            * Install the latest version of nodejs from the node.js website.
+            * Restart Jupyter 
+        * Click the puzzle icon on the left sidebar. Accept the disclaimer to enable extensions.
+    * Jupyter Notebook
+        * `pip install jupyter_contrib_nbextensions`
+        * `jupyter contrib nbextension install --user`
+        * Restart Jupyter and you should now see the "nbextensions" tab on the file directory page. Go there to read about and install all the supported Jupyter Notebook plugins, such as Hinterland (auto-complete).
+    
+    </details>
 
 </details>
 
 <details><summary><strong>Python Libraries</strong></summary>
 
 * Anaconda
+* `conda create -n PythonData python=3.6 anaconda`
 
 </details>
 
 <details><summary><strong>APIs</strong></summary>
 
+* [SpaceX API](https://github.com/r-spacex/SpaceX-API)
+* [Star Wars API](https://swapi.dev/)
+* [A small NYT headlines scraper](http://nyt-mongo-scraper.herokuapp.com/api/headlines)
+* [TVmaze API's Show Search endpoint](https://www.tvmaze.com/api#show-search)
+* [World Bank API](https://datahelpdesk.worldbank.org/knowledgebase/topics/125589-developer-information)
+* Requires sign up:
+    * [OMDb API](http://www.omdbapi.com/apikey.aspx)
+    * [New York Times API](https://developer.nytimes.com/accounts/create)
+    * [OpenWeatherMap](https://openweathermap.org/guide#how)
+    * [Quandl (stocks)](https://docs.quandl.com/docs#section-authentication)
+    * [Mapbox](https://docs.mapbox.com/api/#access-tokens)
+    * US Census API
+    * Google Maps APIs (Maps JavaScript, Geocoding, and Places APIs)
+
 </details>
 
 <details><summary><strong>Cloud Systems</strong></summary>
 
+* Google CoLab - Hosted Jupyter Notebooks
+    * We'll use these for machine learning at the end of class, but for now these are a good way to get going with Jupyter if you can't install locally.
 
 </details>
 
@@ -491,3 +532,208 @@ The first ~10 mins of this recording are missing, I go through how to navigate t
 
 ---
 
+## <!-- 07-08 Project 1 -->
+
+<details><summary><em>Module 07-08: Project 1</em></summary>
+
+<br/>
+
+<details><summary><strong>Module 07 - Git Practice + Project 1</strong></summary>
+
+### 07-1 In-Class Git Practice + Project 1
+
+
+* Git Tutorial
+    * Managing Git and Jupyter Notebooks
+    * Git Branch and PR tutorial
+    * Git Best Practices with small groups
+* [Project 1 Guidelines](../Projects/Project-1)
+* Project 1 Work
+
+##### 07-1 Additional Coverage
+
+Before Class:
+
+* Open Office Hours
+
+After Class:
+
+* Open Office Hours
+
+### 07-2 In-Class Git Practice + Project 1
+
+
+* Git Tutorial
+    * Managing bad merges
+    * Review of git branch and PR best practices
+* Project 1 Work
+
+##### 07-2 Additional Coverage
+
+Before Class
+
+* Open Office Hours
+
+After Class
+
+* Open Office Hours
+
+### 07-3 Project 1
+
+
+* Using ANOVA to compare the means of three or more groups
+* Project work
+
+##### 07-3 Additional Coverage
+
+Before Class
+
+* Open Office Hours
+
+After Class
+
+* TBA
+
+</details>
+
+<details><summary><strong>Module 08 - Project 1 + Presentations</strong></summary>
+
+### 08-1 Project 1
+
+Project work day = all-class open office hours, no recordings.
+
+* Project work
+
+### 08-2 Project 1
+
+Project work day = all-class open office hours, no recordings.
+
+* Project work
+
+##### 08-2 Additional Coverage
+
+* TBA
+
+### 08-3 Project 1 Presentations
+
+
+* Project Presentations
+* Postgres and pgAdmin Installations (after presentations)
+
+</details>
+
+</details>
+
+----
+
+## <!-- 09-10 DBs, ORMs, OOP, APIs -->
+
+<details><summary><em>Module 09-10: Databases, ORMs, OOP, and Making APIs</em></summary>
+
+<br/>
+
+<details><summary><strong>Module 09 - Databases (Postgres)</strong></summary>
+
+### 09-1 Intro to Postgres
+
+No zoom recording for today.
+
+* Database vs. Schema
+* Create a Database and tables
+* pSQL data types
+* Primary and Unique Keys
+* CSV -> Database Table
+* CRUD (Create, Read, Update, Delete) applications
+    * Database commands: `INSERT`, `SELECT`, `UPDATE`, `DELETE`
+* Joins
+
+##### 09-1 Additional Coverage
+
+* Before Class
+    * Open Office Hours
+* After Class
+    * TBA
+
+### 09-2 Advanced Queries
+
+
+* Aggregation Queries
+* Subqueries (sub-selects)
+* Views
+
+##### 09-2 Additional Coverage
+
+* After Class
+    * TBA
+
+### 09-3 Data Modeling
+
+
+* Database Design Techniques And Best Practices
+* Data normalization
+* Data relationships
+* ERD Diagrams - visualizing DB relationships
+
+##### 09-3 Additional Coverage
+
+* Before Class
+    * Open Office Hours
+* After Class
+    * TBA
+
+</details>
+
+<details><summary><strong>Module 10 - Programming with SQLAlchemy (Advanced Databases) and Making APIs</strong></summary>
+
+### 10-1 Intro to SQLAlchemy
+
+
+* SQLAlchemy
+    * Connect to a database
+    * Run raw queries using `engine.execute()`
+    * CRUD (Create/ Read/ Update/ Delete) using ORM (Object Relational Models)
+* Intro to Object Oriented Programming (OOP)
+    * Creating Python classes to represent database tables (ORM)
+
+##### 10-1 Additional Coverage
+
+* Before Class
+    * Open Office Hours
+* After Class
+    * TBA
+
+### 10-2 SQLAlchemy ORM++
+
+
+* More practice creating and using ORM classes
+* Using SQLAlchemy to inspect database:
+    * Reflection (ORM with auto-generated classes)
+    * Inspector - viewing database Schema
+* Using Pandas to plot SQL results
+
+##### 10-2 Additional Coverage
+
+
+* After Class
+    * TBA
+
+### 10-3 Flask + SQLAlchemy = My First API
+
+
+* Create and run a server with Flask
+* Define endpoints
+* Read query strings (i.e. function args) from GET requests
+* Run database queries from an endpoint
+* Return results as JSON
+
+##### 10-3 Additional Coverage
+
+
+* After Class
+    * TBA
+
+</details>
+
+</details>
+
+----
