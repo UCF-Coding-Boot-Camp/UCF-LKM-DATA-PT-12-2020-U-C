@@ -475,6 +475,8 @@ The first ~10 mins of this recording are missing, I go through how to navigate t
 
 ### [06-1 Python and APIs](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=158ace44-356c-4395-bbf3-acb900e832cf)
 
+[Zoom Recording](https://zoom.us/rec/share/-nqKnHgCm9DWCQXrwPWdFKuJPsj1DwrW7rBFclpeEn7Lqr_ZGJYoEwO2LK0ISMnZ.psYAQn9ZQ2RPfWZy)
+
 * GET requests using the `requests` library
 * JSON -> Python dictionaries
 * API Documentation and sign ups
@@ -494,7 +496,7 @@ The first ~10 mins of this recording are missing, I go through how to navigate t
             * 04 Pandas HW Student Questions 
             * 03 Python HW Student Questions 
             * Jupyter Notebook Extensions and Markdown Viewer
-### 06-2 Python and APIs - JSON
+### [06-2 Python and APIs - JSON](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d7396e7d-5fe4-4f8a-90e6-acbc01849bb6)
 
 * More API practice
     * OpenWeatherMaps
@@ -505,11 +507,12 @@ The first ~10 mins of this recording are missing, I go through how to navigate t
 ##### 06-2 Additional Coverage
 
 * Before Class
-    * Open Office Hours
+    * [Open Office Hours](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=33b84580-a017-4acc-8aa2-acbc017ab487https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=33b84580-a017-4acc-8aa2-acbc017ab487)
 * After Class
-    * 06 APIs Homework Help 1/2
+    * [06 APIs Homework Help 1/3](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=b6eb5af5-c81d-4567-a6ad-acbd003018ad)
         * Key: "Managing" your API keys and git (don't commit your api key to github!!)
-    * 03 Python HW Solution
+            * We only touched on this briefly - I'll review in more detail Thursday.
+    * [03 Python HW Solution](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=ff1d188b-dfc7-4975-9584-acbd001aec3b)
 
 ### 06-3 Python and APIs
 
