@@ -498,6 +498,8 @@ The first ~10 mins of this recording are missing, I go through how to navigate t
             * Jupyter Notebook Extensions and Markdown Viewer
 ### [06-2 Python and APIs - JSON](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d7396e7d-5fe4-4f8a-90e6-acbc01849bb6)
 
+[Zoom Recording](https://zoom.us/rec/share/yFDP0S9AF01LJWP79AzFG1CuYfFCbP-lSJAh2i_dAfpK5_WiFfKZcAzk4Web-rEF.TJlBL7rlIVGv44mN)
+
 * More API practice
     * OpenWeatherMaps
     * WorldBank API
@@ -514,8 +516,8 @@ The first ~10 mins of this recording are missing, I go through how to navigate t
             * We only touched on this briefly - I'll review in more detail Thursday.
     * [03 Python HW Solution](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=ff1d188b-dfc7-4975-9584-acbd001aec3b)
 
-### 06-3 Python and APIs
-
+### [06-3 Python and APIs
+](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=81196c9d-3fcc-4eba-b8ea-acbe0181b70a)
 * Practice Google Maps and Places APIs
 * Visualizations with Maps
     * `gmaps` Jupyter Extension
@@ -525,9 +527,7 @@ The first ~10 mins of this recording are missing, I go through how to navigate t
 * Before Class
     * Open Office Hours
 * After Class
-    * 06 APIs Homework Help 2/2
-    * Tips and Tricks for Jupyter 2/2
-        * Jupyter Widgets
+    * [06 APIs Homework Help 2/3 - Hiding config.py with .gitignore](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=fb8155a9-f078-46ca-9b2c-acbf002cbc68)
 
 </details>
 
@@ -562,6 +562,8 @@ Before Class:
 After Class:
 
 * Open Office Hours
+* Tips and Tricks for Jupyter 2/2
+        * Jupyter Widgets
 
 ### 07-2 In-Class Git Practice + Project 1
 
