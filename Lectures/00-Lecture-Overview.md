@@ -516,8 +516,10 @@ The first ~10 mins of this recording are missing, I go through how to navigate t
             * We only touched on this briefly - I'll review in more detail Thursday.
     * [03 Python HW Solution](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=ff1d188b-dfc7-4975-9584-acbd001aec3b)
 
-### [06-3 Python and APIs
-](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=81196c9d-3fcc-4eba-b8ea-acbe0181b70a)
+### [06-3 Python and APIs](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=81196c9d-3fcc-4eba-b8ea-acbe0181b70a)
+
+[Zoom Recording](https://zoom.us/rec/share/wbOg9bWTKsALVp5LZ-vnzWvZRAmRPw5HSFB4HVyaACIETMYsk_suIoVgWJpANSUl.WteeBgJp1_XOJ7gJ)
+
 * Practice Google Maps and Places APIs
 * Visualizations with Maps
     * `gmaps` Jupyter Extension
@@ -543,8 +545,7 @@ The first ~10 mins of this recording are missing, I go through how to navigate t
 
 <details><summary><strong>Module 07 - Git Practice + Project 1</strong></summary>
 
-### 07-1 In-Class Git Practice + Project 1
-
+### [07-1 In-Class Git Practice + Project 1](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5c2c5789-91ee-43ff-9e08-acc000e9dd9f)
 
 * Git Tutorial
     * Managing Git and Jupyter Notebooks
@@ -553,34 +554,28 @@ The first ~10 mins of this recording are missing, I go through how to navigate t
 * [Project 1 Guidelines](../Projects/Project-1)
 * Project 1 Work
 
+
 ##### 07-1 Additional Coverage
 
-Before Class:
-
-* Open Office Hours
+*No office hours before class*
 
 After Class:
-
 * Open Office Hours
-* Tips and Tricks for Jupyter 2/2
-        * Jupyter Widgets
 
 ### 07-2 In-Class Git Practice + Project 1
-
 
 * Git Tutorial
     * Managing bad merges
     * Review of git branch and PR best practices
+* Jupyter Tips and Tricks 2/2 (mayyyyyybe)
+    * Jupyter Lab Widgets
 * Project 1 Work
 
 ##### 07-2 Additional Coverage
 
 Before Class
-
 * Open Office Hours
-
 After Class
-
 * Open Office Hours
 
 ### 07-3 Project 1
