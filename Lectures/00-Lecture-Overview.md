@@ -278,7 +278,7 @@ The first ~10 mins of this recording are missing, I go through how to navigate t
 
 ## <!-- 03-06 Python, Pd, Plots, JSON -->
 
-<details open><summary><em>Module 03-06: Python, Pandas, Plotting, and APIs</em></summary>
+<details><summary><em>Module 03-06: Python, Pandas, Plotting, and APIs</em></summary>
 
 <br/>
 
@@ -471,7 +471,7 @@ The first ~10 mins of this recording are missing, I go through how to navigate t
     
 </details>
 
-<details open><summary><strong>Module 06 - Python and APIs - Intro</strong></summary>
+<details><summary><strong>Module 06 - Python and APIs - Intro</strong></summary>
 
 ### [06-1 Python and APIs](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=158ace44-356c-4395-bbf3-acb900e832cf)
 
@@ -539,13 +539,15 @@ The first ~10 mins of this recording are missing, I go through how to navigate t
 
 ## <!-- 07-08 Project 1 -->
 
-<details><summary><em>Module 07-08: Project 1</em></summary>
+<details open><summary><em>Module 07-08: Project 1</em></summary>
 
 <br/>
 
-<details><summary><strong>Module 07 - Git Practice + Project 1</strong></summary>
+<details open><summary><strong>Module 07 - Git Practice + Project 1</strong></summary>
 
 ### [07-1 In-Class Git Practice + Project 1](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5c2c5789-91ee-43ff-9e08-acc000e9dd9f)
+
+[Zoom Recording](https://zoom.us/rec/share/Q0HPPN8CjxeQRZBerueZuqo72lQ2UNgU_Yz0dwf07yf2qRU1cWVGsdIvJyBe_VBE.egx6PCsiK50PJOM2)
 
 * Git Tutorial
     * Managing Git and Jupyter Notebooks
@@ -562,13 +564,13 @@ The first ~10 mins of this recording are missing, I go through how to navigate t
 After Class:
 * Open Office Hours
 
-### 07-2 In-Class Git Practice + Project 1
+### [07-2 In-Class Git Practice + Project 1](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=56a95978-cf66-4d6b-9e50-acc301802d49)
+
+[Zoom Recording](https://zoom.us/rec/share/qApaj6iOh08XaV425A2Ryj9ur2jaDRdXJ2U6j4Gu0JJEsZlo6nD_uhpA7KmzSn02.kiz3Ha39PvGhbPAz)
 
 * Git Tutorial
     * Managing bad merges
     * Review of git branch and PR best practices
-* Jupyter Tips and Tricks 2/2 (mayyyyyybe)
-    * Jupyter Lab Widgets
 * Project 1 Work
 
 ##### 07-2 Additional Coverage
@@ -580,8 +582,6 @@ After Class
 
 ### 07-3 Project 1
 
-
-* Using ANOVA to compare the means of three or more groups
 * Project work
 
 ##### 07-3 Additional Coverage
