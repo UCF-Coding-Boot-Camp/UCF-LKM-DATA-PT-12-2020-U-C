@@ -562,6 +562,7 @@ The first ~10 mins of this recording are missing, I go through how to navigate t
 *No office hours before class*
 
 After Class:
+
 * Open Office Hours
 
 ### [07-2 In-Class Git Practice + Project 1](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=56a95978-cf66-4d6b-9e50-acc301802d49)
@@ -576,8 +577,11 @@ After Class:
 ##### 07-2 Additional Coverage
 
 Before Class
+
 * Open Office Hours
+
 After Class
+
 * Open Office Hours
 
 ### 07-3 Project 1
