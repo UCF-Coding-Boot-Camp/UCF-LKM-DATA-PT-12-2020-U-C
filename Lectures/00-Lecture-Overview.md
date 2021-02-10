@@ -543,7 +543,7 @@ The first ~10 mins of this recording are missing, I go through how to navigate t
 
 <br/>
 
-<details open><summary><strong>Module 07 - Git Practice + Project 1</strong></summary>
+<details><summary><strong>Module 07 - Git Practice + Project 1</strong></summary>
 
 ### [07-1 In-Class Git Practice + Project 1](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5c2c5789-91ee-43ff-9e08-acc000e9dd9f)
 
@@ -584,8 +584,14 @@ After Class
 
 * Open Office Hours
 
-### 07-3 Project 1
+### 07-3 Hypothesis Testing and Statistical Tests + Project 1
 
+[Zoom Recording](https://zoom.us/rec/share/ooeL1U8_lDjqAE4pTvsYAsPH0lqufgxgpDfqI12fhWTdtTWOfltFWNtbZMpya8VN.LIl9ko5TogElnFd2)
+
+* T-Test
+* ANOVA
+* P-Values
+* Chi Square tests
 * Project work
 
 ##### 07-3 Additional Coverage
@@ -596,16 +602,18 @@ Before Class
 
 After Class
 
-* TBA
+* Open Office Hours
+* Project work
 
 </details>
 
-<details><summary><strong>Module 08 - Project 1 + Presentations</strong></summary>
+<details open><summary><strong>Module 08 - Project 1 + Presentations</strong></summary>
 
 ### 08-1 Project 1
 
-Project work day = all-class open office hours, no recordings.
+[Zoom Recording](https://zoom.us/rec/share/_OwTF9IVcFyZ0TvsnJ_7rUVGyp2ynE3-duj67cY0c9z6Q5aHMS1OhrWOeTZhUwh3.fjxPD6viy2039Vtr)
 
+* Install Postgres and pgAdmin
 * Project work
 
 ### 08-2 Project 1
@@ -614,15 +622,40 @@ Project work day = all-class open office hours, no recordings.
 
 * Project work
 
+##### 08-1 Additional Coverage
+
+Before Class
+
+* Open Office Hours
+
+After Class
+
+* Open Office Hours
+* Project work
+
 ##### 08-2 Additional Coverage
 
-* TBA
+Before Class
+
+* Open Office Hours
+
+After Class
+
+* Open Office Hours
+* Project work
 
 ### 08-3 Project 1 Presentations
 
+*No after-class office hours today*
 
 * Project Presentations
-* Postgres and pgAdmin Installations (after presentations)
+
+##### 08-3 Additional Coverage
+
+Before Class
+
+* Open Office Hours
+* Presentation Prep
 
 </details>
 
