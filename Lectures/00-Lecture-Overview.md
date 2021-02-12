@@ -648,6 +648,8 @@ After Class
 
 ### [08-3 Project 1 Presentations](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=ef199b9c-e708-475b-af0f-accc01840507)
 
+[Zoom Recording](https://zoom.us/rec/share/NNjvkumLMVKLd8CtyKQeDWVqk2GfvNkfOmi6t39ZhaeuV0kYJIWsutjmGHEOCY-_.7Ikq3DBqysBR0bRh?startTime=1613083553000)
+
 _No after-class office hours today_
 
 - Project Presentations
