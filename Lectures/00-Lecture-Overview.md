@@ -87,6 +87,7 @@ Be sure you are in your `PythonData` environment before running these install co
       - Restart Jupyter
     - Click the puzzle icon on the left sidebar. Accept the disclaimer to enable extensions.
   - Jupyter Notebook
+
     - `pip install jupyter_contrib_nbextensions`
     - `jupyter contrib nbextension install --user`
     - Restart Jupyter and you should now see the "nbextensions" tab on the file directory page. Go there to read about and install all the supported Jupyter Notebook plugins, such as Hinterland (auto-complete).
@@ -588,6 +589,8 @@ After Class
 
 ### 07-3 Hypothesis Testing and Statistical Tests + Project 1
 
+No Panopto recording for today (sub).
+
 [Zoom Recording](https://zoom.us/rec/share/ooeL1U8_lDjqAE4pTvsYAsPH0lqufgxgpDfqI12fhWTdtTWOfltFWNtbZMpya8VN.LIl9ko5TogElnFd2)
 
 - T-Test
@@ -613,15 +616,11 @@ After Class
 
 ### 08-1 Project 1
 
+No Panopto recording for today (sub).
+
 [Zoom Recording](https://zoom.us/rec/share/_OwTF9IVcFyZ0TvsnJ_7rUVGyp2ynE3-duj67cY0c9z6Q5aHMS1OhrWOeTZhUwh3.fjxPD6viy2039Vtr)
 
 - Install Postgres and pgAdmin
-- Project work
-
-### 08-2 Project 1
-
-Project work day = all-class open office hours, no recordings.
-
 - Project work
 
 ##### 08-1 Additional Coverage
@@ -635,6 +634,11 @@ After Class
 - Open Office Hours
 - Project work
 
+### 08-2 Project 1
+
+Project work day = all-class open office hours, no recordings.
+
+- Project work
 ##### 08-2 Additional Coverage
 
 Before Class
@@ -676,8 +680,6 @@ Before Class
 <details open><summary><strong>Module 09 - Databases (Postgres)</strong></summary>
 
 ### 09-1 Intro to Postgres
-
-No zoom recording for today.
 
 - Database vs. Schema
 - Create a Database and tables
@@ -725,7 +727,7 @@ No zoom recording for today.
   - Depending on interest, one of two extra lectures:
     - Intro To Regex (fancier string parsing)
       OR
-    - Slightly Advanced SQL - `HAVING` versus `WHERE`
+    - Nitty Gritty SQL - `HAVING` versus `WHERE`
 
 </details>
 
@@ -759,7 +761,7 @@ No zoom recording for today.
 - Before Class
   - Open Office Hours
 - After Class
-  - TBA
+  - 10 Homework Help 2/3
 
 ### 10-3 Flask + SQLAlchemy = My First API
 
@@ -771,8 +773,189 @@ No zoom recording for today.
 
 ##### 10-3 Additional Coverage
 
+- Before Class
+  - Open Office Hours
 - After Class
-  - TBA
+  - 10 Homework Help 3/3
+
+</details>
+
+</details>
+
+---
+
+## <!-- 11-12 Basic Viz Websites -->
+
+<details><summary><em>Module 11-12: Basic Viz Websites</em></summary>
+
+<br/>
+
+<details><summary><strong>Module 11 - HTML</strong></summary>
+
+### 11-1 Intro To HTML
+
+- Website Frontend Ingredients (HTML + CSS + JavaScript)
+- DOM Basics
+- Common HTML Tags
+  - `<p>`
+  - `<h1> - <h6>`
+  - `<hr/>`
+  - `<img/>`
+  - `<ul>` / `<ol>` and `<li>`
+  - `<table>`, `<th>`, `<tr>`, `<td>`
+  - `<div>`
+  - `<summary>`
+- HTML Structure
+  - Tags
+  - Attributes
+  - Sections of the document
+- _NOTE_: Use Mozilla MDN for documentation, not W3Schools!!
+
+##### 11-1 Additional Coverage
+
+- After Class
+  - 11 HTML Homework Help 1/3
+
+### 11-2 Styling (CSS) and Deploying Static Sites Using Github Pages
+
+- CSS Basics: styling and positioning elements
+- Box Model of HTML elements
+- Github Pages **(Needed for your Career Services Milestones)**
+
+##### 11-2 Additional Coverage
+
+- Before Class
+  - Open Office Hours
+- After Class
+  - 11 HTML Homework Help 2/3 - Wireframing Demo
+
+### 11-3 Mobile-first (Responsive) CSS
+
+- Media Queries
+- Bootstrap (CSS library by Twitter) and the Bootstrap Grid
+- Using Bootstrap to get a website up and running quickly
+
+##### 11-3 Additional Coverage
+
+- Before Class
+  - Open Office Hours
+  - ETL Project Questions
+- After Class
+  - 11 HTML Homework Help 3/3
+
+</details>
+
+<details><summary><strong>Module 12 - Web Scraping, Document Databases (NoSQL), and Making Data Viz Websites</strong></summary>
+
+### 12-1 Intro to MongoDB
+
+- ETL Project Questions
+- Installing and Connecting to MongoDB
+- Using the Mongo Shell for CRUD
+- Using PyMongo for CRUD with Python
+
+##### 12-1 Additional Coverage
+
+- After Class
+  - 12 Web Scraping Homework Help 1/3
+
+### 12-2 Simple Web Scraping
+
+- Use BeautifulSoup to scrape websites with Python
+  - `html.parser` and `lxml` parser
+- Use Pandas to scrape websites
+- Save results to MongoDB
+- Use Splinter (with chromedriver) to scrape websites
+
+##### 12-2 Additional Coverage
+
+- Before Class
+  - Open Office Hours
+- After Class
+  - 12 Web Scraping Homework Help 2/3
+
+### 12-3 BeautifulSoup + MongoDB + (new) Serving Templates With Flask
+
+- Use and render flask templates
+- Integrate MongoDB data into Flask Templates
+  - Include static resources (i.e. css files) in Flask Templates via `static` folder
+- Capstone: Allow client to trigger a web scrape using Flask, then view results
+- ETL Project Overview and Questions
+
+##### 12-3 Additional Coverage
+
+- Before Class
+  - Open Office Hours
+- After Class
+  - 12 Web Scraping Homework Help 3/3
+
+</details>
+
+</details>
+
+---
+
+## <!-- 13 ETL Proj -->
+
+<details><summary><em>Module 13: ETL Project</em></summary>
+
+<br/>
+
+<details><summary><strong>Module 13 - ETL Project</strong></summary>
+
+### 13-1 Project Guidelines and Warm Up Exercise
+
+- ETL with Pandas warm up
+- Project Overview - the audio's missing for part of this, grab us for any questions.
+- Today's Project Goals:
+  - Project Proposals Due
+  - Retrieve Datasets
+  - Review Data Structures
+  - Database ERD design
+  - Discuss your websites
+
+##### 13-1 Additional Coverage
+
+- After Class
+  - Open Office Hours
+  - 09 SQL Homework Solution
+  - Deploying to Heroku
+    - [Demo website to try deploying](https://github.com/froggercat-work/simple-flask-deploy)
+    - Deploying is a reach goal for the ETL Project
+
+### 13-2 ETL Project Work Day
+
+- Project Work
+- Today's Project Goals:
+  - Load Datasets into Database
+  - Design and split up website work
+    - APIs
+    - Documentation
+    - Visualization/ Project Analysis
+
+##### 13-2 Additional Coverage
+
+- Before/ During Class:
+  - Open Office Hours
+- After Class:
+  - Deploying to AWS EC2 with Dokku
+
+### 13-3 ETL Project Work Day
+
+- Project Work
+- Today's Project Goals:
+  - Finish your documentation
+  - Submit your projects
+  - OPTIONAL: Deploy your work to heroku
+    - We won't require until later in class, so this is a _reach_ goal.
+    - This will be required for Project 2 and the Final Project.
+
+##### 13-3 Additional Coverage
+
+- Before Class
+  - Open Office Hours
+- After Class
+  - Open Office Hours
 
 </details>
 
