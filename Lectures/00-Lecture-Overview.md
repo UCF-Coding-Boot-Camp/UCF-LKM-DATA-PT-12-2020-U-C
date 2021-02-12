@@ -644,7 +644,7 @@ After Class
 * Open Office Hours
 * Project work
 
-### 08-3 Project 1 Presentations
+### [08-3 Project 1 Presentations](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=ef199b9c-e708-475b-af0f-accc01840507)
 
 *No after-class office hours today*
 
