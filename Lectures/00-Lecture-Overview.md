@@ -679,7 +679,7 @@ Before Class
 
 <details open><summary><strong>Module 09 - Databases (Postgres)</strong></summary>
 
-### 09-1 Intro to Postgres
+### [09-1 Intro to Postgres](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=3f92c1b2-8bb7-4aa0-954a-accd0027382f)
 
 - Database vs. Schema
 - Create a Database and tables
@@ -693,8 +693,8 @@ Before Class
 ##### 09-1 Additional Coverage
 
 - After Class
-  - 09 Homework Help 1/3
-  - 04 Pandas Homework Solution
+  - [09 Homework Help 1/3](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=405c9d30-6126-40f8-9374-acce0123a0ab)
+  - [04 Pandas Homework Solution](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=52fd4e0e-30ee-4349-a77e-acce01240252)
 
 ### 09-2 Advanced Queries
 
