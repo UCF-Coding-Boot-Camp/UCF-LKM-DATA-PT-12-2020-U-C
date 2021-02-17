@@ -682,6 +682,8 @@ Before Class
 
 ### [09-1 Intro to Postgres](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=3f92c1b2-8bb7-4aa0-954a-accd0027382f)
 
+[Zoom Recording](https://zoom.us/rec/share/a7HFneqEmgskH7EQRseDXjzlUvxFQqdx3ZGdg56Wl3G8jOTgSrjUy2YKR6RwLebn.RiwZbhmS-pAMKisg)
+
 -   Database vs. Schema
 -   Create a Database and tables
 -   pSQL data types
@@ -697,7 +699,7 @@ Before Class
     -   [09 Homework Help 1/3](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=405c9d30-6126-40f8-9374-acce0123a0ab)
     -   [04 Pandas Homework Solution](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=52fd4e0e-30ee-4349-a77e-acce01240252)
 
-### 09-2 Advanced Queries
+### [09-2 Advanced Queries](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=25bd0495-1758-403f-a1e9-acd100f0877f)
 
 -   Aggregation Queries
 -   Subqueries (sub-selects)
@@ -709,8 +711,8 @@ Before Class
     -   Project Grading (ping us on slack for questions)
 -   After Class
     -   Project Grading
-    -   09 Homework Help 2/3
-    -   05 Matplotlib Homework Solutions
+    -   [09 Homework Help 2/3](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=ca748b1f-ce09-479c-8934-acd100faaaa9)
+    -   [05 Matplotlib Homework Solution](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=76558588-8ade-449b-a613-acd100fac89b)
 
 ### 09-3 Data Modeling
 
