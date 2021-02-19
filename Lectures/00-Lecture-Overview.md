@@ -701,6 +701,8 @@ Before Class
 
 ### [09-2 Advanced Queries](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=25bd0495-1758-403f-a1e9-acd100f0877f)
 
+[Zoom Recording](https://zoom.us/rec/share/Jk1sTae2AWw_CeWBlLfvGKSs5KiP25QZWbi8tBJOxHO_CXf1dCq-dKsZG0SlsnW_.Um9AqKSRmGemepcy)
+
 -   Aggregation Queries
 -   Subqueries (sub-selects)
 -   Views
@@ -714,7 +716,7 @@ Before Class
     -   [09 Homework Help 2/3](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=ca748b1f-ce09-479c-8934-acd100faaaa9)
     -   [05 Matplotlib Homework Solution](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=76558588-8ade-449b-a613-acd100fac89b)
 
-### 09-3 Data Modeling
+### [09-3 Data Modeling](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=fbc023dd-8758-462c-b750-acd2003be1fb)
 
 -   Database Design Techniques And Best Practices
 -   Data normalization
@@ -724,13 +726,9 @@ Before Class
 ##### 09-3 Additional Coverage
 
 -   Before Class
-    -   Project Grading (ping us on slack for questions)
+    -  Project Grading (ping us on slack for questions)
 -   After Class
-    -   09 Homework Help 3/3
-    -   Depending on interest, one of two extra lectures:
-        -   Intro To Regex (fancier string parsing)
-            OR
-        -   Nitty Gritty SQL - `HAVING` versus `WHERE`
+    -  [09 Homework Help 3/3](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=c9619169-1975-4646-9a50-acd2003c184c)
 
 </details>
 
