@@ -718,6 +718,8 @@ Before Class
 
 ### [09-3 Data Modeling](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=fbc023dd-8758-462c-b750-acd2003be1fb)
 
+[Zoom Recording](https://zoom.us/rec/share/9x6RFB_IBpSidx1wVdHYGwKG_BoLXsCbXRJYvwJbrV5rwqn_DOTM9wX0CqW2CzQZ.uQTSyEy56vhtyGfP)
+
 -   Database Design Techniques And Best Practices
 -   Data normalization
 -   Data relationships
@@ -734,7 +736,7 @@ Before Class
 
 <details><summary><strong>Module 10 - Programming with SQLAlchemy (Advanced Databases) and Making APIs</strong></summary>
 
-### 10-1 Intro to SQLAlchemy
+### [10-1 Intro to SQLAlchemy](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=19b433d4-dda3-4753-9c91-acd2003c482f)
 
 -   SQLAlchemy
     -   Connect to a database
@@ -746,8 +748,8 @@ Before Class
 ##### 10-1 Additional Coverage
 
 -   After Class
-    -   10 Homework Help 1/3
-    -   Object Oriented Programming (maybe, depends on interest/ time)
+    -   [10 Homework Help 1/3](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=ccabeb2a-7379-4122-a655-acd501226fee)
+    -   [Opening SQLite Files With VSCode](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=8f1e7645-093e-4fac-8004-acd501257666)
 
 ### 10-2 SQLAlchemy ORM++
 
