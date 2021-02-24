@@ -738,6 +738,8 @@ Before Class
 
 ### [10-1 Intro to SQLAlchemy](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=19b433d4-dda3-4753-9c91-acd2003c482f)
 
+[Zoom Recording](https://zoom.us/rec/share/_btT8UfiggmM7nUo-rckFM7zC3By-w9sjg0XRQwWBd2bxYGr-CPWV-6btKxssAag.szJpnfIhbECUZPap)
+
 -   SQLAlchemy
     -   Connect to a database
     -   Run raw queries using `engine.execute()`
