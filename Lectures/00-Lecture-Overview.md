@@ -751,7 +751,7 @@ Before Class
     -   [10 Homework Help 1/3](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=ccabeb2a-7379-4122-a655-acd501226fee)
     -   [Opening SQLite Files With VSCode](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=8f1e7645-093e-4fac-8004-acd501257666)
 
-### 10-2 SQLAlchemy ORM++
+### [10-2 SQLAlchemy ORM++](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=6b50246e-c705-4638-ab8d-acd5012c43a3)
 
 -   More practice creating and using ORM classes
 -   Using SQLAlchemy to inspect database:
@@ -764,7 +764,7 @@ Before Class
 -   Before Class
     -   Open Office Hours
 -   After Class
-    -   10 Homework Help 2/3
+    -   [10 Homework Help 2/3](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=528c95df-bbd7-4bb3-822b-acd5012c65a0)
 
 ### 10-3 Flask + SQLAlchemy = My First API
 
