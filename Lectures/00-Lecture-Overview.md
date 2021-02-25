@@ -770,6 +770,8 @@ Before Class
 
 ### 10-3 Flask + SQLAlchemy = My First API
 
+Today Chavon stops by for our midpoint :)
+
 -   Create and run a server with Flask
 -   Define endpoints
 -   Read query strings (i.e. function args) from GET requests
