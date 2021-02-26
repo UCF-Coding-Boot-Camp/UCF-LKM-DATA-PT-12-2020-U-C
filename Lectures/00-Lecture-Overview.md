@@ -755,6 +755,8 @@ Before Class
 
 ### [10-2 SQLAlchemy ORM++](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=6b50246e-c705-4638-ab8d-acd5012c43a3)
 
+[Zoom Recording](https://zoom.us/rec/share/yCTDTLGBLz_Drd8BXrzxElXkDuQNEC7JyILMoOWCqgaqcSrWm9j41UjbdWpoDSvt.aK3nd1wxOqyBhcmR)
+
 -   More practice creating and using ORM classes
 -   Using SQLAlchemy to inspect database:
     -   Reflection (ORM with auto-generated classes)
@@ -768,7 +770,7 @@ Before Class
 -   After Class
     -   [10 Homework Help 2/3](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=528c95df-bbd7-4bb3-822b-acd5012c65a0)
 
-### 10-3 Flask + SQLAlchemy = My First API
+### [10-3 Flask + SQLAlchemy = My First API](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=bc4ec595-5c4a-489d-97ff-acda01758cec)
 
 Today Chavon stops by for our midpoint :)
 
@@ -783,7 +785,7 @@ Today Chavon stops by for our midpoint :)
 -   Before Class
     -   Open Office Hours
 -   After Class
-    -   10 Homework Help 3/3
+    -   [10 Homework Help 3/3](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=86c8d7d5-4e9b-461f-924f-acdb002bc482)
 
 </details>
 
@@ -822,6 +824,7 @@ Today Chavon stops by for our midpoint :)
 
 -   After Class
     -   11 HTML Homework Help 1/3
+    -   06 APIs Homework Solution
 
 ### 11-2 Styling (CSS) and Deploying Static Sites Using Github Pages
 
