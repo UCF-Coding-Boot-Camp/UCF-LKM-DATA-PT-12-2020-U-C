@@ -772,6 +772,8 @@ Before Class
 
 ### [10-3 Flask + SQLAlchemy = My First API](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=bc4ec595-5c4a-489d-97ff-acda01758cec)
 
+[Zoom Recording](https://zoom.us/rec/share/D4MCVHimV7WyQTiua9ILitU1wSu1lRa9WgioiP0IAOafHkFXpHkdxv9VEMhIdqR7.L8GtIsstYacKMAWh)
+
 Today Chavon stops by for our midpoint :)
 
 -   Create and run a server with Flask
@@ -801,7 +803,7 @@ Today Chavon stops by for our midpoint :)
 
 <details><summary><strong>Module 11 - HTML</strong></summary>
 
-### 11-1 Intro To HTML
+### [11-1 Intro To HTML](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=9f2b49c5-8e89-4a94-915a-acdc00e80c9b)
 
 -   Website Frontend Ingredients (HTML + CSS + JavaScript)
 -   DOM Basics
@@ -823,8 +825,8 @@ Today Chavon stops by for our midpoint :)
 ##### 11-1 Additional Coverage
 
 -   After Class
-    -   11 HTML Homework Help 1/3
-    -   06 APIs Homework Solution
+    -   [11 HTML Homework Help 1/3](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5647fd96-69c2-4b59-8839-acdc0117eb07)
+    -   [06 APIs Homework Solution](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=848027fc-d816-455f-9ff3-acdc01180358)
 
 ### 11-2 Styling (CSS) and Deploying Static Sites Using Github Pages
 
