@@ -805,6 +805,8 @@ Today Chavon stops by for our midpoint :)
 
 ### [11-1 Intro To HTML](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=9f2b49c5-8e89-4a94-915a-acdc00e80c9b)
 
+[Zoom Recording](https://zoom.us/rec/share/rnDoKYv4TiJVsj7FOWALjM_FVtpHo_Db0BmMYOlrgkF7Q4mOXEFd517ECTRvCLel.oJqZXEl9Plc6fjXQ)
+
 -   Website Frontend Ingredients (HTML + CSS + JavaScript)
 -   DOM Basics
 -   Common HTML Tags
@@ -825,10 +827,10 @@ Today Chavon stops by for our midpoint :)
 ##### 11-1 Additional Coverage
 
 -   After Class
-    -   [11 HTML Homework Help 1/3](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5647fd96-69c2-4b59-8839-acdc0117eb07)
+    -   [11 HTML Homework Help 1/3 - Wireframing Demo](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5647fd96-69c2-4b59-8839-acdc0117eb07)
     -   [06 APIs Homework Solution](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=848027fc-d816-455f-9ff3-acdc01180358)
 
-### 11-2 Styling (CSS) and Deploying Static Sites Using Github Pages
+### [11-2 Styling (CSS) and Deploying Static Sites Using Github Pages](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=f5c9aa15-4f5b-4a03-93e7-acdf01761692)
 
 -   CSS Basics: styling and positioning elements
 -   Box Model of HTML elements
@@ -839,7 +841,7 @@ Today Chavon stops by for our midpoint :)
 -   Before Class
     -   Open Office Hours
 -   After Class
-    -   11 HTML Homework Help 2/3 - Wireframing Demo
+    -   [11 HTML Homework Help 2/3 - Wireframing Demo](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=005a62d3-c67e-4add-823f-ace0002dc516)
 
 ### 11-3 Mobile-first (Responsive) CSS
 
