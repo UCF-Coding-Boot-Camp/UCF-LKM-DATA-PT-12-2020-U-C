@@ -845,6 +845,8 @@ Today Chavon stops by for our midpoint :)
 
 ### 11-3 Mobile-first (Responsive) CSS
 
+Starting today, we no longer use Panopto as a recording tool. You will still be able old links using Panopto, but going forward, each class video will be recorded on Zoom in one continuous stream.
+
 -   Media Queries
 -   Bootstrap (CSS library by Twitter) and the Bootstrap Grid
 -   Using Bootstrap to get a website up and running quickly
