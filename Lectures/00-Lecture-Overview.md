@@ -832,6 +832,8 @@ Today Chavon stops by for our midpoint :)
 
 ### [11-2 Styling (CSS) and Deploying Static Sites Using Github Pages](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=f5c9aa15-4f5b-4a03-93e7-acdf01761692)
 
+[Zoom Recording](https://zoom.us/rec/share/n4xSSl9snwt87mI-pSX9Kf-ZeRkrMpLn10-QlpnF5L26FEI4GxXF5oU4UoMIuesO.n_Rc0uGmZbPIaYn4)
+
 -   CSS Basics: styling and positioning elements
 -   Box Model of HTML elements
 -   Github Pages **(Needed for your Career Services Milestones)**
@@ -874,6 +876,7 @@ Starting today, we no longer use Panopto as a recording tool. You will still be 
 
 -   After Class
     -   12 Web Scraping Homework Help 1/3
+    -   One-On-Ones 1/3 (not recorded ofc)
 
 ### 12-2 Simple Web Scraping
 
@@ -889,6 +892,7 @@ Starting today, we no longer use Panopto as a recording tool. You will still be 
     -   Open Office Hours
 -   After Class
     -   12 Web Scraping Homework Help 2/3
+    -   One-On-Ones 2/3 (not recorded ofc)
 
 ### 12-3 BeautifulSoup + MongoDB + (new) Serving Templates With Flask
 
@@ -904,6 +908,7 @@ Starting today, we no longer use Panopto as a recording tool. You will still be 
     -   Open Office Hours
 -   After Class
     -   12 Web Scraping Homework Help 3/3
+    -   One-On-Ones 3/3 (not recorded ofc)
 
 </details>
 
