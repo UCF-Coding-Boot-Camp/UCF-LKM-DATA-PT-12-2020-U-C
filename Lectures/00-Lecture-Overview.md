@@ -845,7 +845,7 @@ Today Chavon stops by for our midpoint :)
 -   After Class
     -   [11 HTML Homework Help 2/3 - Wireframing Demo](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=005a62d3-c67e-4add-823f-ace0002dc516)
 
-### 11-3 Mobile-first (Responsive) CSS
+### [11-3 Mobile-first (Responsive) CSS](https://zoom.us/rec/share/s0xB4D_-2g5_PBsjxX-P1qindwU3PjW09Hk40Eor-zCGlvQitNa8gUKGfKdEWQSb.MN2POHMS9hnyw2xf)
 
 Starting today, we no longer use Panopto as a recording tool. You will still be able old links using Panopto, but going forward, each class video will be recorded on Zoom in one continuous stream.
 
