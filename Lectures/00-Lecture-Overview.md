@@ -865,7 +865,7 @@ Starting today, we no longer use Panopto as a recording tool. You will still be 
 
 <details><summary><strong>Module 12 - Web Scraping, Document Databases (NoSQL), and Making Data Viz Websites</strong></summary>
 
-### 12-1 Intro to MongoDB
+### [12-1 Intro to MongoDB](https://zoom.us/rec/share/ooUjajWiU2hwPxuOdIpEHCJRr_ebI391iXAXmkKh3U9wbop8zVBIYr1ppJp4SGK3.2kdGXeM_-ESfH6LX)
 
 -   ETL Project Questions
 -   Installing and Connecting to MongoDB
