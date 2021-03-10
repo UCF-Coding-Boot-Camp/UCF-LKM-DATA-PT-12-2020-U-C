@@ -64,6 +64,7 @@ You are free to use additional libraries for your projects; this list is just a 
 -   [Git Graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph)
 -   Live Share
 -   Python (may already be installed)
+-   [SQLite](https://marketplace.visualstudio.com/items?itemName=alexcvzz.vscode-sqlite)
 -   Live Server
 
 </details>
@@ -121,6 +122,19 @@ Be sure you are in your `PythonData` environment before running these install co
     -   [Mapbox](https://docs.mapbox.com/api/#access-tokens)
     -   US Census API
     -   Google Maps APIs (Maps JavaScript, Geocoding, and Places APIs)
+
+</details>
+
+<details><summary><strong>Databases</strong></summary>
+
+-   Postgres
+    -   Install both Postgres and PgAdmin
+    -   Mac Users: We recommend using homebrew to install postgres
+-   MongoDB
+    -   Windows Users: You may need to create your `C:\data\db` folder manually.
+        -   You should add the `bin` folder from your Mongo install to your Windows path.
+        -   You should see Mongo in your Windows Services list. *If you don't, you can still run mongo by using a terminal to run `mongod` in the background.*
+    -   Mac Users: We recommend using homebrew to install mongo, and start your server with `brew services run mongodb-community`. You should now be able to read/ write to your MongoDB database.
 
 </details>
 
@@ -728,9 +742,9 @@ Before Class
 ##### 09-3 Additional Coverage
 
 -   Before Class
-    -  Project Grading (ping us on slack for questions)
+    -   Project Grading (ping us on slack for questions)
 -   After Class
-    -  [09 Homework Help 3/3](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=c9619169-1975-4646-9a50-acd2003c184c)
+    -   [09 Homework Help 3/3](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=c9619169-1975-4646-9a50-acd2003c184c)
 
 </details>
 
