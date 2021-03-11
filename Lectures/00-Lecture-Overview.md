@@ -892,7 +892,7 @@ Starting today, we no longer use Panopto as a recording tool. You will still be 
     -   12 Web Scraping Homework Help 1/3
     -   One-On-Ones 1/3 (not recorded ofc)
 
-### 12-2 Simple Web Scraping
+### [12-2 Simple Web Scraping](https://zoom.us/rec/share/_8etoRMgpnAPLBjqLO9eaYI8LgchLE0jzCRxATqlxUF0A5efThEhWA1VCj0r4ncu.FW2oZn6sjHeL5PA1)
 
 -   Use BeautifulSoup to scrape websites with Python
     -   `html.parser` and `lxml` parser
