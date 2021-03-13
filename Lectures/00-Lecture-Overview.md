@@ -953,10 +953,8 @@ Starting today, we no longer use Panopto as a recording tool. You will still be 
 
 -   After Class
     -   Open Office Hours
-    -   09 SQL Homework Solution
-    -   Deploying to Heroku
-        -   [Demo website to try deploying](https://github.com/froggercat-work/simple-flask-deploy)
-        -   Deploying is a reach goal for the ETL Project
+    -   11 Web Homework Solution
+    -   10 SQLAlchemy Homework OSlution
 
 ### 13-2 ETL Project Work Day
 
@@ -991,6 +989,206 @@ Starting today, we no longer use Panopto as a recording tool. You will still be 
     -   Open Office Hours
 -   After Class
     -   Open Office Hours
+
+</details>
+
+</details>
+
+----
+
+## <!-- 14-17 JS, Plots -->
+
+<details><summary><em>Module 14-17: Interactive Plots with JavaScript</em></summary>
+
+<br/>
+
+<details><summary><strong>Module 14 - Intro To JavaScript</strong></summary>
+
+### 14-1 JavaScript Syntax
+
+* Variables, data types, statements
+* Functions, loops, if/else
+* Arrays
+* Using built-in functions
+
+##### 14-1 Additional Coverage
+
+* After Class
+    * 14 JavaScript Homework Help 1/3
+        * Further Reading:
+            * [🤪 A list of funny and tricky JavaScript examples](https://github.com/denysdovhan/wtfjs)
+            * [Semicolons in JavaScript](https://flaviocopes.com/javascript-automatic-semicolon-insertion/)
+
+### 14-2 Tables, Functional Programming, Objects
+
+* Using `foreach`, `map`, and `filter`
+* Updating and iterating through JavaScript Objects
+* Callbacks
+* Arrow Functions (ES6 Syntax)
+* Bootstrap HTML Tables
+
+##### 14-2 Additional Coverage
+
+* Before Class
+    * Open Office Hours
+* After Class
+    * 14 JavaScript Homework Help 2/3
+        * Further Reading:
+            * [.forEach(), .map(), .filter() .... What's the difference?](https://dev.to/ogwurujohnson/foreach-map-filter--whats-the-difference-304l)
+
+### 14-3 D3 for DOM Manipulation
+
+* D3 DOM selection
+* Building a table with D3
+* Events
+* `this`
+* Making your website dynamic
+* Arrow Functions and `this`
+
+
+##### 14-3 Additional Coverage
+
+* Before Class
+    * Open Office Hours
+* After Class
+    * 14 JavaScript Homework Help 3/3
+
+</details>
+
+<details><summary><strong>Module 15 - Interactive Plots with Plotly</strong></summary>
+
+### 15-1 Plotly Basics
+
+* Line and Bar Charts with Plotly.js
+    * `layout` - altering the plot design
+    * Interactive plots
+* JavaScript `math` library
+* More Functional Programming practice
+
+##### 15-1 Additional Coverage
+
+* Before Class
+    * Open Office Hours
+* After Class
+    * 15 Plotly Homework Help 1/2
+### 15-2 Advanced Charts in Plotly
+
+* Additional JavaScript methods (`array.sort`, `array.slice`)
+* Charting data from APIs
+* Additional plot types (box and pie plots)
+* Adding dropdowns and click events
+* Dynamic charts with `Plotly.restyle()`
+
+##### 15-2 Additional Coverage
+
+* Before Class
+    * Open Office Hours
+* After Class
+    * 12 Web Scraping Homework Solution (audio issues, zoom vid above recommended)
+    * 15 Plotly Homework Help 2/2 (audio issues, zoom vid above recommended)
+
+### 15-3 ... And Even More Cool Stuff Featuring Plotly
+
+* `switch` statements
+* More plot types (candlestick plots)
+* Flask and Plotly
+* Create and deploy dashboards using Github Pages
+
+##### 15-3 Additional Coverage
+
+* After Class
+    * Open Office Hours
+
+</details>
+
+<details><summary><strong>Module 16 - Data Binding and SVG Basics with D3</strong></summary>
+
+### 16-1 D3 Fundamentals
+
+* What is an SVG?
+* D3 Databinding (with SVGs and other DOM elements)
+* Bar Charts using D3
+
+##### 16-1 Additional Coverage
+
+* Before Class
+    * Open Office Hours
+* After Class
+    * 16 D3 Homework Help 1/3
+
+### 16-2 More D3 Fundamentals
+
+* More charts with D3
+* Scaling data using D3
+* Building axes with D3
+
+##### 16-2 Additional Coverage
+
+* Before Class
+    * Open Office Hours
+* After Class
+    * 16 D3 Homework Help 2/3
+
+### 16-3 Advanced D3
+
+* Multi-Plots with D3
+* Adding transitions, tooltips, and event listeners to your plots with D3
+* JavaScript - clean coding by reusing your code
+
+##### 16-3 Additional Coverage
+
+* Before Class
+    * Open Office Hours
+* After Class
+    * 16 D3 Homework 3/3
+
+</details>
+
+<details><summary><strong>Module 17 - Interactive Mapping with Leaflet.js</strong></summary>
+
+### 17-1 Leaflet Basics
+
+* Map visualization examples
+* Leaflet.js basics
+    * Creating a map
+    * Plotting data on a map (markers)
+    * Map layers
+* GeoJSON
+
+##### 17-1 Additional Coverage
+
+* Before class
+    * Open Office Hours
+* After class
+    * 17 Leaflet Homework Help 1/3
+### 17-2 More Interesting Leaflet
+
+* Intro to JS Plugins via Leaflet plugins
+* Effective visualization using maps
+    * Clusters
+    * Choropleths
+    * Heatmaps
+* Customizing your own maps with plugins
+
+##### 17-2 Additional Coverage
+
+* After class
+    * 17 Leaflet Homework Help 2/3
+
+### 17-3 Leaflet Mini-Project + Project 2 Proposals
+
+[Zoom Recording](https://zoom.us/rec/share/hEvRu82gE2Wy1iU6aSGhQAOvXo0r1tMcw1sqq_hEciJe3mF0cp7FOaYIe_rWt-oC.D7uCDomOlyxb_vML)
+
+* Citi Bike mini-project
+* Project 2 proposals
+    * Project 2 requirements
+
+##### 17-3 Additional Coverage
+
+* After class
+    * [17 Leaflet Homework Help 3/3](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=7eaff16e-5587-47b9-a803-ac3e0035a204)
+
+</details>
 
 </details>
 
