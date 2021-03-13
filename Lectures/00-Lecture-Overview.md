@@ -908,7 +908,7 @@ Starting today, we no longer use Panopto as a recording tool. You will still be 
     -   12 Web Scraping Homework Help 2/3
     -   One-On-Ones 2/3 (not recorded ofc)
 
-### 12-3 BeautifulSoup + MongoDB + (new) Serving Templates With Flask
+### [12-3 BeautifulSoup + MongoDB + (new) Serving Templates With Flask](https://zoom.us/rec/share/bXftVis7OrUjptOexrkEzD1KCu5_zc0NhKLpHF10_-DsjIbGg8xQAocIXMQ0CAZo.P-gsZhPLp1sE6B8H)
 
 -   Use and render flask templates
 -   Integrate MongoDB data into Flask Templates
@@ -938,7 +938,7 @@ Starting today, we no longer use Panopto as a recording tool. You will still be 
 
 <details><summary><strong>Module 13 - ETL Project</strong></summary>
 
-### 13-1 Project Guidelines and Warm Up Exercise
+### [13-1 Project Guidelines and Warm Up Exercise](https://zoom.us/rec/share/KC6zaiQyaOpCBfol1kbh6vTjoxueM7IKRGagAjyZ5cwO6eW4eZBP76n08n0G1441.qw-wuv0vOW0-O96e)
 
 -   ETL with Pandas warm up
 -   Project Overview - the audio's missing for part of this, grab us for any questions.
