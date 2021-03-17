@@ -958,6 +958,8 @@ Starting today, we no longer use Panopto as a recording tool. You will still be 
 
 ### 13-2 ETL Project Work Day
 
+No recording today.
+
 -   Project Work
 -   Today's Project Goals:
     -   Load Datasets into Database
