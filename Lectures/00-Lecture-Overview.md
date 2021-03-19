@@ -975,22 +975,22 @@ No recording today.
 -   After Class:
     -   Deploying to AWS EC2 with Dokku
 
-### 13-3 ETL Project Work Day
+### [13-3 ETL Project Work Day](https://zoom.us/rec/share/GxH0FTGXLNgssIYYIhxNjX-ov5vCtAuIqegUNKNFu9t-MoqPI1mtKA_0eok5FOMT.kah4dw0nLG657_yj)
+
+The recording only contains the homework solutions.
 
 -   Project Work
 -   Today's Project Goals:
     -   Finish your documentation
     -   Submit your projects
-    -   OPTIONAL: Deploy your work to heroku
-        -   We won't require until later in class, so this is a _reach_ goal.
-        -   This will be required for Project 2 and the Final Project.
 
-##### 13-3 Additional Coverage
+##### [13-3 Additional Coverage](https://zoom.us/rec/share/GxH0FTGXLNgssIYYIhxNjX-ov5vCtAuIqegUNKNFu9t-MoqPI1mtKA_0eok5FOMT.kah4dw0nLG657_yj)
 
 -   Before Class
     -   Open Office Hours
 -   After Class
-    -   Open Office Hours
+    -   09 SQL Homework Solution
+    -   10 SQLAlchemy Homework Solution
 
 </details>
 
