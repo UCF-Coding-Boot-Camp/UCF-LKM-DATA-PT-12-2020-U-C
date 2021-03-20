@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Forms</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/superhero/bootstrap.min.css">
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/9.1.0/math.min.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <form id="form">
+          <div class="form-group">
+            <label for="patient-form">Filter Patient Data by Blood Type</label>
+            <input class="form-control" id="patient-form-input" name="patient-form" type="text" placeholder="AB-">
+          </div>
+          <button id="button" type="button" class="btn btn-default">Enter</button>
+        </form>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <h1>Filtered Data Summary</h1>
+        <ul class="summary"></ul>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="data.js"></script>
+<script src="app.js"></script>
+
+</html>

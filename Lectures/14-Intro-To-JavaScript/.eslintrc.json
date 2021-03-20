@@ -1,0 +1,13 @@
+{
+  "rules": {
+    "no-unused-vars": ["off", { "vars": "all", "args": "after-used", "ignoreRestSiblings": false }],
+    "no-inline-comments": 0
+  },
+  "globals": {
+    "d3": true,
+    "addressData": true,
+    "pigeonRacing": true,
+    "data": true,
+    "math": true
+  }
+}
