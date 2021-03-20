@@ -1,0 +1,12 @@
+{
+  "globals": {
+    "Plotly": true,
+    "data": true,
+    "speedOfLight": true,
+    "ss": true,
+    "d3": true
+  },
+  "rules": {
+    "arrow-body-style": ["error", "never"]
+  }
+}
