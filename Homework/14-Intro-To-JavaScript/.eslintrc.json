@@ -1,0 +1,9 @@
+{
+  "rules": {
+    "no-inline-comments": 0
+  },
+  "globals": {
+    "data": true,
+    "d3": true
+  }
+}
