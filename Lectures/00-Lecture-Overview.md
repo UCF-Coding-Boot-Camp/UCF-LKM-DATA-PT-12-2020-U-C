@@ -1006,7 +1006,7 @@ The recording only contains the homework solutions.
 
 <details><summary><strong>Module 14 - Intro To JavaScript</strong></summary>
 
-### [14-1 JavaScript Syntax](https://zoom.us/rec/share/6_jwk8Tskc4nx9Hul29MjeajsC6AlMwSBnN3LUrmz2bUTy3dpVIe9jdwZpLJcFg.wSZytck4ejuVv3dN)
+### [14-1 JavaScript Syntax](https://zoom.us/rec/share/i9U7Mh9CG09gBbCRGzygFvFESqBir4r96NybuO0jZhxpsdRlgZ7RPMtHAOUjkgo.Xf0qO_AuoajGpMbH?startTime=1616245107000)
 
 * Variables, data types, statements
 * Functions, loops, if/else
