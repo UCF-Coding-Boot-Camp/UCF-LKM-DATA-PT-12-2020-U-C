@@ -1021,7 +1021,7 @@ The recording only contains the homework solutions.
             * [🤪 A list of funny and tricky JavaScript examples](https://github.com/denysdovhan/wtfjs)
             * [Semicolons in JavaScript](https://flaviocopes.com/javascript-automatic-semicolon-insertion/)
 
-### 14-2 Tables, Functional Programming, Objects
+### [14-2 Tables, Functional Programming, Objects](https://zoom.us/rec/share/ZGwYAPK4gu0Qr8SRPbiHrq2BTPMNdYw08N7MdchZhs699Mku365vzQnNrPQ1w0Ya.a-CxIkg3jebXwpdF)
 
 * Using `foreach`, `map`, and `filter`
 * Updating and iterating through JavaScript Objects
