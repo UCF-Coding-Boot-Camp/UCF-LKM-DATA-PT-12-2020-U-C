@@ -1038,7 +1038,7 @@ The recording only contains the homework solutions.
         * Further Reading:
             * [.forEach(), .map(), .filter() .... What's the difference?](https://dev.to/ogwurujohnson/foreach-map-filter--whats-the-difference-304l)
 
-### 14-3 D3 for DOM Manipulation
+### [14-3 D3 for DOM Manipulation](https://zoom.us/rec/share/ZG06wUbycF16r7DzzTGC_bWcWETHumupsAcWIyy4a1FjWKHmhspayX7Y8WuoGNCB.6P1umhUo2mN0COMq)
 
 * D3 DOM selection
 * Building a table with D3
@@ -1054,6 +1054,8 @@ The recording only contains the homework solutions.
     * Open Office Hours
 * After Class
     * 14 JavaScript Homework Help 3/3
+    * Ex 09 Solution
+    * More on how HTML forms work
 
 </details>
 
