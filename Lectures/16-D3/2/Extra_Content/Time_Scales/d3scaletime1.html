@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Intro To Scales</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.7.3/d3.min.js"></script>
+</head>
+<body>
+
+
+</body>
+</html>
+
+<script>
+var precipitation = [
+  {'year': 2011, 'rainfall': 25},
+  {'year': 2012, 'rainfall': 30},
+  {'year': 2013, 'rainfall': 35}
+];
+
+// d3.extent() takes a data set and returns its range
+// Here, it takes the extent of the years in the precipitation object (2011, 2013)
+var timeExtent = d3.extent(precipitation, (d)=> d.year);
+console.log(timeExtent);
+
+// d3.scaleTime() scales time
+var timeScale = d3.scaleTime().domain(timeExtent).range([0,1000]);
+
+// console.log(timeScale(2011));
+// console.log(timeScale(2012));
+// console.log(timeScale(2013));
+
+// year 2011
+var testDate = precipitation[1];
+console.log(timeScale(testDate.year));
+
+</script>

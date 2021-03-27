@@ -1,0 +1,12 @@
+.line {
+  fill: none;
+  stroke-width: 2px;
+}
+
+.orange {
+  stroke: orange;
+}
+
+.green {
+  stroke: green;
+}

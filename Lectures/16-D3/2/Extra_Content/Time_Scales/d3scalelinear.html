@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Intro To Scales</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.7.3/d3.min.js"></script>
+</head>
+<body>
+
+
+</body>
+</html>
+
+<script>
+// A THOUGHT EXPERIMENT
+// Imagine you have a screen that is 1000 pixels tall
+// You want to display your test scores, which range from zero to one hundred, visually
+
+// Question 1: how many pixels tall would a score of 100 be on the screen?
+// Answer: 1000px
+
+// Question 2: how many pixels tall would a score of 0 be on the screen?
+// Answer: 0px
+
+// Question 3: how many pixels tall would a score of 50 be on the screen?
+// Answer: 500px
+
+// Question 4: 75?
+// Answer: 750px
+
+// ACTUAL CODE OF THE ABOVE
+// domain() defines the extent of the test scores, or from zero to 100
+// range() defines, here, the extent of the screen real estate, from 0 to 1000 pixels tall
+// d3.scaleLinear() translates a specific test score into height (in pixels)
+
+var myScale = d3.scaleLinear().domain([0,100]).range([0,1000]);
+
+console.log(myScale(100));
+
+console.log(myScale(0));
+
+console.log(myScale(50));
+
+console.log(myScale(75));
+
+
+
+
+</script>

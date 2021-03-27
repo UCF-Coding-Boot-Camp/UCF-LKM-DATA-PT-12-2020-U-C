@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Intro To Scales</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.7.3/d3.min.js"></script>
+</head>
+<body>
+
+
+</body>
+</html>
+
+<script>
+
+//ANOTHER THOUGHT EXPERIMENT
+// Now imagine that you want to create a bar chart of the first four presidents (and perhaps their age)
+// Your screen is 1000 pixels wide, and you want to spread out the bars representing each president evenly across it
+// d3.scaleBand() allows automatic positioning of NON-NUMERICAL data, such as strings
+// .domain() specifies the array of string data
+// .range() specifies the extent of the screen real estate, in this case from zero to 1000 pixels in width
+
+
+var presidents = ["Washington", "Adams", "Jefferson", "Madison"];
+var myOtherScale = d3.scaleBand().domain(presidents).range([0,1000]);
+
+// The first element in the array is positioned at 0 pixels
+console.log(myOtherScale(presidents[0]))
+
+// The second element in the array is positioned at 250 pixels
+console.log(myOtherScale(presidents[1]))
+
+console.log(myOtherScale(presidents[2]))
+
+// The last element in the array stretches from 750 pixels to the right edge of the screen
+console.log(myOtherScale(presidents[3]))
+
+// Recall that previously, we manually specified the x position of each element
+// d3.scaleBand, and other scaling functions, allow automatic positioning
+//   .attr("x", function(data, index) {
+//     return index * 60;
+//    });
+
+</script>

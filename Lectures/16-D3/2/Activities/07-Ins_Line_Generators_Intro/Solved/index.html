@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Line Generators</title>
+    <style>
+      div {
+        float: left;
+        width: 33%;
+      }
+      h2 {
+        text-align: center;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Part 1 : embedded element -->
+    <div>
+      <h2>Generating a Path with HTML</h2>
+      <svg id="path-1" width="400" height="250">
+        <path d="M100,120 200,250 300,160 400,200" style="stroke:black; stroke-width:3; fill: none;"></path>
+      </svg>
+    </div>
+    <!-- Part 2 : see path-2.js -->
+    <div>
+      <h2>Generating a Path with D3 and an Array</h2>
+      <svg id="path-2" width="400" height="250" xmlns="http://www.w3.org/2000/svg"></svg>
+    </div>
+    <!-- Part 3 : see path-3.js -->
+    <div>
+      <h2>Scaling and Using Accessor Functions</h2>
+      <svg id="path-3" width="400" height="250" xmlns="http://www.w3.org/2000/svg"></svg>
+    </div>
+
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="path-2.js"></script>
+    <script src="path-3.js"></script>
+
+  </body>
+
+</html>
