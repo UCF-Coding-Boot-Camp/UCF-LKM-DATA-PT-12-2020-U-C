@@ -1061,7 +1061,7 @@ The recording only contains the homework solutions.
 
 <details><summary><strong>Module 15 - Interactive Plots with Plotly</strong></summary>
 
-### 15-1 Plotly Basics
+### [15-1 Plotly Basics](https://zoom.us/rec/share/jHTccpYQ8VDk_vpPmMerRYWGGuuwk192e7bmlPtj353WItbyrtuGglfay8oo9ocL.lJpBda3JEEbBAm48)
 
 * Line and Bar Charts with Plotly.js
     * `layout` - altering the plot design
@@ -1075,7 +1075,7 @@ The recording only contains the homework solutions.
     * Open Office Hours
 * After Class
     * 15 Plotly Homework Help 1/2
-### 15-2 Advanced Charts in Plotly
+### [15-2 Advanced Charts in Plotly](https://zoom.us/rec/share/FUEEb1UxrQT6icOWRhb1zqIFZEqJlIEtmNxeC0arlUsnFxqfXbaDWPiR8NY8Y6gL.hDVIPZZumQn-ugPT)
 
 * Additional JavaScript methods (`array.sort`, `array.slice`)
 * Charting data from APIs
