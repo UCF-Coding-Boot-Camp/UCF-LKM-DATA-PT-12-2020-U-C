@@ -1,0 +1,15 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.axis {
+  font: 14px sans-serif;
+}
+
+.line {
+  fill: none;
+  stroke: orange;
+  stroke-width: 2px;
+}
