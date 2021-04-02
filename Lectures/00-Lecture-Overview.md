@@ -12,6 +12,8 @@ Office Hours are linked to the corresponding Panopto videos where available.
 
 <details><summary><h3 style="display: inline; padding-top: 0">Panopto</h3></summary>
 
+***NOTE:** As of day 11-3, Panopto has been discontinued as a Trilogy/ 2U resource. The Panopto recordings before that date should (?) continue to be accessible to you forever. For all lectures 11-3 and later, you will need to use the Zoom links.*
+
 Panopto recordings are searchable! Both audio and video feeds are processed.
 
 To search within a specific video, open the video. The search bar appears on the left, under the camera feed. You can search multiple videos by using the search bar at the top of a Panopto folder.
@@ -1090,7 +1092,9 @@ The recording only contains the homework solutions.
 * After Class
     * 15 Plotly Homework Help 2/3
 
-### [15-3 ... And Even More Cool Stuff Featuring Plotly](https://zoom.us/rec/share/kwmLSeC4LaZAD1P2pn8Po-2eerXnZp_C6GkBdValVr7JU0c1QL8Fy339SMEhJBK1.7CkPQrXVbDnnIw0f)
+### [15-3 ... And Even More Cool Stuff Featuring Plotly](https://zoom.us/rec/share/U8wXdbwtASqgQmEfFXBEmt8_FXsBksdlU6xuh37Vq0dHXCefjqnTg9f5d7bZdP-4.DsAiCzSn2Kl9OmaT?startTime=1617317705000)
+
+[Full Zoom Recording](https://zoom.us/rec/share/kwmLSeC4LaZAD1P2pn8Po-2eerXnZp_C6GkBdValVr7JU0c1QL8Fy339SMEhJBK1.7CkPQrXVbDnnIw0f)
 
 * `switch` statements
 * More plot types (candlestick plots)
@@ -1100,7 +1104,7 @@ The recording only contains the homework solutions.
 ##### 15-3 Additional Coverage
 
 * After Class
-    * 15 Plotly Homework Help 3/3
+    * [15 Plotly Homework Help 3/3](https://zoom.us/rec/share/U8wXdbwtASqgQmEfFXBEmt8_FXsBksdlU6xuh37Vq0dHXCefjqnTg9f5d7bZdP-4.DsAiCzSn2Kl9OmaT?startTime=1617327227000)
 
 
 </details>
@@ -1182,7 +1186,6 @@ The recording only contains the homework solutions.
 
 ### 17-3 Leaflet Mini-Project + Project 2 Proposals
 
-[Zoom Recording](https://zoom.us/rec/share/hEvRu82gE2Wy1iU6aSGhQAOvXo0r1tMcw1sqq_hEciJe3mF0cp7FOaYIe_rWt-oC.D7uCDomOlyxb_vML)
 
 * Citi Bike mini-project
 * Project 2 proposals
@@ -1191,8 +1194,8 @@ The recording only contains the homework solutions.
 ##### 17-3 Additional Coverage
 
 * After class
-    * [17 Leaflet Homework Help 3/3](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=7eaff16e-5587-47b9-a803-ac3e0035a204)
-
+    * 17 Leaflet Homework Help 3/3
+    
 </details>
 
 </details>
