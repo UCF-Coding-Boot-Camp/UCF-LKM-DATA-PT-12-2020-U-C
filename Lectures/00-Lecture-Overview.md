@@ -688,11 +688,11 @@ Before Class
 
 ## <!-- 09-10 DBs, ORMs, OOP, APIs -->
 
-<details open><summary><em>Module 09-10: Databases, ORMs, OOP, and Making APIs</em></summary>
+<details><summary><em>Module 09-10: Databases, ORMs, OOP, and Making APIs</em></summary>
 
 <br/>
 
-<details open><summary><strong>Module 09 - Databases (Postgres)</strong></summary>
+<details><summary><strong>Module 09 - Databases (Postgres)</strong></summary>
 
 ### [09-1 Intro to Postgres](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=3f92c1b2-8bb7-4aa0-954a-accd0027382f)
 
@@ -1000,7 +1000,7 @@ The recording only contains the homework solutions.
 
 ## <!-- 14-17 JS, Plots -->
 
-<details><summary><em>Module 14-17: Interactive Plots with JavaScript</em></summary>
+<details open><summary><em>Module 14-17: Interactive Plots with JavaScript</em></summary>
 
 <br/>
 
@@ -1074,7 +1074,7 @@ The recording only contains the homework solutions.
 * Before Class
     * Open Office Hours
 * After Class
-    * 15 Plotly Homework Help 1/2
+    * 15 Plotly Homework Help 1/3
 ### [15-2 Advanced Charts in Plotly](https://zoom.us/rec/share/FUEEb1UxrQT6icOWRhb1zqIFZEqJlIEtmNxeC0arlUsnFxqfXbaDWPiR8NY8Y6gL.hDVIPZZumQn-ugPT)
 
 * Additional JavaScript methods (`array.sort`, `array.slice`)
@@ -1088,8 +1088,7 @@ The recording only contains the homework solutions.
 * Before Class
     * Open Office Hours
 * After Class
-    * 12 Web Scraping Homework Solution (audio issues, zoom vid above recommended)
-    * 15 Plotly Homework Help 2/2 (audio issues, zoom vid above recommended)
+    * 15 Plotly Homework Help 2/3
 
 ### [15-3 ... And Even More Cool Stuff Featuring Plotly](https://zoom.us/rec/share/kwmLSeC4LaZAD1P2pn8Po-2eerXnZp_C6GkBdValVr7JU0c1QL8Fy339SMEhJBK1.7CkPQrXVbDnnIw0f)
 
@@ -1101,11 +1100,12 @@ The recording only contains the homework solutions.
 ##### 15-3 Additional Coverage
 
 * After Class
-    * Open Office Hours
+    * 15 Plotly Homework Help 3/3
+
 
 </details>
 
-<details><summary><strong>Module 16 - Data Binding and SVG Basics with D3</strong></summary>
+<details open><summary><strong>Module 16 - Data Binding and SVG Basics with D3</strong></summary>
 
 ### 16-1 D3 Fundamentals
 
@@ -1119,6 +1119,7 @@ The recording only contains the homework solutions.
     * Open Office Hours
 * After Class
     * 16 D3 Homework Help 1/3
+    * 12 Web Scraping Homework Solution
 
 ### 16-2 More D3 Fundamentals
 
