@@ -1091,7 +1091,7 @@ The recording only contains the homework solutions.
     * 12 Web Scraping Homework Solution (audio issues, zoom vid above recommended)
     * 15 Plotly Homework Help 2/2 (audio issues, zoom vid above recommended)
 
-### 15-3 ... And Even More Cool Stuff Featuring Plotly
+### [15-3 ... And Even More Cool Stuff Featuring Plotly](https://zoom.us/rec/share/kwmLSeC4LaZAD1P2pn8Po-2eerXnZp_C6GkBdValVr7JU0c1QL8Fy339SMEhJBK1.7CkPQrXVbDnnIw0f)
 
 * `switch` statements
 * More plot types (candlestick plots)
