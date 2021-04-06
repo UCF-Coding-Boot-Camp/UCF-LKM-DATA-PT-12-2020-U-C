@@ -1111,19 +1111,20 @@ The recording only contains the homework solutions.
 
 <details open><summary><strong>Module 16 - Data Binding and SVG Basics with D3</strong></summary>
 
-### 16-1 D3 Fundamentals
+### [16-1 D3 Fundamentals](https://zoom.us/rec/share/kkiw1yraPXd9eisnygKBz0Z05x7SdQtxghXll4gXN1X41ihxDqwsBhxmevq6mnBy.LXX3ugWRP3icVKqF?startTime=1617454816000)
+
+[Full Zoom Recording](https://zoom.us/rec/share/YMiedCOblhmxnzC-iINmm4iQzms1eKjFJILXkQ8FlzaMKSTHfI6rEyOlzw33vUXT.W8bQMMyU_DXNEIy7)
 
 * What is an SVG?
 * D3 Databinding (with SVGs and other DOM elements)
 * Bar Charts using D3
 
-##### 16-1 Additional Coverage
+##### [16-1 Additional Coverage](https://zoom.us/rec/share/kkiw1yraPXd9eisnygKBz0Z05x7SdQtxghXll4gXN1X41ihxDqwsBhxmevq6mnBy.LXX3ugWRP3icVKqF?startTime=1617467559000)
 
 * Before Class
     * Open Office Hours
 * After Class
     * 16 D3 Homework Help 1/3
-    * 12 Web Scraping Homework Solution
 
 ### 16-2 More D3 Fundamentals
 
@@ -1137,6 +1138,7 @@ The recording only contains the homework solutions.
     * Open Office Hours
 * After Class
     * 16 D3 Homework Help 2/3
+    * 12 Web Scraping Homework Solution
 
 ### 16-3 Advanced D3
 
