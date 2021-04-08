@@ -1,0 +1,46 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+#map,
+body,
+html {
+  height: 100%;
+}
+
+.leaflet-popup-content {
+  text-align: center;
+}
+
+.parallax-marker.label {
+  display: block;
+  font-weight: bold;
+  color: rgb(98, 56, 128);
+  text-align: center;
+  text-shadow: rgb(255, 255, 255) 1px 0 1px, rgb(255, 255, 255) -1px 0 1px, rgb(255, 255, 255) 0 -1px 1px, rgb(255, 255, 255) 0 1px 1px;
+  text-transform: uppercase;
+}
+
+.parallax-marker.label.huge {
+  font-size: 96px;
+  color: rgba(185, 157, 185, 0.39);
+  text-shadow: none;
+}
+
+.parallax-marker.label.big {
+  font-size: 24px;
+}
+
+.parallax-marker.label.medium {
+  font-size: 16px;
+  font-weight: normal;
+  color: rgb(121, 85, 125);
+}
+
+.parallax-marker.label.small {
+  font-size: 12px;
+  font-weight: normal;
+  color: rgb(137, 128, 144);
+  text-transform: none;
+}
