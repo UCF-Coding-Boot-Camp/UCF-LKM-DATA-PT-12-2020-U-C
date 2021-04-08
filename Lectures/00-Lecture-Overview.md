@@ -1126,7 +1126,9 @@ The recording only contains the homework solutions.
 * After Class
     * 16 D3 Homework Help 1/3
 
-### 16-2 More D3 Fundamentals
+### [16-2 More D3 Fundamentals](https://zoom.us/rec/share/SSTr0EETpnNYodA7X5PcP1LUCvHB7X4CYvQGETXyXXf2EHrRYcxdIReC5xfAIF2h.oY0WNPuc7VNPZZAZ?startTime=1617748331000)
+
+[Full Zoom Recording](https://zoom.us/rec/share/4hTDMa918ysatOB5Xe5jaWlZpOHpbncfpsA1u4Ky_B_Hm-QB2mzwTlz7UYeBVyVO.p_-RuFHmvSMcy_Fu)
 
 * More charts with D3
 * Scaling data using D3
@@ -1137,8 +1139,8 @@ The recording only contains the homework solutions.
 * Before Class
     * Open Office Hours
 * After Class
-    * 16 D3 Homework Help 2/3
-    * 12 Web Scraping Homework Solution
+    * [16 D3 Homework Help 2/3](https://zoom.us/rec/share/SSTr0EETpnNYodA7X5PcP1LUCvHB7X4CYvQGETXyXXf2EHrRYcxdIReC5xfAIF2h.oY0WNPuc7VNPZZAZ?startTime=1617759150000)
+    * [12 Web Scraping Homework Solution](https://zoom.us/rec/share/SSTr0EETpnNYodA7X5PcP1LUCvHB7X4CYvQGETXyXXf2EHrRYcxdIReC5xfAIF2h.oY0WNPuc7VNPZZAZ?startTime=1617760414000)
 
 ### 16-3 Advanced D3
 
