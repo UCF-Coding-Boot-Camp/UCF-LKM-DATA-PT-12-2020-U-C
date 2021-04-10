@@ -1109,7 +1109,7 @@ The recording only contains the homework solutions.
 
 </details>
 
-<details open><summary><strong>Module 16 - Data Binding and SVG Basics with D3</strong></summary>
+<details><summary><strong>Module 16 - Data Binding and SVG Basics with D3</strong></summary>
 
 ### [16-1 D3 Fundamentals](https://zoom.us/rec/share/kkiw1yraPXd9eisnygKBz0Z05x7SdQtxghXll4gXN1X41ihxDqwsBhxmevq6mnBy.LXX3ugWRP3icVKqF?startTime=1617454816000)
 
@@ -1142,7 +1142,9 @@ The recording only contains the homework solutions.
     * [16 D3 Homework Help 2/3](https://zoom.us/rec/share/SSTr0EETpnNYodA7X5PcP1LUCvHB7X4CYvQGETXyXXf2EHrRYcxdIReC5xfAIF2h.oY0WNPuc7VNPZZAZ?startTime=1617759150000)
     * [12 Web Scraping Homework Solution](https://zoom.us/rec/share/SSTr0EETpnNYodA7X5PcP1LUCvHB7X4CYvQGETXyXXf2EHrRYcxdIReC5xfAIF2h.oY0WNPuc7VNPZZAZ?startTime=1617760414000)
 
-### 16-3 Advanced D3
+### [16-3 Advanced D3](https://zoom.us/rec/share/39x9ffrv0PwoD9l2Tfs_JT5AARK3ORMMDXZtM7wUlTI4CLo2G-XP7gW_3x8fwwvu.l-l-eEyHovJX9SKS?startTime=1617921058000)
+
+[Full Zoom Recording](https://zoom.us/rec/share/7jfMETDpa2JNbHstnNxZqWSn4e41OaRTr_COssXqMID411NFCYf9LLsjPzaBK6t-.8OghSZzh1yzHv5Rj)
 
 * Multi-Plots with D3
 * Adding transitions, tooltips, and event listeners to your plots with D3
@@ -1151,13 +1153,13 @@ The recording only contains the homework solutions.
 ##### 16-3 Additional Coverage
 
 * Before Class
-    * Open Office Hours
+    * [Open Office Hours](https://zoom.us/rec/share/39x9ffrv0PwoD9l2Tfs_JT5AARK3ORMMDXZtM7wUlTI4CLo2G-XP7gW_3x8fwwvu.l-l-eEyHovJX9SKS?startTime=1617917907000)
 * After Class
-    * 16 D3 Homework 3/3
+    * [16 D3 Homework 3/3](https://zoom.us/rec/share/39x9ffrv0PwoD9l2Tfs_JT5AARK3ORMMDXZtM7wUlTI4CLo2G-XP7gW_3x8fwwvu.l-l-eEyHovJX9SKS?startTime=1617932246000)
 
 </details>
 
-<details><summary><strong>Module 17 - Interactive Mapping with Leaflet.js</strong></summary>
+<details open><summary><strong>Module 17 - Interactive Mapping with Leaflet.js</strong></summary>
 
 ### 17-1 Leaflet Basics
 
