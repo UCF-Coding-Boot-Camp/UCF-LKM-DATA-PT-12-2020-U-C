@@ -1161,7 +1161,7 @@ The recording only contains the homework solutions.
 
 <details open><summary><strong>Module 17 - Interactive Mapping with Leaflet.js</strong></summary>
 
-### 17-1 Leaflet Basics
+### [17-1 Leaflet Basics](https://zoom.us/rec/share/cjx_NumvJdFTJZWQS7zk6ODe86KVAXfOfaCtz9CD4xf5XPZf9-m1L1xrgPsIXWa5.q65r51Nxnv9qVJRv)
 
 * Map visualization examples
 * Leaflet.js basics
@@ -1175,8 +1175,8 @@ The recording only contains the homework solutions.
 * Before class
     * Open Office Hours
 * After class
-    * 17 Leaflet Homework Help 1/3
-### 17-2 More Interesting Leaflet
+    * 17 Leaflet Homework Help 1/1
+### [17-2 More Interesting Leaflet](https://zoom.us/rec/share/1XmkQEj20yTNadWS-ptInYfZb7m94OF9tmZh5DVUJz18q-8UhvqQUlV4BEDxg_6X.R7Ma2DrBe9om7m5p)
 
 * Intro to JS Plugins via Leaflet plugins
 * Effective visualization using maps
@@ -1188,7 +1188,7 @@ The recording only contains the homework solutions.
 ##### 17-2 Additional Coverage
 
 * After class
-    * 17 Leaflet Homework Help 2/3
+    * Open Office Hours
 
 ### 17-3 Leaflet Mini-Project + Project 2 Proposals
 
@@ -1200,7 +1200,7 @@ The recording only contains the homework solutions.
 ##### 17-3 Additional Coverage
 
 * After class
-    * 17 Leaflet Homework Help 3/3
+    * Open Office Hours
     
 </details>
 
