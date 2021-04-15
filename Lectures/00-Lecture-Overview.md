@@ -1161,7 +1161,9 @@ The recording only contains the homework solutions.
 
 <details open><summary><strong>Module 17 - Interactive Mapping with Leaflet.js</strong></summary>
 
-### [17-1 Leaflet Basics](https://zoom.us/rec/share/cjx_NumvJdFTJZWQS7zk6ODe86KVAXfOfaCtz9CD4xf5XPZf9-m1L1xrgPsIXWa5.q65r51Nxnv9qVJRv)
+### [17-1 Leaflet Basics](https://zoom.us/rec/share/6P8SPFiw_saa5AvBgdh8Pb4NhMCitJadbfzHiTOI6QE74eRMk-Eeo_hdcNQ9Z76F.b4xKMep_pJzp_irv?startTime=1618060334000)
+
+[Full Zoom Recording](https://zoom.us/rec/share/cjx_NumvJdFTJZWQS7zk6ODe86KVAXfOfaCtz9CD4xf5XPZf9-m1L1xrgPsIXWa5.q65r51Nxnv9qVJRv)
 
 * Map visualization examples
 * Leaflet.js basics
@@ -1175,7 +1177,8 @@ The recording only contains the homework solutions.
 * Before class
     * Open Office Hours
 * After class
-    * 17 Leaflet Homework Help 1/1
+    * [17 Leaflet Homework Help 1/1](https://zoom.us/rec/share/6P8SPFiw_saa5AvBgdh8Pb4NhMCitJadbfzHiTOI6QE74eRMk-Eeo_hdcNQ9Z76F.b4xKMep_pJzp_irv?startTime=1618072643000)
+    * [14 JavaScript Homework Solution](https://zoom.us/rec/share/6P8SPFiw_saa5AvBgdh8Pb4NhMCitJadbfzHiTOI6QE74eRMk-Eeo_hdcNQ9Z76F.b4xKMep_pJzp_irv?startTime=1618073752000)
 ### [17-2 More Interesting Leaflet](https://zoom.us/rec/share/1XmkQEj20yTNadWS-ptInYfZb7m94OF9tmZh5DVUJz18q-8UhvqQUlV4BEDxg_6X.R7Ma2DrBe9om7m5p)
 
 * Intro to JS Plugins via Leaflet plugins
@@ -1191,7 +1194,6 @@ The recording only contains the homework solutions.
     * Open Office Hours
 
 ### 17-3 Leaflet Mini-Project + Project 2 Proposals
-
 
 * Citi Bike mini-project
 * Project 2 proposals
