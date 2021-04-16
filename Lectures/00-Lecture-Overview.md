@@ -1193,7 +1193,7 @@ The recording only contains the homework solutions.
 * After class
     * Open Office Hours
 
-### 17-3 Leaflet Mini-Project + Project 2 Proposals
+### [17-3 Leaflet Mini-Project + Project 2 Proposals](https://zoom.us/rec/share/wEHC2LY_5OizzYeHJZSU5h_MmtMJ9e9r2JubjT7qYKsr1QNgfDrJs60u2DkVh0YG.ThPsyyRapMgFnLDk)
 
 * Citi Bike mini-project
 * Project 2 proposals
