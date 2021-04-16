@@ -1211,3 +1211,382 @@ The recording only contains the homework solutions.
 </details>
 
 ---
+
+## <!-- 18-19 R and Project 2 -->
+
+<details open><summary><em>Module 18-19: Project 2 and R</em></summary>
+
+<br/>
+
+<details open><summary><strong>Module 18 - Intro to R and Project 2 Work</strong></summary>
+
+
+### 18-1 Intro to R (and Project 2 Work)
+
+* R environment set up
+* How to use R Studio
+* R Basic Data Types
+* Intro to Project 2; second half of class is Project 2 Work
+* Today's Project Goals:
+    * Find a data source
+    * Get high-level approval for your projects
+
+##### 18-1 Additional Material
+
+* Before Class
+    * Open Office Hours
+* After Class
+    * Open Office Hours
+
+### 18-2 R and Tibbles (and Project 2 Work)
+
+* Practice with R's `tibbles` (DataFrames/ arrays) - includes material from day 1
+* Second half of class is Project 2 Work
+
+##### 18-2 Additional Material
+
+* Before Class
+    * Open Office Hours
+* After Class
+    * Open Office Hours
+
+### 18-3 Project 2 Work
+
+* During Class
+    * 14 JS Homework Solution
+    * How to deploy your projects using Heroku + Heroku Postgres
+    * Git Demo Repo: https://github.com/froggercat-work/simple-flask-deploy 
+
+##### 18-3 Additional Material
+
+* After Class
+    * Open Office Hours
+
+</details>
+
+<details><summary><strong>Module 19 - Project 2 Work</strong></summary>
+
+### 19-1 Project 2 Work
+
+* During Class
+    * Open Office Hours
+
+##### 19-1 Additional Material
+
+* Before Class
+    * Open Office Hours
+* After Class
+    * Open Office Hours
+
+### 19-2 Project 2 Work
+
+* During Class
+    * 15 Plotly (Interactive Plotting) Homework Solution
+
+##### 19-2 Additional Material
+
+* Before Class
+    * Open Office Hours
+* After Class
+    * Open Office Hours
+
+### 19-3 Project 2 Presentations
+
+* Tableau installs after presentations
+* Presentations:
+    * 15m + 3m for questions for each team.
+    * Presentation Class Choice Awards Categories:
+        * Most Gripping Story
+        * Most Viable Real-World Application
+        * Awesomely Custom-Built Dataset
+        * Honest And Compelling Statistics
+        * Presenting a Call To Action!
+        * Most Innovative Visualization
+
+*No office hours today, enjoy your break!*
+(If there are questions we're happy to stay if needed.)
+
+</details>
+
+</details>
+
+----
+
+## <!-- 20 Tableau -->
+
+<details><summary><em>Module 20: Dashboarding Software</em></summary>
+
+<br/>
+
+<details><summary><strong>Module 20 - Tableau</strong></summary>
+
+### 20-1 Intro to Tableau
+
+* Loading data into Tableau
+* Building basic visualizations
+    * Dimensions
+    * Measures
+    * Columns
+    * Rows
+    * Marks
+    * Filters
+* Data Joins
+* Tableau Stories
+
+##### 20-1 Additional Coverage
+
+* After class
+    * Tableau Homework Help 1/3
+
+### 20-2 Calculations and Grouping in Tableau
+
+* Groups and Sets
+* Calculations
+* Maps
+* LOD (Level of Detail) calculations
+
+##### 20-2 Additional Coverage
+
+* After class
+    * Tableau Homework Help 2/3
+
+### 20-3 Dashboard A-Z
+
+* More practice with Tableau:
+    * More exploratory data analysis using Tableau.
+    * Cleaning data before visualizing.
+    * Creating Tableau dashboards.
+
+##### 20-3 Additional Coverage
+
+* After class
+    * Tableau Homework Help 3/3
+    * 16 D3 Homework Solution
+
+</details>
+
+</details>
+
+---- 
+
+## <!-- 21-22 Machine Learning -->
+
+<details><summary><em>Module 21-22: Intro to Machine Learning, Big Data, and the Cloud</em></summary>
+
+<br/>
+
+<details><summary><strong>Module 21 - Intro to Machine Learning</strong></summary>
+
+### 21-1 Regression with Machine Learning Using Linear Models
+
+* Difference between linear and non-linear data
+* Using machine learning for regression analysis
+* Quantify and validate linear machine learning models
+* Preprocessing Data: Scaling and normalization
+
+##### 21-1 Additional Coverage
+
+* Before Class
+    * Open Office Hours
+* After Class
+    * 21 Machine Learning Homework Help 1/3
+
+### 21-2 Fundamentals of Machine Learning Classification Algorithms
+
+* Classification Algorithms:
+    * Logistic Regression
+    * SVM (Support Vector Machine)
+    * KNN (K Nearest Neighbors)
+    * Decision Trees
+    * Random Forests
+* Quantify and validate classification machine learning models
+* Hypertuning classification algorithms using GridSearchCV
+
+##### 21-2 Additional Coverage
+
+* Before class
+    * Open office hours
+* After class
+    * 21 Machine Learning Homework Help 2/3
+
+### 21-3 Intro to Unsupervised Machine Learning: Neural Networks and KMeans Clustering
+
+Panopto recordings have sound issues today, zoom recording recommended.
+
+* When to use neural networks
+    * As opposed to tuning previously shown Algorithms
+* Deep Learning: Neural Networks versus Deep Neural Networks
+* Building our own neural networks with Keras
+* KMeans Clustering Algorithm
+
+##### 21-3 Additional Coverage
+
+* After class
+    * 21 Machine Learning Homework Help 3/3
+
+</details>
+
+<details><summary><strong>Module 22 - Big Data</strong></summary>
+
+### 22-1 Introduction to Parallelized Processing with `mrjob`
+
+*Note:* We will be using Google Colab notbooks to run these exercises. You may see ZEPL mentioned in the activities and homework, but we recommend using Google Colab instead. ZEPL is an alternative service for Spark notebooks, but we've found it to be a bit too temperamental for teaching.
+
+* Identify the pieces of the Hadoop ecosystem.
+
+* Identify the differences and similarities between Hadoop and Spark.
+
+* Write MapReduce jobs locally with `mrjob`.
+
+* Manipulate data using PySpark DataFrames.
+
+##### 22-1 Additional Coverage
+
+* Before class:
+    * Open office hours
+* After class:
+    * 17 Leaflet Homework Solution
+    * 22 Big Data Homework Help 1/3
+
+### 22-2 NLP (Natural Language Processing)
+
+* Why is NLP a necessary part of your big data toolkit?
+* Use PySpark DataFrames for NLP data processing.
+* Text processing in PySpark
+    * tokenization
+    * stop words
+    * n-grams
+    * term frequency
+    * document frequency
+* Understand the steps in an NLP data processing pipeline (and build one ourselves!)
+
+##### 22-2 Additional Coverage
+
+* Before class:
+    * Open office hours
+* After class:
+    * 22 Big Data Homework Help 2/3
+
+### 22-3 ETL ~~again~~ but this time in AWS
+
+*Note:* This lecture uses AWS resources that are free for the first year after you sign up for an AWS account. For accounts over a year old, the material in the lecture will cost less than a few bucks to run in AWS.
+
+* AWS hosting - RDS (relational data services) and S3 buckets
+    * Creating our own databases using AWS
+* ETL pipelines using cloud resources
+
+##### 22-3 Additional Coverage
+
+* After class
+    * 22 Big Data Homework Help 3/3
+
+</details>
+
+</details>
+
+----
+   
+## <!-- 23-24 Image ML and Final Project -->
+
+<details><summary><em>Module 23-24: Final Project and Building Convolutional Neural Networks</em></summary>
+
+<br/>
+
+<details><summary><strong>Module 23 - Deep Neural Network Practice and CNNs</strong></summary>
+
+### 23-1 Deep Neural Networks with MNIST Handwriting Dataset & Final Project
+
+* Final Project Requirements: Lectures/23-Final-Project/1/Slideshows/data-23-1-final-project.pdf
+    * Project groups and proposals due today
+* Use MNIST handwriting dataset to practice deep neural network applications
+    * Intro to preparing image files
+    * Practice building a neural network
+    * Using trained models to recognize handwriting
+
+##### 23-1 Additional Coverage
+
+* Before class:
+    * Open Office Hours
+* After class:
+    * Open Office Hours
+
+### 23-2 Convolutional Neural Networks
+
+* CNNs
+    * Research CNNs vs. deep neural networks
+    * Use a CNN to create and train an image recognition model
+    * Learn how to learn about machine learning
+* Final Projects
+
+##### 23-2 Additional Coverage
+
+* Before class:
+    * Open office hours
+* After class:
+    * Open Office Hours
+
+### 23-3 Final Project Work
+
+* Work on final projects
+* Goals:
+    * Finish data prep
+    * Begin building and training model(s)
+    * Websites planned out
+
+##### 23-3 Additional Coverage
+
+* After class:
+    * Open office hours
+
+</details>
+
+<details><summary><strong>Module 24 - The Last Week! Final Project Work</strong></summary>
+
+### 24-1 Final Project Work
+
+* Work on final projects
+* Goals:
+    * Machine learning model training in progress
+
+##### 24-1 Additional Coverage
+
+* Before class:
+    * Open office hours
+* After class:
+    * Open office hours
+    * 20 Tableau Homework Solution
+    * 21 ML Homework Solution
+    * 22 Big Data Homework Solution
+
+### 24-2 Final Project Work
+
+* Work on final project
+* Goals:
+    * Come with questions!
+    * Final stages of technical (code-related) pieces
+
+##### 24-2 Additional Coverage
+
+* Before class:
+    * Open office hours
+* After class:
+    * Open office hours
+
+### 24-3 Final Project Presentations + Commencement
+
+* Congratulations!!!!
+    * Receiving certificates
+    * What to do next?
+    * Staying in touch
+* Final Presentations
+
+##### 24-3 Additional Coverage
+
+* Before class:
+    * Open office hours
+* After class:
+    * Open office hours
+
+</details>
+
+</details>
