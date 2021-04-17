@@ -1,0 +1,42 @@
+---
+title: "Tibbles and Tibbles"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, warning=FALSE)
+```
+#### Dependency
+```{r, message=F, warning=F}
+library(tidyverse)
+```
+
+#### Create a Tibble by columns
+```{r}
+
+```
+
+
+#### Create a Tibble by rows
+```{r}
+
+```
+
+
+#### Add a row to a Tibble
+```{r}
+
+```
+
+
+#### Add a column to a Tibble
+```{r}
+
+```
+
+
+#### Rearrange the columns of a Tibble
+```{r}
+
+```
+

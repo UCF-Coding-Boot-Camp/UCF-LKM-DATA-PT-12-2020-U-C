@@ -1,0 +1,53 @@
+---
+title: "Apply"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r, warning=FALSE, message=FALSE}
+library(tidyverse)
+```
+
+
+#### Suppose we have a function called `toFahrenheit`, which accepts a temperature in Celsius, `temperature`, and returns that temperature in Fahrenheit.
+```{r}
+toFahrenheit <- function(temperature) {
+  fahrenheit <- temperature * 1.8 + 32
+  return(fahrenheit)
+}
+```
+
+#### A list of temperatures in Celsius called `celsius`
+```{r}
+celsius <- c(0, -2, 0, 5.2, 5.4)
+```
+
+#### Create a new list, `fahrenheit`, containing the values in `celsius` converted to Fahrenheit.
+#### Solution: Valid...But noisy.
+```{r}
+fahrenheit <- numeric()
+for (i in 1:length(celsius)) {
+  temperature_fahrenheit <- toFahrenheit(celsius[i])
+  fahrenheit[i] <- temperature_fahrenheit
+}
+```
+#### Results
+```{r}
+fahrenheit
+```
+
+#### `sapply` provides a succinct alternative.
+```{r}
+fahrenheit2 <- sapply(celsius, toFahrenheit)
+fahrenheit2
+```
+
+#### Use `lapply` when you know you need a list, and _not_ a vector.
+```{r}
+fahrenheit3 <- lapply(celsius, toFahrenheit)
+fahrenheit3
+```
+

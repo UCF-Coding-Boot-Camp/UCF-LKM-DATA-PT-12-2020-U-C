@@ -1,0 +1,59 @@
+---
+title: "Ufo"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+#### Dependency
+```{r, warning=FALSE, message=FALSE}
+library(tidyverse)
+```
+
+#### Read and preview CSV
+```{r}
+ufo <- read_csv("ufo.csv")
+
+ufo %>% head()
+```
+
+#### The total number of UFO sightings
+```{r}
+ufo.count <- ufo %>% count()
+
+paste("There were", ufo.count, "UFO sightings")
+```
+
+#### The number of, and a list of, states, provinces, and territories
+```{r}
+ufo$state %>% unique() %>% length()
+
+ufo$state %>% unique()
+```
+
+#### The average duration of UFO sighting by state
+```{r}
+ufo %>% 
+  group_by(state) %>% 
+  summarise(avg.duration = mean(`duration (seconds)`)) %>% 
+  arrange(desc(avg.duration)) 
+```
+
+#### The number of UFO sightings by state
+```{r}
+ufo %>% 
+  group_by(state) %>% 
+  summarise(number.sightings = n()) %>% 
+  arrange(desc(number.sightings))
+```
+
+#### The number of sightings by perceived UFO shape
+```{r}
+ufo %>% 
+  group_by(shape) %>% 
+  summarise(shape.count = n()) %>% 
+  arrange(desc(shape.count))
+```
+

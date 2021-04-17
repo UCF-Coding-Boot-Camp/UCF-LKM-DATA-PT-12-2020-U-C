@@ -1,0 +1,44 @@
+---
+title: "Ufo"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+#### Dependency
+```{r, warning=FALSE, message=FALSE}
+library(tidyverse)
+```
+
+#### Read and preview CSV
+```{r}
+
+```
+
+#### The total number of UFO sightings
+```{r}
+
+```
+
+#### The number of, and a list of, states, provinces, and territories
+```{r}
+
+```
+
+#### The average duration of UFO sighting by state
+```{r}
+
+```
+
+#### The number of UFO sightings by state
+```{r}
+
+```
+
+#### The number of sightings by perceived UFO shape
+```{r}
+
+```
+

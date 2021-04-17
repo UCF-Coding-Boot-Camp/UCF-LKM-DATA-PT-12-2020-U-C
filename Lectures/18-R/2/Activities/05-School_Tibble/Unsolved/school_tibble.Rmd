@@ -1,0 +1,126 @@
+---
+title: "Pipe Dreams Are Made of These"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+### Dependency
+```{r, warning=FALSE, message=FALSE}
+library(tidyverse)
+```
+### Read CSV file
+```{r}
+students <-read_csv("students.csv")
+schools <- read_csv("schools.csv")
+```
+### Preview tibble
+```{r}
+students %>% head()
+```
+```{r}
+schools %>% head()
+```
+
+#### Join two tibbles
+```{r}
+data2 = left_join(students, schools, by=c("school_name"))
+data2 %>% head()
+```
+
+### Total Number of Schools
+```{r}
+school_count <- students$school_name %>% 
+  unique() %>% 
+  length()
+
+school_count
+```
+
+### Total Number of Students
+```{r}
+student_count <-  students %>% nrow()
+student_count
+```
+
+### Average reading and math scores
+```{r}
+mean_reading_score <- summarize(students, mean(reading_score))
+mean_math_score <- summarize(students, mean(math_score))
+```
+### Calculate the percentage of students with passing reading scores, i.e. over 70%.
+```{r}
+percentage_passing_reading <- students %>% 
+  filter(reading_score > 70) %>% 
+  nrow() * 100 / student_count %>% 
+  round(2)
+
+percentage_passing_reading
+```
+### Calculate the percentage of students with passing math scores, i.e. over 70%.
+```{r}
+percentage_passing_math <-  students %>% 
+  filter(math_score > 70) %>% 
+  nrow() * 100 / student_count %>% 
+  round(2)
+
+percentage_passing_math
+```
+### Calculate the overall passing rate, i.e. the average of math and reading passing percentages
+```{r}
+overall_passing_rate <- (percentage_passing_math + percentage_passing_reading) / 2
+overall_passing_rate
+```
+
+### Calculate the average math and reading scores by school
+```{r}
+students %>% 
+  group_by(school_name) %>% 
+  summarize(avg.reading=mean(reading_score), avg.math=mean(math_score))
+```
+
+### Calculate the average math and reading scores by grade level at each school
+```{r}
+students %>% 
+  group_by(school_name, grade) %>% 
+  summarize(avg.reading=mean(reading_score), avg.math=mean(math_score))
+```
+```{r}
+total_budget <- schools %>% 
+  summarize(sum(budget))
+```
+
+
+### Display data
+```{r}
+paste("School count: ", school_count)
+paste("Student count: ", student_count)
+paste("Total budget: ", total_budget)
+paste("Average reading score: ", mean_reading_score)
+paste("Average math score: ", mean_math_score)
+paste("% passing reading: ", percentage_passing_reading)
+paste("% passing math: ", percentage_passing_math)
+paste("Overall passing rate: ", overall_passing_rate)
+```
+
+### Use sapply() to convert data type
+```{r}
+# YOUR CODE HERE
+```
+
+### Create Tibble of District Summary
+```{r}
+# YOUR CODE HERE
+```
+### Display summary of district-wide data
+```{r}
+# YOUR CODE HERE
+```
+
+### Create a per-school summary
+```{r}
+# YOUR CODE HERE
+```
+
