@@ -1221,7 +1221,7 @@ The recording only contains the homework solutions.
 <details open><summary><strong>Module 18 - Intro to R and Project 2 Work</strong></summary>
 
 
-### 18-1 Intro to R (and Project 2 Work)
+### [18-1 Intro to R (and Project 2 Work)](https://zoom.us/rec/share/AK4t1xAeK7eejOM7dC_OskO2pmHlJrblO87sqBlTVFZG_pw6k3x4OTgzg0gzAuE.Va88crtLtjNvBD_i)
 
 * R environment set up
 * How to use R Studio
@@ -1233,8 +1233,6 @@ The recording only contains the homework solutions.
 
 ##### 18-1 Additional Material
 
-* Before Class
-    * Open Office Hours
 * After Class
     * Open Office Hours
 
@@ -1259,6 +1257,8 @@ The recording only contains the homework solutions.
 
 ##### 18-3 Additional Material
 
+* Before Class
+    * Open Office Hours
 * After Class
     * Open Office Hours
 
