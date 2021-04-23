@@ -1251,10 +1251,12 @@ No recording today.
 
 ### 18-3 R and Tibbles (and Project 2 Work)
 
+[Full Zoom Recording](https://zoom.us/rec/share/i_fIVh8VIwKAcZra0m7L7pCzfYjvfBsMwBzfxJ3HNTT9T13sXV81n0RA_-oQ2lo.A4r4vF11BN6O2ufn)
+
 - During Class (optional in-class, but watching recordings is required)
-  - Practice with R's `tibbles` (DataFrames/ arrays) - includes material from day 1
-  - 14 JS Homework Solution
-  - How to deploy your projects using Heroku + Heroku Postgres
+  - [Practice with R's `tibbles` (DataFrames/ arrays) - includes material from day 1](https://zoom.us/rec/share/oR8EWWUhBQy_3WUShlt67oZNLELRT2Fn6rBVU6eiT2u-v37Yliv7vgHBkbBlnA8.JznJSaq9m4T55NUT?startTime=1619128337000)
+  -[~~14 JS Homework Solution~~ Whoops, check 17-1 for this, already released](https://zoom.us/rec/share/oR8EWWUhBQy_3WUShlt67oZNLELRT2Fn6rBVU6eiT2u-v37Yliv7vgHBkbBlnA8.JznJSaq9m4T55NUT?startTime=1619136382000)
+  - [How to deploy your projects using Heroku + Heroku Postgres](https://zoom.us/rec/share/oR8EWWUhBQy_3WUShlt67oZNLELRT2Fn6rBVU6eiT2u-v37Yliv7vgHBkbBlnA8.JznJSaq9m4T55NUT?startTime=1619136968000)
     - Git Demo Repo: https://github.com/froggercat-work/simple-flask-deploy
 
 ##### 18-3 Additional Material
