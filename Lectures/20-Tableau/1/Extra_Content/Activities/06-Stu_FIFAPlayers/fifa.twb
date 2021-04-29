@@ -1,0 +1,3968 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 10500.18.0305.1200                               -->
+<workbook original-version='10.4' source-build='10.5.2 (10500.18.0305.1200)' source-platform='mac' version='10.5' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='PlayerPersonalData+' inline='true' name='federated.1oamg9i0g2dpvq1e8o0px0x7l4ck' version='10.5'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='PlayerPersonalData' name='textscan.09qf38s1mztnmw1cc4dke1g2b14c'>
+            <connection class='textscan' directory='/Users/kulini/DataViz-Lesson-Plans/01-Lesson-Plans/20-Tableau/1/Activities/06-Stu_FIFAPlayers/Resources' filename='PlayerAttributeData.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation join='inner' type='join'>
+          <clause type='join'>
+            <expression op='='>
+              <expression op='[PlayerPersonalData.csv].[ID]' />
+              <expression op='[PlayerAttributeData.csv].[ID]' />
+            </expression>
+          </clause>
+          <relation connection='textscan.09qf38s1mztnmw1cc4dke1g2b14c' name='PlayerPersonalData.csv' table='[PlayerPersonalData#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+              <column datatype='integer' name='F1' ordinal='0' />
+              <column datatype='integer' name='Unnamed: 0' ordinal='1' />
+              <column datatype='integer' name='ID' ordinal='2' />
+              <column datatype='string' name='Name' ordinal='3' />
+              <column datatype='integer' name='Age' ordinal='4' />
+              <column datatype='string' name='Photo' ordinal='5' />
+              <column datatype='string' name='Nationality' ordinal='6' />
+              <column datatype='string' name='Flag' ordinal='7' />
+              <column datatype='integer' name='Overall' ordinal='8' />
+              <column datatype='integer' name='Potential' ordinal='9' />
+              <column datatype='string' name='Club' ordinal='10' />
+              <column datatype='string' name='Club Logo' ordinal='11' />
+              <column datatype='string' name='Value' ordinal='12' />
+              <column datatype='string' name='Wage' ordinal='13' />
+              <column datatype='integer' name='Special' ordinal='14' />
+            </columns>
+          </relation>
+          <relation connection='textscan.09qf38s1mztnmw1cc4dke1g2b14c' name='PlayerAttributeData.csv' table='[PlayerAttributeData#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+              <column datatype='integer' name='F1' ordinal='0' />
+              <column datatype='integer' name='Acceleration' ordinal='1' />
+              <column datatype='integer' name='Aggression' ordinal='2' />
+              <column datatype='integer' name='Agility' ordinal='3' />
+              <column datatype='integer' name='Balance' ordinal='4' />
+              <column datatype='integer' name='Ball control' ordinal='5' />
+              <column datatype='integer' name='Composure' ordinal='6' />
+              <column datatype='integer' name='Crossing' ordinal='7' />
+              <column datatype='integer' name='Curve' ordinal='8' />
+              <column datatype='integer' name='Dribbling' ordinal='9' />
+              <column datatype='integer' name='Finishing' ordinal='10' />
+              <column datatype='integer' name='Free kick accuracy' ordinal='11' />
+              <column datatype='integer' name='GK diving' ordinal='12' />
+              <column datatype='integer' name='GK handling' ordinal='13' />
+              <column datatype='integer' name='GK kicking' ordinal='14' />
+              <column datatype='integer' name='GK positioning' ordinal='15' />
+              <column datatype='integer' name='GK reflexes' ordinal='16' />
+              <column datatype='integer' name='Heading accuracy' ordinal='17' />
+              <column datatype='integer' name='ID' ordinal='18' />
+              <column datatype='integer' name='Interceptions' ordinal='19' />
+              <column datatype='integer' name='Jumping' ordinal='20' />
+              <column datatype='integer' name='Long passing' ordinal='21' />
+              <column datatype='integer' name='Long shots' ordinal='22' />
+              <column datatype='integer' name='Marking' ordinal='23' />
+              <column datatype='integer' name='Penalties' ordinal='24' />
+              <column datatype='integer' name='Positioning' ordinal='25' />
+              <column datatype='integer' name='Reactions' ordinal='26' />
+              <column datatype='integer' name='Short passing' ordinal='27' />
+              <column datatype='integer' name='Shot power' ordinal='28' />
+              <column datatype='integer' name='Sliding tackle' ordinal='29' />
+              <column datatype='integer' name='Sprint speed' ordinal='30' />
+              <column datatype='integer' name='Stamina' ordinal='31' />
+              <column datatype='integer' name='Standing tackle' ordinal='32' />
+              <column datatype='integer' name='Strength' ordinal='33' />
+              <column datatype='integer' name='Vision' ordinal='34' />
+              <column datatype='integer' name='Volleys' ordinal='35' />
+            </columns>
+          </relation>
+        </relation>
+        <cols>
+          <map key='[Acceleration]' value='[PlayerAttributeData.csv].[Acceleration]' />
+          <map key='[Age]' value='[PlayerPersonalData.csv].[Age]' />
+          <map key='[Aggression]' value='[PlayerAttributeData.csv].[Aggression]' />
+          <map key='[Agility]' value='[PlayerAttributeData.csv].[Agility]' />
+          <map key='[Balance]' value='[PlayerAttributeData.csv].[Balance]' />
+          <map key='[Ball control]' value='[PlayerAttributeData.csv].[Ball control]' />
+          <map key='[Club Logo]' value='[PlayerPersonalData.csv].[Club Logo]' />
+          <map key='[Club]' value='[PlayerPersonalData.csv].[Club]' />
+          <map key='[Composure]' value='[PlayerAttributeData.csv].[Composure]' />
+          <map key='[Crossing]' value='[PlayerAttributeData.csv].[Crossing]' />
+          <map key='[Curve]' value='[PlayerAttributeData.csv].[Curve]' />
+          <map key='[Dribbling]' value='[PlayerAttributeData.csv].[Dribbling]' />
+          <map key='[F1 (PlayerAttributeData.csv)]' value='[PlayerAttributeData.csv].[F1]' />
+          <map key='[F1]' value='[PlayerPersonalData.csv].[F1]' />
+          <map key='[Finishing]' value='[PlayerAttributeData.csv].[Finishing]' />
+          <map key='[Flag]' value='[PlayerPersonalData.csv].[Flag]' />
+          <map key='[Free kick accuracy]' value='[PlayerAttributeData.csv].[Free kick accuracy]' />
+          <map key='[GK diving]' value='[PlayerAttributeData.csv].[GK diving]' />
+          <map key='[GK handling]' value='[PlayerAttributeData.csv].[GK handling]' />
+          <map key='[GK kicking]' value='[PlayerAttributeData.csv].[GK kicking]' />
+          <map key='[GK positioning]' value='[PlayerAttributeData.csv].[GK positioning]' />
+          <map key='[GK reflexes]' value='[PlayerAttributeData.csv].[GK reflexes]' />
+          <map key='[Heading accuracy]' value='[PlayerAttributeData.csv].[Heading accuracy]' />
+          <map key='[ID (PlayerAttributeData.csv)]' value='[PlayerAttributeData.csv].[ID]' />
+          <map key='[ID]' value='[PlayerPersonalData.csv].[ID]' />
+          <map key='[Interceptions]' value='[PlayerAttributeData.csv].[Interceptions]' />
+          <map key='[Jumping]' value='[PlayerAttributeData.csv].[Jumping]' />
+          <map key='[Long passing]' value='[PlayerAttributeData.csv].[Long passing]' />
+          <map key='[Long shots]' value='[PlayerAttributeData.csv].[Long shots]' />
+          <map key='[Marking]' value='[PlayerAttributeData.csv].[Marking]' />
+          <map key='[Name]' value='[PlayerPersonalData.csv].[Name]' />
+          <map key='[Nationality]' value='[PlayerPersonalData.csv].[Nationality]' />
+          <map key='[Overall]' value='[PlayerPersonalData.csv].[Overall]' />
+          <map key='[Penalties]' value='[PlayerAttributeData.csv].[Penalties]' />
+          <map key='[Photo]' value='[PlayerPersonalData.csv].[Photo]' />
+          <map key='[Positioning]' value='[PlayerAttributeData.csv].[Positioning]' />
+          <map key='[Potential]' value='[PlayerPersonalData.csv].[Potential]' />
+          <map key='[Reactions]' value='[PlayerAttributeData.csv].[Reactions]' />
+          <map key='[Short passing]' value='[PlayerAttributeData.csv].[Short passing]' />
+          <map key='[Shot power]' value='[PlayerAttributeData.csv].[Shot power]' />
+          <map key='[Sliding tackle]' value='[PlayerAttributeData.csv].[Sliding tackle]' />
+          <map key='[Special]' value='[PlayerPersonalData.csv].[Special]' />
+          <map key='[Sprint speed]' value='[PlayerAttributeData.csv].[Sprint speed]' />
+          <map key='[Stamina]' value='[PlayerAttributeData.csv].[Stamina]' />
+          <map key='[Standing tackle]' value='[PlayerAttributeData.csv].[Standing tackle]' />
+          <map key='[Strength]' value='[PlayerAttributeData.csv].[Strength]' />
+          <map key='[Unnamed: 0]' value='[PlayerPersonalData.csv].[Unnamed: 0]' />
+          <map key='[Value]' value='[PlayerPersonalData.csv].[Value]' />
+          <map key='[Vision]' value='[PlayerAttributeData.csv].[Vision]' />
+          <map key='[Volleys]' value='[PlayerAttributeData.csv].[Volleys]' />
+          <map key='[Wage]' value='[PlayerPersonalData.csv].[Wage]' />
+        </cols>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[PlayerPersonalData.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[PlayerPersonalData.csv]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Unnamed: 0</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Unnamed: 0]</local-name>
+            <parent-name>[PlayerPersonalData.csv]</parent-name>
+            <remote-alias>Unnamed: 0</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ID</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[ID]</local-name>
+            <parent-name>[PlayerPersonalData.csv]</parent-name>
+            <remote-alias>ID</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Name]</local-name>
+            <parent-name>[PlayerPersonalData.csv]</parent-name>
+            <remote-alias>Name</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Age</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Age]</local-name>
+            <parent-name>[PlayerPersonalData.csv]</parent-name>
+            <remote-alias>Age</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Photo</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Photo]</local-name>
+            <parent-name>[PlayerPersonalData.csv]</parent-name>
+            <remote-alias>Photo</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Nationality</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Nationality]</local-name>
+            <parent-name>[PlayerPersonalData.csv]</parent-name>
+            <remote-alias>Nationality</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Flag</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Flag]</local-name>
+            <parent-name>[PlayerPersonalData.csv]</parent-name>
+            <remote-alias>Flag</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Overall</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Overall]</local-name>
+            <parent-name>[PlayerPersonalData.csv]</parent-name>
+            <remote-alias>Overall</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Potential</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Potential]</local-name>
+            <parent-name>[PlayerPersonalData.csv]</parent-name>
+            <remote-alias>Potential</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Club</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Club]</local-name>
+            <parent-name>[PlayerPersonalData.csv]</parent-name>
+            <remote-alias>Club</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Club Logo</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Club Logo]</local-name>
+            <parent-name>[PlayerPersonalData.csv]</parent-name>
+            <remote-alias>Club Logo</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Value</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Value]</local-name>
+            <parent-name>[PlayerPersonalData.csv]</parent-name>
+            <remote-alias>Value</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Wage</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Wage]</local-name>
+            <parent-name>[PlayerPersonalData.csv]</parent-name>
+            <remote-alias>Wage</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Special</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Special]</local-name>
+            <parent-name>[PlayerPersonalData.csv]</parent-name>
+            <remote-alias>Special</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[PlayerAttributeData.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1 (PlayerAttributeData.csv)]</local-name>
+            <parent-name>[PlayerAttributeData.csv]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Acceleration</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Acceleration]</local-name>
+            <parent-name>[PlayerAttributeData.csv]</parent-name>
+            <remote-alias>Acceleration</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Aggression</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Aggression]</local-name>
+            <parent-name>[PlayerAttributeData.csv]</parent-name>
+            <remote-alias>Aggression</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Agility</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Agility]</local-name>
+            <parent-name>[PlayerAttributeData.csv]</parent-name>
+            <remote-alias>Agility</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Balance</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Balance]</local-name>
+            <parent-name>[PlayerAttributeData.csv]</parent-name>
+            <remote-alias>Balance</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Ball control</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Ball control]</local-name>
+            <parent-name>[PlayerAttributeData.csv]</parent-name>
+            <remote-alias>Ball control</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Composure</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Composure]</local-name>
+            <parent-name>[PlayerAttributeData.csv]</parent-name>
+            <remote-alias>Composure</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Crossing</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Crossing]</local-name>
+            <parent-name>[PlayerAttributeData.csv]</parent-name>
+            <remote-alias>Crossing</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Curve</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Curve]</local-name>
+            <parent-name>[PlayerAttributeData.csv]</parent-name>
+            <remote-alias>Curve</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Dribbling</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Dribbling]</local-name>
+            <parent-name>[PlayerAttributeData.csv]</parent-name>
+            <remote-alias>Dribbling</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Finishing</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Finishing]</local-name>
+            <parent-name>[PlayerAttributeData.csv]</parent-name>
+            <remote-alias>Finishing</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Free kick accuracy</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Free kick accuracy]</local-name>
+            <parent-name>[PlayerAttributeData.csv]</parent-name>
+            <remote-alias>Free kick accuracy</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>GK diving</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[GK diving]</local-name>
+            <parent-name>[PlayerAttributeData.csv]</parent-name>
+            <remote-alias>GK diving</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>GK handling</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[GK handling]</local-name>
+            <parent-name>[PlayerAttributeData.csv]</parent-name>
+            <remote-alias>GK handling</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>GK kicking</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[GK kicking]</local-name>
+            <parent-name>[PlayerAttributeData.csv]</parent-name>
+            <remote-alias>GK kicking</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>GK positioning</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[GK positioning]</local-name>
+            <parent-name>[PlayerAttributeData.csv]</parent-name>
+            <remote-alias>GK positioning</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>GK reflexes</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[GK reflexes]</local-name>
+            <parent-name>[PlayerAttributeData.csv]</parent-name>
+            <remote-alias>GK reflexes</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Heading accuracy</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Heading accuracy]</local-name>
+            <parent-name>[PlayerAttributeData.csv]</parent-name>
+            <remote-alias>Heading accuracy</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ID</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[ID (PlayerAttributeData.csv)]</local-name>
+            <parent-name>[PlayerAttributeData.csv]</parent-name>
+            <remote-alias>ID</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Interceptions</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Interceptions]</local-name>
+            <parent-name>[PlayerAttributeData.csv]</parent-name>
+            <remote-alias>Interceptions</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Jumping</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Jumping]</local-name>
+            <parent-name>[PlayerAttributeData.csv]</parent-name>
+            <remote-alias>Jumping</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Long passing</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Long passing]</local-name>
+            <parent-name>[PlayerAttributeData.csv]</parent-name>
+            <remote-alias>Long passing</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Long shots</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Long shots]</local-name>
+            <parent-name>[PlayerAttributeData.csv]</parent-name>
+            <remote-alias>Long shots</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Marking</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Marking]</local-name>
+            <parent-name>[PlayerAttributeData.csv]</parent-name>
+            <remote-alias>Marking</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Penalties</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Penalties]</local-name>
+            <parent-name>[PlayerAttributeData.csv]</parent-name>
+            <remote-alias>Penalties</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Positioning</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Positioning]</local-name>
+            <parent-name>[PlayerAttributeData.csv]</parent-name>
+            <remote-alias>Positioning</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Reactions</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Reactions]</local-name>
+            <parent-name>[PlayerAttributeData.csv]</parent-name>
+            <remote-alias>Reactions</remote-alias>
+            <ordinal>41</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Short passing</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Short passing]</local-name>
+            <parent-name>[PlayerAttributeData.csv]</parent-name>
+            <remote-alias>Short passing</remote-alias>
+            <ordinal>42</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Shot power</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Shot power]</local-name>
+            <parent-name>[PlayerAttributeData.csv]</parent-name>
+            <remote-alias>Shot power</remote-alias>
+            <ordinal>43</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sliding tackle</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Sliding tackle]</local-name>
+            <parent-name>[PlayerAttributeData.csv]</parent-name>
+            <remote-alias>Sliding tackle</remote-alias>
+            <ordinal>44</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sprint speed</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Sprint speed]</local-name>
+            <parent-name>[PlayerAttributeData.csv]</parent-name>
+            <remote-alias>Sprint speed</remote-alias>
+            <ordinal>45</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Stamina</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Stamina]</local-name>
+            <parent-name>[PlayerAttributeData.csv]</parent-name>
+            <remote-alias>Stamina</remote-alias>
+            <ordinal>46</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Standing tackle</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Standing tackle]</local-name>
+            <parent-name>[PlayerAttributeData.csv]</parent-name>
+            <remote-alias>Standing tackle</remote-alias>
+            <ordinal>47</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Strength</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Strength]</local-name>
+            <parent-name>[PlayerAttributeData.csv]</parent-name>
+            <remote-alias>Strength</remote-alias>
+            <ordinal>48</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Vision</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Vision]</local-name>
+            <parent-name>[PlayerAttributeData.csv]</parent-name>
+            <remote-alias>Vision</remote-alias>
+            <ordinal>49</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Volleys</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Volleys]</local-name>
+            <parent-name>[PlayerAttributeData.csv]</parent-name>
+            <remote-alias>Volleys</remote-alias>
+            <ordinal>50</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <column datatype='integer' name='[Acceleration]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Aggression]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Agility]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Balance]' role='measure' type='quantitative' />
+      <column datatype='string' name='[Club]' role='dimension' type='nominal' />
+      <column datatype='integer' name='[ID (PlayerAttributeData.csv)]' role='dimension' type='ordinal' />
+      <column datatype='integer' name='[ID]' role='dimension' type='ordinal' />
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column datatype='integer' name='[Stamina]' role='measure' type='quantitative' />
+      <column datatype='string' name='[Wage]' role='dimension' type='nominal' />
+      <column-instance column='[Acceleration]' derivation='Avg' name='[avg:Acceleration:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Club]' derivation='None' name='[none:Club:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Wage]' derivation='None' name='[none:Wage:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Acceleration]' derivation='Sum' name='[sum:Acceleration:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Aggression]' derivation='Sum' name='[sum:Aggression:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Agility]' derivation='Sum' name='[sum:Agility:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Balance]' derivation='Sum' name='[sum:Balance:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Stamina]' derivation='Sum' name='[sum:Stamina:qk]' pivot='key' type='quantitative' />
+      <group hidden='true' name='[Exclusions (Club,Wage)]' name-style='unqualified' user:auto-column='exclude'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[none:Club:nk]' />
+          <groupfilter function='level-members' level='[none:Wage:nk]' />
+        </groupfilter>
+      </group>
+      <layout dim-ordering='alphabetic' dim-percentage='0.355502' measure-ordering='alphabetic' measure-percentage='0.644498' show-structure='true' user-set-layout='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Club:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;1. FSV Mainz 05&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Al Faisaly&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Atalanta&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Atlético Tucumán&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Bohemian FC&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Burton Albion&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;CD Once Caldas Manizales&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Clermont Foot 63&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Cork City&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Deportivo Alavés&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Estudiantes de La Plata&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;FC Helsingør&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;FC Sochaux-Montbéliard&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Forest Green&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Górnik Zabrze&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Hibernian&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Jaguares Fútbol Club&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;KRC Genk&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Lincoln City&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Minnesota Thunder&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Nîmes Olympique&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Oxford United&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Port Vale&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Real Betis Balompié&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;RSC Anderlecht&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;SC Fortuna Köln&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Silkeborg IF&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Sporting Charleroi&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;SV Mattersburg&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Tottenham Hotspur&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Vålerenga Fotball&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Waasland-Beveren&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;AFC Wimbledon&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Albirex Niigata&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Arsenal&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Athletic Club de Bilbao&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Benevento Calcio&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Brighton &amp; Hove Albion&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;CD Aves&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Charlton Athletic&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Clube Atlético Paranaense&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;CS Marítimo&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Dundee FC&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;FC Barcelona&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;FC Paços de Ferreira&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Feyenoord&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;GFC Ajaccio&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Hamilton Academical FC&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Incheon United FC&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;KAS Eupen&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Lech Poznań&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Mansfield Town&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Necaxa&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Olympique de Marseille&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Perugia&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Rayo Vallecano&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Roma&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Sangju Sangmu FC&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;SG Dynamo Dresden&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;SønderjyskE&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Stade Rennais FC&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Termalica Bruk-Bet Nieciecza&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Unión Española&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Villarreal CF&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Wolfsberger AC&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;1. FC Köln&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Ajax&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Angers SCO&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Atlético Clube Goianiense&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Blackburn Rovers&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Brøndby IF&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;CD Los Millionarios Bogota&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Chesterfield&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Colorado Rapids&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Daegu FC&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;En Avant de Guingamp&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;FC Carl Zeiss Jena&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;FC Schalke 04&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;FK Haugesund&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Gimnàstic de Tarragona&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Heart of Midlothian&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Inter&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Kawasaki Frontale&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Leicester City&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Middlesbrough&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Newcastle Jets&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Orlando City Soccer Club&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Piast Gliwice&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;RC Lens&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Rot-Weiß Erfurt&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;São Paulo Futebol Clube&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Sheffield United&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Sparta Rotterdam&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Strømsgodset IF&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Tigres U.A.N.L.&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;US Orléans Loiret Football&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Vitória&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Yeovil Town&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Aberdeen&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Al Ittihad&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;AS Nancy Lorraine&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;AZ Alkmaar&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Borussia Mönchengladbach&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Cádiz C.F.&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Celtic&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Club Atlético Lanús&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Cracovia&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Derry City&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Evkur Yeni Malatyaspor&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;FC Lausanne-Sports&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;FC Tosno&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Fulham&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Grêmio Foot-Ball Porto Alegrense&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Holstein Kiel&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Jönköpings Södra IF&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;KV Oostende&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Lorca Deportiva CF&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Montpellier Hérault SC&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Notts County&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;PAOK Thessaloniki&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Preston North End&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Real Sociedad&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Sampdoria&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;SC Preußen Münster&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;SK Sturm Graz&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;SpVgg Greuther Fürth&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;SV Werder Bremen&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Tromsø IL&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Ventforet Kofu&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Werder Bremen II&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Aalborg BK&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Al Fateh&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Arsenal de Sarandí&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Audax Italiano&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Bologna&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Bury&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;CD Palestino&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Club América&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Corporación Club Deportivo Tuluá&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Deportivo Pasto&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Ettifaq FC&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;FC Ingolstadt 04&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;FC St. Gallen&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Fortuna Düsseldorf&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Göztepe&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;HJK Helsinki&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Jeju United FC&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Kristiansund BK&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Liverpool&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Molde FK&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Northampton Town&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Pachuca&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Portimonense SC&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Real Madrid CF&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Rubin Kazan&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;SC Freiburg&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Sint-Truidense VV&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Sporting CP&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;SV Meppen&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Toulouse FC&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Vancouver Whitecaps FC&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Walsall&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;1. FC Magdeburg&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Akhisar Belediyespor&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Antalyaspor&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Atlético Huila&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Blackpool&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;BSC Young Boys&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;CD Lugo&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Chicago Fire Soccer Club&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Columbus Crew SC&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Defensa y Justicia&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Envigado FC&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;FC Dallas&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;FC Seoul&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Fleetwood Town&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Girona CF&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Hellas Verona&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Ipswich Town&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Kayserispor&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Levante UD&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Milan&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Newcastle United&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Orlando Pirates&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Plymouth Argyle&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;RC Strasbourg&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Rotherham United&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Sarpsborg 08 FF&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Sheffield Wednesday&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Spartak Moscow&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Sunderland&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Tondela&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;US Quevilly-Rouen&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Vitória Guimarães&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Yokohama F. Marinos&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;ADO Den Haag&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Alanyaspor&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Aston Villa&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Bayer 04 Leverkusen&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Brentford&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;CD America de Cali&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Chacarita Juniors&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Club Tijuana&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Cruzeiro&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;DSC Arminia Bielefeld&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;FC Anzhi Makhachkala&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;FC Nantes&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Fenerbahçe SK&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Genoa&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Halmstads BK&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;IFK Norrköping&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Kardemir Karabükspor&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Lazio&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Manchester City&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;NAC Breda&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Oldham Athletic&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;PEC Zwolle&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Randers FC&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Rochdale&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Sandefjord Fotball&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Sevilla Atlético&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Sociedade Esportiva Palmeiras&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Stade Brestois 29&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Temperley&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Ulsan Hyundai Horang-i&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;VfR Aalen&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Wisła Kraków&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>%null%</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Águilas Doradas&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Alianza Petrolera&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Atiker Konyaspor&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Beşiktaş JK&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Brisbane Roar&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;CD Feirense&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Chelsea&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Colchester United&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;CSKA Moscow&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Eintracht Braunschweig&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;FC Barcelona B&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;FC Porto&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Finn Harps&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;GIF Sundsvall&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Hammarby IF&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Independiente&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Kashima Antlers&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Lechia Gdańsk&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Medicana Sivasspor&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;New England Revolution&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Olympique Lyonnais&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Pescara&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;RB Leipzig&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Rosario Central&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Santiago Wanderers&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;SG Sonnenhof Großaspach&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Southampton&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Standard de Liège&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Ternana&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Universidad Católica&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Virtus Entella&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Wolverhampton Wanderers&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;AD Alcorcón&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Al Shabab&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Associação Atlética Ponte Preta&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Barnet&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Bradford City&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Carlisle United&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;CF Os Belenenses&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Club de Deportes Temuco&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Crotone&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Doncaster Rovers&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;F.C. Tokyo&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;FC Metz&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;FC Utrecht&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Gangwon FC&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;GwangJu FC&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;IF Elfsborg&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Kaizer Chiefs&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;La Spezia&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Málaga CF&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Motherwell&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;OGC Nice&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Partick Thistle F.C.&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Querétaro&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Rio Ave FC&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;San Martín de San Juan&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;SD Huesca&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Sligo Rovers&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;St. Patrick&apos;s Athletic&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Sydney FC&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;UD Las Palmas&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;VfL Osnabrück&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Wigan Athletic&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;1. FC Nürnberg&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Al Ahli&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Argentinos Juniors&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Atlético Madrid&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Boavista FC&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Burnley&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;CD Numancia&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Chievo Verona&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Córdoba CF&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Deportes Iquique&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;ES Troyes AC&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;FC Erzgebirge Aue&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;FC Sion&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Fluminense Football Club&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Girondins de Bordeaux&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Heracles Almelo&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;İstanbul Başakşehir FK&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Kilmarnock&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Lillestrøm SK&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Millwall&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Newell&apos;s Old Boys&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Osmanlıspor&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Pogoń Szczecin&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;RCD Espanyol&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Royal Antwerp FC&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Sassuolo&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Shimizu S-Pulse&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Sport Club do Recife&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Suwon Samsung Bluewings&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Torino&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Valencia CF&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Vitória Setúbal&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Zagłębie Lubin&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;AC Ajaccio&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Al Nassr&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;AS Saint-Étienne&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Bahía Blanca&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Botafogo de Futebol e Regatas&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Cagliari&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Central Coast Mariners&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Club Atlético Patronato&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Crawley Town&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Dijon FCO&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Excelsior&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;FC Lorient&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;FC Twente&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Galatasaray SK&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Grimsby Town&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Houston Dynamo&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Júbilo Iwata&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;La Berrichonne de Châteauroux&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;LOSC Lille&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Montreal Impact&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Novara&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Paris FC&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;PSV&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Real Sporting de Gijón&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;San Jose Earthquakes&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;SCR Altach&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;SKN St. Pölten&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;SpVgg Unterhaching&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;SV Zulte-Waregem&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;TSG 1899 Hoffenheim&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Vercelli&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;West Bromwich Albion&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;AC Horsens&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Al Qadisiyah&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Ascoli&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Banfield&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Bourg en Bresse Péronnas 01&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Cambridge United&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Cerezo Osaka&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Club Atlético Tigre&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Cremonese&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Dinamo Moscow&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Exeter City&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;FC Lugano&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;FC Ufa&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Galway United&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Grupo Desportivo de Chaves&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Huddersfield Town&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Juventus&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;La Equidad&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Luton Town&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Morecambe&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Odds BK&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Paris Saint-Germain&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Puebla&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Real Valladolid&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;San Lorenzo de Almagro&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Scunthorpe United&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;SL Benfica&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;SSV Jahn Regensburg&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Swansea City&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;U.N.A.M.&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;VfB Stuttgart&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;West Ham United&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Adelaide United&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Al Taawoun&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Associação Chapecoense de Futebol&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Barnsley&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Bray Wanderers&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Carpi&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;CF Reus Deportiu&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Club León&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Cruz Azul&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Drogheda United&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;FC Admira Wacker Mödling&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;FC Midtjylland&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;FC Zürich&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Gençlerbirliği SK&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Hallescher FC&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;IFK Göteborg&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Kalmar FF&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;LASK Linz&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Malmö FF&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;MSV Duisburg&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Ohod Club&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Patriotas Boyacá FC&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Racing Club de Avellaneda&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;River Plate&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Sandecja Nowy Sącz&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Seattle Sounders FC&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;SM Caen&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Stabæk Fotball&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Talleres de Cordoba&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Udinese&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;VfL Wolfsburg&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Willem II&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;AEK Athens&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;AFC Eskilstuna&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Albacete Balompié&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Belgrano de Córdoba&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Brescia&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;CD Antofagasta&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Chamois Niortais FC&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Clube Atlético Mineiro&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Crystal Palace&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Dundalk&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;FC Augsburg&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;FC Nordsjælland&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Ferrara (SPAL)&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Getafe CF&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Hamburger SV&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;IK Sirius&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Karlsruher SC&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Le Havre AC&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Manchester United&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Napoli&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Olympiakos CFP&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Perth Glory&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Rangers&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Roda JC Kerkrade&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Sanfrecce Hiroshima&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Sevilla FC&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Sogndal&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Stade de Reims&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Terek Grozny&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Unión de Santa Fe&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Viking FK&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Wisła Płock&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Aalesunds FK&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Al Fayha&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Arsenal Tula&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Avaí Futebol Clube&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Bolton Wanderers&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;C.D. Leonesa S.A.D.&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;CD Tenerife&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Club Atlas&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Coventry City&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Deportivo Toluca&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Everton&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;FC København&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;FC St. Pauli&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Frosinone&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Granada CF&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Hobro IK&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Jeonbuk Hyundai Motors&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;KV Kortrijk&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Lobos de la BUAP&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Monarcas Morelia&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Norwich City&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Palermo&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Portland Timbers&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Real Oviedo&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Sagan Tosu&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;SC Heerenveen&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;SK Brann&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Sporting Kansas City&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;SV Sandhausen&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Tours FC&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Vegalta Sendai&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Watford&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;1. FC Union Berlin&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Al Batin&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Arka Gdynia&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Atletico Nacional Medellin&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Boca Juniors&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Bursaspor&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;CD O&apos;Higgins&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Cittadella&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Coritiba Foot Ball Club&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Deportes Tolima&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Estoril Praia&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;FC Groningen&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;FC SKA-Energiya Khabarovsk&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Foggia&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Godoy Cruz&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Hertha BSC Berlin&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Jagiellonia Białystok&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Korona Kielce&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Limerick FC&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Milton Keynes Dons&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Newport County&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Östersunds FK&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Pohang Steelers&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Reading&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Royal Excel Mouscron&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;SC Braga&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Shrewsbury&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Sportfreunde Lotte&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;SV Darmstadt 98&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Toronto FC&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Valenciennes FC&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;VVV-Venlo&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Zenit St. Petersburg&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;1. FC Heidenheim&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;AIK Solna&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Amiens SC Football&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Atlanta United FC&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Birmingham City&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Bristol City&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;CD Huachipato&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Cheltenham Town&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Colo-Colo&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Curicó Unido&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Eintracht Frankfurt&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;FC Basel&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;FC Red Bull Salzburg&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Fiorentina&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Gillingham&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Hannover 96&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Independiente Medellín&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Kashiwa Reysol&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Leeds United&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Melbourne City&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;New York City Football Club&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Omiya Ardija&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Peterborough United&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;RC Celta de Vigo&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Rosenborg BK&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Santos Futebol Clube&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Shakhtar Donetsk&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Southend United&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Stevenage&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Tiburones Rojos de Veracruz&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Universidad de Chile&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Vissel Kobe&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Würzburger FV&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Accrington Stanley&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Al Raed&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Asociacion Deportivo Cali&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Bari&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Bournemouth&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Cardiff City&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Cesena&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Club Brugge KV&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Crewe Alexandra&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Djurgårdens IF&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;F.B.C. Unione Venezia&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;FC Luzern&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;FC Ural&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Gamba Osaka&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Guadalajara&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Hull City&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;KAA Gent&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;LA Galaxy&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Lyngby BK&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Moreirense FC&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Odense Boldklub&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Parma&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Queens Park Rangers&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Real Zaragoza&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;San Luis de Quillota&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;SD Eibar&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Śląsk Wrocław&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;St. Johnstone FC&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Swindon Town&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;UD Almería&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;VfL Bochum&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Western Sydney Wanderers&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Aarhus GF&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Al Hilal&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;AS Monaco&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Avellino&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Borussia Dortmund&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;CA Osasuna&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;CD Universidad de Concepción&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Club Atlético Huracán&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;CPD Junior Barranquilla&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Derby County&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Everton de Viña del Mar&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;FC Krasnodar&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;FC Thun&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;FSV Zwickau&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Grasshopper Club Zürich&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Hokkaido Consadole Sapporo&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Jeonnam Dragons&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;KV Mechelen&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Lokomotiv Moscow&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Monterrey&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Nottingham Forest&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Panathinaikos FC&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Portsmouth&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Real Salt Lake&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Salernitana&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;SC Paderborn 07&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;SK Rapid Wien&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Sporting Lokeren&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;SV Wehen Wiesbaden&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Trabzonspor&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Vélez Sarsfield&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Wellington Phoenix&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;1. FC Kaiserslautern&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;AJ Auxerre&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Amkar Perm&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Atlético Bucaramanga&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;BK Häcken&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Bristol Rovers&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;CD Leganés&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Chemnitzer FC&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Colon de Santa Fe&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;D.C. United&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Empoli&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;FC Bayern Munich&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;FC Rostov&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;FK Austria Wien&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Gimnasia y Esgrima La Plata&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Hansa Rostock&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Independiente Santa Fe&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Kasimpaşa SK&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Legia Warszawa&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Melbourne Victory&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;New York Red Bulls&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Örebro SK&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Philadelphia Union&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;RC Deportivo de La Coruña&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Ross County FC&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Santos Laguna&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Shamrock Rovers&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Sparta Praha&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Stoke City&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Tigres FC&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Urawa Red Diamonds&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Vitesse&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Wycombe Wanderers&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1oamg9i0g2dpvq1e8o0px0x7l4ck].[avg:Acceleration:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1oamg9i0g2dpvq1e8o0px0x7l4ck].[sum:Acceleration:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.1oamg9i0g2dpvq1e8o0px0x7l4ck].[sum:Stamina:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.1oamg9i0g2dpvq1e8o0px0x7l4ck].[sum:Balance:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.1oamg9i0g2dpvq1e8o0px0x7l4ck].[sum:Agility:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.1oamg9i0g2dpvq1e8o0px0x7l4ck].[sum:Aggression:qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Age and Potential'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='PlayerPersonalData+' name='federated.1oamg9i0g2dpvq1e8o0px0x7l4ck' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1oamg9i0g2dpvq1e8o0px0x7l4ck'>
+            <column datatype='integer' name='[Age]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Potential]' role='measure' type='quantitative' />
+            <column-instance column='[Potential]' derivation='Avg' name='[avg:Potential:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Age]' derivation='None' name='[none:Age:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.1oamg9i0g2dpvq1e8o0px0x7l4ck].[avg:Potential:qk]</rows>
+        <cols>[federated.1oamg9i0g2dpvq1e8o0px0x7l4ck].[none:Age:qk]</cols>
+      </table>
+    </worksheet>
+    <worksheet name='Average Acceleration Nationality'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='PlayerPersonalData+' name='federated.1oamg9i0g2dpvq1e8o0px0x7l4ck' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1oamg9i0g2dpvq1e8o0px0x7l4ck'>
+            <column datatype='integer' name='[Acceleration]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Nationality]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+              <calculation class='tableau' formula='1' />
+            </column>
+            <column-instance column='[Acceleration]' derivation='Avg' name='[avg:Acceleration:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Nationality]' derivation='None' name='[none:Nationality:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Number of Records]' derivation='Sum' name='[sum:Number of Records:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <sort class='computed' column='[federated.1oamg9i0g2dpvq1e8o0px0x7l4ck].[none:Nationality:nk]' direction='DESC' using='[federated.1oamg9i0g2dpvq1e8o0px0x7l4ck].[avg:Acceleration:qk]' />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+          </pane>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.1oamg9i0g2dpvq1e8o0px0x7l4ck].[avg:Acceleration:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+          </pane>
+          <pane id='4' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.1oamg9i0g2dpvq1e8o0px0x7l4ck].[sum:Number of Records:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+          </pane>
+        </panes>
+        <rows>[federated.1oamg9i0g2dpvq1e8o0px0x7l4ck].[none:Nationality:nk]</rows>
+        <cols>([federated.1oamg9i0g2dpvq1e8o0px0x7l4ck].[avg:Acceleration:qk] + [federated.1oamg9i0g2dpvq1e8o0px0x7l4ck].[sum:Number of Records:qk])</cols>
+      </table>
+    </worksheet>
+    <worksheet name='Average Long Passing Nationality'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='PlayerPersonalData+' name='federated.1oamg9i0g2dpvq1e8o0px0x7l4ck' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1oamg9i0g2dpvq1e8o0px0x7l4ck'>
+            <column datatype='integer' name='[Long passing]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Nationality]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+              <calculation class='tableau' formula='1' />
+            </column>
+            <column-instance column='[Long passing]' derivation='Avg' name='[avg:Long passing:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Nationality]' derivation='None' name='[none:Nationality:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Number of Records]' derivation='Sum' name='[sum:Number of Records:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <sort class='computed' column='[federated.1oamg9i0g2dpvq1e8o0px0x7l4ck].[none:Nationality:nk]' direction='DESC' using='[federated.1oamg9i0g2dpvq1e8o0px0x7l4ck].[avg:Long passing:qk]' />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1oamg9i0g2dpvq1e8o0px0x7l4ck].[avg:Long passing:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1oamg9i0g2dpvq1e8o0px0x7l4ck].[sum:Number of Records:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+          </pane>
+        </panes>
+        <rows>([federated.1oamg9i0g2dpvq1e8o0px0x7l4ck].[avg:Long passing:qk] + [federated.1oamg9i0g2dpvq1e8o0px0x7l4ck].[sum:Number of Records:qk])</rows>
+        <cols>[federated.1oamg9i0g2dpvq1e8o0px0x7l4ck].[none:Nationality:nk]</cols>
+      </table>
+    </worksheet>
+    <worksheet name='Club Aggression'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='PlayerPersonalData+' name='federated.1oamg9i0g2dpvq1e8o0px0x7l4ck' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1oamg9i0g2dpvq1e8o0px0x7l4ck'>
+            <column datatype='integer' name='[Aggression]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Club]' role='dimension' type='nominal' />
+            <column-instance column='[Club]' derivation='None' name='[none:Club:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Aggression]' derivation='Sum' name='[sum:Aggression:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1oamg9i0g2dpvq1e8o0px0x7l4ck].[none:Club:nk]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:Club:nk]' />
+              <groupfilter function='member' level='[none:Club:nk]' member='%null%' />
+            </groupfilter>
+          </filter>
+          <sort class='computed' column='[federated.1oamg9i0g2dpvq1e8o0px0x7l4ck].[none:Club:nk]' direction='DESC' using='[federated.1oamg9i0g2dpvq1e8o0px0x7l4ck].[sum:Aggression:qk]' />
+          <slices>
+            <column>[federated.1oamg9i0g2dpvq1e8o0px0x7l4ck].[none:Club:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.1oamg9i0g2dpvq1e8o0px0x7l4ck].[none:Club:nk]</rows>
+        <cols>[federated.1oamg9i0g2dpvq1e8o0px0x7l4ck].[sum:Aggression:qk]</cols>
+      </table>
+    </worksheet>
+    <worksheet name='Potential and Overall Ability'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='PlayerPersonalData+' name='federated.1oamg9i0g2dpvq1e8o0px0x7l4ck' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1oamg9i0g2dpvq1e8o0px0x7l4ck'>
+            <column datatype='string' name='[Name]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Overall]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Potential]' role='measure' type='quantitative' />
+            <column-instance column='[Overall]' derivation='Avg' name='[avg:Overall:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Potential]' derivation='Avg' name='[avg:Potential:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Name]' derivation='None' name='[none:Name:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <sort class='computed' column='[federated.1oamg9i0g2dpvq1e8o0px0x7l4ck].[none:Name:nk]' direction='DESC' using='[federated.1oamg9i0g2dpvq1e8o0px0x7l4ck].[avg:Potential:qk]' />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.1oamg9i0g2dpvq1e8o0px0x7l4ck].[avg:Potential:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.1oamg9i0g2dpvq1e8o0px0x7l4ck].[avg:Overall:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.1oamg9i0g2dpvq1e8o0px0x7l4ck].[none:Name:nk]</rows>
+        <cols>([federated.1oamg9i0g2dpvq1e8o0px0x7l4ck].[avg:Potential:qk] + [federated.1oamg9i0g2dpvq1e8o0px0x7l4ck].[avg:Overall:qk])</cols>
+      </table>
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' name='Potential and Overall Ability'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1oamg9i0g2dpvq1e8o0px0x7l4ck].[none:Name:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+    </window>
+    <window class='worksheet' name='Club Aggression'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <selection-collection>
+          <tuple-selection>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1oamg9i0g2dpvq1e8o0px0x7l4ck].[sum:Aggression:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1oamg9i0g2dpvq1e8o0px0x7l4ck].[none:Club:nk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1oamg9i0g2dpvq1e8o0px0x7l4ck].[none:Club:nk]</field>
+                  <field>[federated.1oamg9i0g2dpvq1e8o0px0x7l4ck].[sum:Aggression:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>%null%</value>
+                <value>13576</value>
+              </tuple>
+            </tuple-reference>
+          </tuple-selection>
+        </selection-collection>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1oamg9i0g2dpvq1e8o0px0x7l4ck].[:Measure Names]</field>
+            <field>[federated.1oamg9i0g2dpvq1e8o0px0x7l4ck].[none:Club:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+    </window>
+    <window class='worksheet' name='Average Acceleration Nationality'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1oamg9i0g2dpvq1e8o0px0x7l4ck].[none:Club:nk]</field>
+            <field>[federated.1oamg9i0g2dpvq1e8o0px0x7l4ck].[none:Nationality:nk]</field>
+            <field>[federated.1oamg9i0g2dpvq1e8o0px0x7l4ck].[none:Wage:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+    </window>
+    <window class='worksheet' name='Average Long Passing Nationality'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1oamg9i0g2dpvq1e8o0px0x7l4ck].[none:Club:nk]</field>
+            <field>[federated.1oamg9i0g2dpvq1e8o0px0x7l4ck].[none:Name:nk]</field>
+            <field>[federated.1oamg9i0g2dpvq1e8o0px0x7l4ck].[none:Nationality:nk]</field>
+            <field>[federated.1oamg9i0g2dpvq1e8o0px0x7l4ck].[none:Wage:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+    </window>
+    <window class='worksheet' maximized='true' name='Age and Potential'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Age and Potential' width='192'>
+      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
+      AAAASUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='192' name='Average Acceleration Nationality' width='192'>
+      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
+      rkJggg==
+    </thumbnail>
+    <thumbnail height='192' name='Average Long Passing Nationality' width='192'>
+      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
+      gg==
+    </thumbnail>
+    <thumbnail height='192' name='Club Aggression' width='192'>
+      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
+      mE7o/+X/B4sc5MSiyPHVAAAAAElFTkSuQmCC
+    </thumbnail>
+    <thumbnail height='192' name='Potential and Overall Ability' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
