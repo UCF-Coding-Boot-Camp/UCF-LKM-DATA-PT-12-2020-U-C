@@ -1218,7 +1218,7 @@ The recording only contains the homework solutions.
 
 <br/>
 
-<details open><summary><strong>Module 18 - Intro to R and Project 2 Work</strong></summary>
+<details><summary><strong>Module 18 - Intro to R and Project 2 Work</strong></summary>
 
 ### [18-1 Intro to R (and Project 2 Work)](https://zoom.us/rec/share/AK4t1xAeK7eejOM7dC_OskO2pmHlJrblO87sqBlTVFZG_pw6k3x4OTgzg0gzAuE.Va88crtLtjNvBD_i)
 
@@ -1268,7 +1268,7 @@ No recording today.
 
 </details>
 
-<details><summary><strong>Module 19 - Project 2 Work</strong></summary>
+<details open><summary><strong>Module 19 - Project 2 Work</strong></summary>
 
 ### 19-1 Project 2 Work
 
@@ -1294,9 +1294,15 @@ No recording today.
 - After Class
   - Open Office Hours
 
-### 19-3 Project 2 Presentations
+### [19-3 Project 2 Presentations](https://zoom.us/rec/share/XXQxEKCSYVxyON0Uzn-v3OKMibxPGZDlqhffQYFC8kdJmL4jnW9re1_CbStxLy2n.xFPPMJsAJRkqdPo1)
 
-- Tableau installs after presentations
+- Presentation Recordings:
+  - [Brook Miller, Candi Shanks, Gregory Brown](https://zoom.us/rec/share/7D4KNdp8j0J_qyLMUCQHI2QIq8147sj8gi7xfGVo3Z1l28cZx9-sjViCUXKVABJH.JPpJdbALh0ReMkvS?startTime=1619736084000)
+  - [Altricia Latimer, Christina Gangi, JJ Williams, Sam Azhari](https://zoom.us/rec/share/7D4KNdp8j0J_qyLMUCQHI2QIq8147sj8gi7xfGVo3Z1l28cZx9-sjViCUXKVABJH.JPpJdbALh0ReMkvS?startTime=1619736912000)
+  - [Howard Mayorga, Ian Correa, Kim Sommer, Stephanie Rivas](https://zoom.us/rec/share/7D4KNdp8j0J_qyLMUCQHI2QIq8147sj8gi7xfGVo3Z1l28cZx9-sjViCUXKVABJH.JPpJdbALh0ReMkvS?startTime=1619737908000)
+  - [Alex Martinez, Corrie Thomas, Tabitha Head, Dan Larson](https://zoom.us/rec/share/7D4KNdp8j0J_qyLMUCQHI2QIq8147sj8gi7xfGVo3Z1l28cZx9-sjViCUXKVABJH.JPpJdbALh0ReMkvS?startTime=1619739729000)
+  - [Alciluz Gomez, Jose Robles, Phillip Ogborn](https://zoom.us/rec/share/7D4KNdp8j0J_qyLMUCQHI2QIq8147sj8gi7xfGVo3Z1l28cZx9-sjViCUXKVABJH.JPpJdbALh0ReMkvS?startTime=1619740963000)
+- [Tableau installs after presentations + Questions](https://zoom.us/rec/share/7D4KNdp8j0J_qyLMUCQHI2QIq8147sj8gi7xfGVo3Z1l28cZx9-sjViCUXKVABJH.JPpJdbALh0ReMkvS?startTime=1619742155000)
 
 _No office hours today, enjoy your break!_
 (If there are questions we're happy to stay if needed.)
@@ -1309,11 +1315,11 @@ _No office hours today, enjoy your break!_
 
 ## <!-- 20 Tableau -->
 
-<details><summary><em>Module 20: Dashboarding Software</em></summary>
+<details open><summary><em>Module 20: Dashboarding Software</em></summary>
 
 <br/>
 
-<details><summary><strong>Module 20 - Tableau</strong></summary>
+<details open><summary><strong>Module 20 - Tableau</strong></summary>
 
 ### 20-1 Intro to Tableau
 
