@@ -1272,6 +1272,8 @@ No recording today.
 
 ### 19-1 Project 2 Work
 
+No recording today.
+
 - During Class
   - Open Office Hours
 
@@ -1284,8 +1286,10 @@ No recording today.
 
 ### 19-2 Project 2 Work
 
+No recording today.
+
 - During Class
-  - 15 Plotly (Interactive Plotting) Homework Solution
+  - Open Office Hours
 
 ##### 19-2 Additional Material
 
