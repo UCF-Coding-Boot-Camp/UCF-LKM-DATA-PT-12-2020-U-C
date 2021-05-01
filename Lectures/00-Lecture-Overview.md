@@ -1327,6 +1327,12 @@ _No office hours today, enjoy your break!_
 
 ### 20-1 Intro to Tableau
 
+[Full Zoom Recording](https://zoom.us/rec/share/7V_QnU1sdAgR1Aq0tiPp0zh0L2dl-buTGR03Dqw3v6gDMt8t4v5iaDdPw2qKrePf.a9LjOkKxGWxzeDlR)
+
+Accidentally broke the lecture recording into two files:
+* [First 40m of class](https://zoom.us/rec/share/bOo4vrLddW-aUfhkzceGYgzyFf5-BNMns3cv3rg1qPs62X1pAQdkGhaLXaCqb1PL.1SGtwvrbACFPyy-8?startTime=1619874663000)
+* [Rest of class](https://zoom.us/rec/share/bOo4vrLddW-aUfhkzceGYgzyFf5-BNMns3cv3rg1qPs62X1pAQdkGhaLXaCqb1PL.1SGtwvrbACFPyy-8?startTime=1619877609000)
+
 - Loading data into Tableau
 - Building basic visualizations
   - Dimensions
@@ -1341,7 +1347,7 @@ _No office hours today, enjoy your break!_
 ##### 20-1 Additional Coverage
 
 - After class
-  - Tableau Homework Help 1/3
+  - [Tableau Homework Help 1/3](https://zoom.us/rec/share/bOo4vrLddW-aUfhkzceGYgzyFf5-BNMns3cv3rg1qPs62X1pAQdkGhaLXaCqb1PL.1SGtwvrbACFPyy-8?startTime=1619887312000)
 
 ### 20-2 Calculations and Grouping in Tableau
 
@@ -1354,7 +1360,7 @@ _No office hours today, enjoy your break!_
 
 - After class
   - Tableau Homework Help 2/3
-
+****
 ### 20-3 Dashboard A-Z
 
 - More practice with Tableau:
