@@ -1349,7 +1349,9 @@ Accidentally broke the lecture recording into two files:
 - After class
   - [Tableau Homework Help 1/3](https://zoom.us/rec/share/bOo4vrLddW-aUfhkzceGYgzyFf5-BNMns3cv3rg1qPs62X1pAQdkGhaLXaCqb1PL.1SGtwvrbACFPyy-8?startTime=1619887312000)
 
-### 20-2 Calculations and Grouping in Tableau
+### [20-2 Calculations and Grouping in Tableau](https://zoom.us/rec/share/uzlxVdG95ST4oak4ijovSR42c8bghVPnD1P38DBVaqV39BZxdQhnR1UECHJLM7Hv._sHBOxrG3tU7FIlx?startTime=1620167390000)
+
+[Full Zoom Recording](https://zoom.us/rec/share/RFIN0NMXciUnRFOlpB3T_YcQGOMboTy2puGJtjFkrlZmBHqgluJMXfGFPyC7BJPo.29Q8J2O6hRaMWI4t)
 
 - Groups and Sets
 - Calculations
@@ -1359,7 +1361,7 @@ Accidentally broke the lecture recording into two files:
 ##### 20-2 Additional Coverage
 
 - After class
-  - Tableau Homework Help 2/3
+  - [Tableau Homework Help 2/3](https://zoom.us/rec/share/uzlxVdG95ST4oak4ijovSR42c8bghVPnD1P38DBVaqV39BZxdQhnR1UECHJLM7Hv._sHBOxrG3tU7FIlx?startTime=1620178230000)
 ****
 ### 20-3 Dashboard A-Z
 
