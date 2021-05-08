@@ -1363,7 +1363,9 @@ Accidentally broke the lecture recording into two files:
 - After class
   - [Tableau Homework Help 2/3](https://zoom.us/rec/share/uzlxVdG95ST4oak4ijovSR42c8bghVPnD1P38DBVaqV39BZxdQhnR1UECHJLM7Hv._sHBOxrG3tU7FIlx?startTime=1620178230000)
 ****
-### 20-3 Dashboard A-Z
+### [20-3 Dashboard A-Z](https://zoom.us/rec/share/Y9vkvGoOv6P6TIkg8L1N41SOzWSlgrZn8Kpf_fTRS6hVcx-MAUzLDkT9Gz03E0A7.epz_S1JyqdxVXReW?startTime=1620340270000)
+
+[Full Zoom Recording](https://zoom.us/rec/share/CfK6wRpH_fHSnlkQFHgPoD23W9_Uy-ZXJT4X9WSfzk2xrMllEGswxyVoWa-I1vpU.xf5KE1jrqy1hynGQ)
 
 - More practice with Tableau:
   - More exploratory data analysis using Tableau.
@@ -1373,7 +1375,7 @@ Accidentally broke the lecture recording into two files:
 ##### 20-3 Additional Coverage
 
 - After class
-  - Tableau Homework Help 3/3
+  - [Tableau Homework Help 3/3](https://zoom.us/rec/share/Y9vkvGoOv6P6TIkg8L1N41SOzWSlgrZn8Kpf_fTRS6hVcx-MAUzLDkT9Gz03E0A7.epz_S1JyqdxVXReW?startTime=1620350783000)
 
 </details>
 
