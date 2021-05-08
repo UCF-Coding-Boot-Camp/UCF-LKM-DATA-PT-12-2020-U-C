@@ -1374,7 +1374,6 @@ Accidentally broke the lecture recording into two files:
 
 - After class
   - Tableau Homework Help 3/3
-  - 15 Plotly Homework Solution
 
 </details>
 
@@ -1402,8 +1401,7 @@ Accidentally broke the lecture recording into two files:
 - Before Class
   - Open Office Hours
 - After Class
-  - 21 Machine Learning Homework Help 1/3
-  - 16 D3 Homework Solution
+  - Open Office Hours
 
 ### 21-2 Fundamentals of Machine Learning Classification Algorithms
 
@@ -1421,8 +1419,8 @@ Accidentally broke the lecture recording into two files:
 - Before class
   - Open office hours
 - After class
-  - 21 Machine Learning Homework Help 2/3
-  - 17 Leaflet Homework Solution
+  - 21 Machine Learning Homework Help 1/2
+  - 15 Plotly Homework Solution
 
 ### 21-3 Intro to Unsupervised Machine Learning: Neural Networks and KMeans Clustering
 
@@ -1437,7 +1435,8 @@ Panopto recordings have sound issues today, zoom recording recommended.
 ##### 21-3 Additional Coverage
 
 - After class
-  - 21 Machine Learning Homework Help 3/3
+  - 21 Machine Learning Homework Help 2/2
+  - 16 D3 Homework Solution
 
 </details>
 
@@ -1457,7 +1456,7 @@ _Note:_ We will be using Google Colab notbooks to run these exercises. You may s
 - Before class:
   - Open office hours
 - After class:
-  - 20 Tableau Homework Solution
+  - 17 Leaflet Homework Solution
   - 22 Big Data Homework Help 1/3
 
 ### 22-2 NLP (Natural Language Processing)
@@ -1477,6 +1476,7 @@ _Note:_ We will be using Google Colab notbooks to run these exercises. You may s
 - Before class:
   - Open office hours
 - After class:
+  - 20 Tableau Homework Solution
   - 22 Big Data Homework Help 2/3
 
 ### 22-3 ETL ~~again~~ but this time in AWS
@@ -1491,6 +1491,7 @@ _Note:_ This lecture uses AWS resources that are free for the first year after y
 
 - After class
   - 22 Big Data Homework Help 3/3
+  - 21 ML Homework Solution
 
 </details>
 
@@ -1521,6 +1522,7 @@ _Note:_ This lecture uses AWS resources that are free for the first year after y
   - Open Office Hours
 - After class:
   - Open Office Hours
+  - 22 Big Data Homework Solution
 
 ### 23-2 Convolutional Neural Networks
 
@@ -1566,8 +1568,6 @@ _Note:_ This lecture uses AWS resources that are free for the first year after y
   - Open office hours
 - After class:
   - Open office hours
-  - 21 ML Homework Solution
-  - 22 Big Data Homework Solution
 
 ### 24-2 Final Project Work
 
