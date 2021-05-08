@@ -1319,11 +1319,11 @@ _No office hours today, enjoy your break!_
 
 ## <!-- 20 Tableau -->
 
-<details open><summary><em>Module 20: Dashboarding Software</em></summary>
+<details><summary><em>Module 20: Dashboarding Software</em></summary>
 
 <br/>
 
-<details open><summary><strong>Module 20 - Tableau</strong></summary>
+<details><summary><strong>Module 20 - Tableau</strong></summary>
 
 ### 20-1 Intro to Tableau
 
@@ -1385,13 +1385,13 @@ Accidentally broke the lecture recording into two files:
 
 ## <!-- 21-22 Machine Learning -->
 
-<details><summary><em>Module 21-22: Intro to Machine Learning, Big Data, and the Cloud</em></summary>
+<details open><summary><em>Module 21-22: Intro to Machine Learning, Big Data, and the Cloud</em></summary>
 
 <br/>
 
-<details><summary><strong>Module 21 - Intro to Machine Learning</strong></summary>
+<details open><summary><strong>Module 21 - Intro to Machine Learning</strong></summary>
 
-### 21-1 Regression with Machine Learning Using Linear Models
+### [21-1 Regression with Machine Learning Using Linear Models](https://zoom.us/rec/share/djoTHVXsfzlAvE8_VMm-1vMGbPAOOuhU5yrZuSXCwMMJADg9MHbTm4BIj5hzMRAq.TRtFwuFvWuMKS7bm)
 
 - Difference between linear and non-linear data
 - Using machine learning for regression analysis
