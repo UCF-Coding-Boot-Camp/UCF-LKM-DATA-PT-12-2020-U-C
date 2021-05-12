@@ -1405,7 +1405,9 @@ Accidentally broke the lecture recording into two files:
 - After Class
   - Open Office Hours
 
-### 21-2 Fundamentals of Machine Learning Classification Algorithms
+### [21-2 Fundamentals of Machine Learning Classification Algorithms](https://zoom.us/rec/share/lCNXmAewFCmGmjo1WdP9aM0MQqyeJTZ4fZW-hIwpQMML3q34qlUEB6wFrQBi_lbO.lRVg_4BCqTSHeYNf?startTime=1620772330000)
+
+[Full Zoom Recording](https://zoom.us/rec/share/cpwz0NUr1GZlIjX1YVeR4dvjoIrC-hlMz8r6EeWBApAnIbmhg0URGMFwzHVTnXpy.cHiP-TqP67Hgu1hz)
 
 - Classification Algorithms:
   - Logistic Regression
@@ -1421,8 +1423,8 @@ Accidentally broke the lecture recording into two files:
 - Before class
   - Open office hours
 - After class
-  - 21 Machine Learning Homework Help 1/2
-  - 15 Plotly Homework Solution
+  - [21 Machine Learning Homework Help 1/2](https://zoom.us/rec/share/lCNXmAewFCmGmjo1WdP9aM0MQqyeJTZ4fZW-hIwpQMML3q34qlUEB6wFrQBi_lbO.lRVg_4BCqTSHeYNf?startTime=1620783510000)
+  - [15 Plotly Homework Solution](https://zoom.us/rec/share/lCNXmAewFCmGmjo1WdP9aM0MQqyeJTZ4fZW-hIwpQMML3q34qlUEB6wFrQBi_lbO.lRVg_4BCqTSHeYNf?startTime=1620784296000)
 
 ### 21-3 Intro to Unsupervised Machine Learning: Neural Networks and KMeans Clustering
 
