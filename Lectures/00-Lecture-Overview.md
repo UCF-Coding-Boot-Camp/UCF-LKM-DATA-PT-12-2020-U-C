@@ -1428,8 +1428,6 @@ Accidentally broke the lecture recording into two files:
 
 ### 21-3 Intro to Unsupervised Machine Learning: Neural Networks and KMeans Clustering
 
-Panopto recordings have sound issues today, zoom recording recommended.
-
 - When to use neural networks
   - As opposed to tuning previously shown Algorithms
 - Deep Learning: Neural Networks versus Deep Neural Networks
