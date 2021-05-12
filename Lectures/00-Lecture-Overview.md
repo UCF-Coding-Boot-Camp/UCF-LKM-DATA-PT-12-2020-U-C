@@ -1446,7 +1446,7 @@ Accidentally broke the lecture recording into two files:
 
 ### 22-1 Introduction to Parallelized Processing with `mrjob`
 
-_Note:_ We will be using Google Colab notbooks to run these exercises. You may see ZEPL mentioned in the activities and homework, but we recommend using Google Colab instead. ZEPL is an alternative service for Spark notebooks, but we've found it to be a bit too temperamental for teaching.
+_Note:_ We will be using Google Colab notebooks to run these exercises. You may see ZEPL mentioned in the activities and homework, but we recommend using Google Colab instead. ZEPL is an alternative service for Spark notebooks, but we've found it to be a bit too temperamental for teaching.
 
 - Identify the pieces of the Hadoop ecosystem.
 - Identify the differences and similarities between Hadoop and Spark.
