@@ -1480,7 +1480,7 @@ _Note:_ We will be using Google Colab notebooks to run these exercises. You may 
 * Text processing in PySpark
   + tokenization
   + stop words
-  + n-grams
+  + n-grams - these are when you use `n` words per token instead of the default, `1`
   + term frequency
   + document frequency
 * Understand the steps in an NLP data processing pipeline (and build one ourselves!)
