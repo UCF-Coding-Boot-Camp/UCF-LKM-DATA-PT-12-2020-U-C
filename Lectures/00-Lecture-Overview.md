@@ -1473,7 +1473,9 @@ _Note:_ We will be using Google Colab notebooks to run these exercises. You may 
   + [17 Leaflet Homework Solution](https://zoom.us/rec/share/xYHFlFKhcHVrKLKfB4H-0BZ7I0Bvxn6z_0bnZV3jKcb6FyAxp1V38gA73BzIvdw.ZuBjP-X6I_D8oAe0?startTime=1621096684000)
   + [22 Big Data Homework Help 1/2](https://zoom.us/rec/share/xYHFlFKhcHVrKLKfB4H-0BZ7I0Bvxn6z_0bnZV3jKcb6FyAxp1V38gA73BzIvdw.ZuBjP-X6I_D8oAe0?startTime=1621097468000)
 
-### 22-2 NLP (Natural Language Processing)
+### [22-2 NLP (Natural Language Processing)](https://zoom.us/rec/share/NCLvv1NIyBXOk-xvdY40RNedUdMgi1zQbY93BAOEH7pFtUwy3tKb9Gdg0U0cR85s.j8vIImr3HL-WuEsE?startTime=1621377074000)
+
+[Full Zoom Recording](https://zoom.us/rec/share/tCvBadUwq3GVl1uIwgQt4ahuaqX_XB-VA8dZxHaOKpQ0FpsD8aEWw2VVsmcQNtt5.6uhAUsWsm8h6dvx_)
 
 * Why is NLP a necessary part of your big data toolkit?
 * Use PySpark DataFrames for NLP data processing.
@@ -1490,7 +1492,7 @@ _Note:_ We will be using Google Colab notebooks to run these exercises. You may 
 * Before class:
   + Open office hours
 * After class:
-  + 20 Tableau Homework Solution
+  + [20 Tableau Homework Solution](https://zoom.us/rec/share/NCLvv1NIyBXOk-xvdY40RNedUdMgi1zQbY93BAOEH7pFtUwy3tKb9Gdg0U0cR85s.j8vIImr3HL-WuEsE?startTime=1621388536000)
 
 ### 22-3 ETL ~~again~~ but this time in AWS
 
@@ -1498,7 +1500,7 @@ _Note:_ This lecture uses AWS resources that are free for the first year after y
 
 * AWS hosting - RDS (relational data services) and S3 buckets
   + Creating our own databases using AWS
-* ETL pipelines using cloud resources
+* Deploying an application with Heroku
 
 ##### 22-3 Additional Coverage
 
