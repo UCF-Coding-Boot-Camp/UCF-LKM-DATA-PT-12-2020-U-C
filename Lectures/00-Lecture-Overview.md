@@ -1494,19 +1494,24 @@ _Note:_ We will be using Google Colab notebooks to run these exercises. You may 
 * After class:
   + [20 Tableau Homework Solution](https://zoom.us/rec/share/NCLvv1NIyBXOk-xvdY40RNedUdMgi1zQbY93BAOEH7pFtUwy3tKb9Gdg0U0cR85s.j8vIImr3HL-WuEsE?startTime=1621388536000)
 
-### 22-3 ETL ~~again~~ but this time in AWS
+### [22-3 ETL ~~again~~ but this time in AWS](https://zoom.us/rec/share/bcFI8Irj16Y_SGAQyoNTW4rPsBOJdW20YNQxHWmxQ6ua5yzO_4dWAUS92mZFbeLP.TFjNmBoYyTtnMggX?startTime=1621547310000 https://zoom.us/rec/share/bcFI8Irj16Y_SGAQyoNTW4rPsBOJdW20YNQxHWmxQ6ua5yzO_4dWAUS92mZFbeLP.TFjNmBoYyTtnMggX?startTime=1621549956000)
+
+[Full Zoom Recording](https://zoom.us/rec/share/cXihBq46JomHnWOiB_Ksmp18vSqCQSDqHA2JRitxhwF0wR8r-PC-nQljjBi5G8OG.oNHv9m_rdDF8u1Ns)
 
 _Note:_ This lecture uses AWS resources that are free for the first year after you sign up for an AWS account. For accounts over a year old, the material in the lecture will cost less than a few bucks to run in AWS.
 
 * AWS hosting - RDS (relational data services) and S3 buckets
   + Creating our own databases using AWS
 * Deploying an application with Heroku
+  + Git Demo Repo: https://github.com/froggercat-work/simple-flask-deploy
+  + Another Heroku Guide is here: [](23-Final-Project/1/Heroku_Deployment/Heroku_Deployment_Guide.md)
 
 ##### 22-3 Additional Coverage
 
+* Before class
+  + [Open Office Hours](https://zoom.us/rec/share/bcFI8Irj16Y_SGAQyoNTW4rPsBOJdW20YNQxHWmxQ6ua5yzO_4dWAUS92mZFbeLP.TFjNmBoYyTtnMggX?startTime=1621547310000)
 * After class
-  + 22 Big Data Homework Help 2/2
-  + 21 ML Homework Solution
+  + Open Office Hours
 
 </details>
 
@@ -1537,7 +1542,8 @@ _Note:_ This lecture uses AWS resources that are free for the first year after y
   + Open Office Hours
 * After class:
   + Open Office Hours
-  + 22 Big Data Homework Solution
+  + 22 Big Data Homework Help 2/2
+  + 21 ML Homework Solution
 
 ### 23-2 Convolutional Neural Networks
 
@@ -1553,6 +1559,7 @@ _Note:_ This lecture uses AWS resources that are free for the first year after y
   + Open office hours
 * After class:
   + Open Office Hours
+  + 22 Big Data Homework Solution
 
 ### 23-3 Final Project Work
 
