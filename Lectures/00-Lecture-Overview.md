@@ -1393,7 +1393,7 @@ Accidentally broke the lecture recording into two files:
 
 ## <!-- 21-22 Machine Learning -->
 
-<details open><summary><em>Module 21-22: Intro to Machine Learning, Big Data, and the Cloud</em></summary>
+<details><summary><em>Module 21-22: Intro to Machine Learning, Big Data, and the Cloud</em></summary>
 
 <br/>
 
@@ -1452,7 +1452,7 @@ Accidentally broke the lecture recording into two files:
 
 </details>
 
-<details open><summary><strong>Module 22 - Big Data</strong></summary>
+<details><summary><strong>Module 22 - Big Data</strong></summary>
 
 ### [22-1 Introduction to Parallelized Processing with `mrjob` ](https://zoom.us/rec/share/xYHFlFKhcHVrKLKfB4H-0BZ7I0Bvxn6z_0bnZV3jKcb6FyAxp1V38gA73BzIvdw.ZuBjP-X6I_D8oAe0?startTime=1621083512000)
 
@@ -1494,7 +1494,7 @@ _Note:_ We will be using Google Colab notebooks to run these exercises. You may 
 * After class:
   + [20 Tableau Homework Solution](https://zoom.us/rec/share/NCLvv1NIyBXOk-xvdY40RNedUdMgi1zQbY93BAOEH7pFtUwy3tKb9Gdg0U0cR85s.j8vIImr3HL-WuEsE?startTime=1621388536000)
 
-### [22-3 ETL ~~again~~ but this time in AWS](https://zoom.us/rec/share/bcFI8Irj16Y_SGAQyoNTW4rPsBOJdW20YNQxHWmxQ6ua5yzO_4dWAUS92mZFbeLP.TFjNmBoYyTtnMggX?startTime=1621547310000 https://zoom.us/rec/share/bcFI8Irj16Y_SGAQyoNTW4rPsBOJdW20YNQxHWmxQ6ua5yzO_4dWAUS92mZFbeLP.TFjNmBoYyTtnMggX?startTime=1621549956000)
+### [22-3 ETL ~~again~~ but this time in AWS](https://zoom.us/rec/share/64f9iJRvorSK11OAMpMcL5I4Mp2Il_RDv-aB5XYzjr10YIlQ9V29X9pSk4az2tcP.31CiFQ8McBY9vyOS?startTime=1621549956000)
 
 [Full Zoom Recording](https://zoom.us/rec/share/cXihBq46JomHnWOiB_Ksmp18vSqCQSDqHA2JRitxhwF0wR8r-PC-nQljjBi5G8OG.oNHv9m_rdDF8u1Ns)
 
@@ -1502,7 +1502,7 @@ _Note:_ This lecture uses AWS resources that are free for the first year after y
 
 * AWS hosting - RDS (relational data services) and S3 buckets
   + Creating our own databases using AWS
-* Deploying an application with Heroku
+* Deploying an application with Heroku (~45m into [Lecture Recording](https://zoom.us/rec/share/64f9iJRvorSK11OAMpMcL5I4Mp2Il_RDv-aB5XYzjr10YIlQ9V29X9pSk4az2tcP.31CiFQ8McBY9vyOS?startTime=1621549956000))
   + Git Demo Repo: https://github.com/froggercat-work/simple-flask-deploy
   + Another Heroku Guide is here: [](23-Final-Project/1/Heroku_Deployment/Heroku_Deployment_Guide.md)
 
@@ -1521,11 +1521,11 @@ _Note:_ This lecture uses AWS resources that are free for the first year after y
 
 ## <!-- 23-24 Image ML and Final Project -->
 
-<details><summary><em>Module 23-24: Final Project and Building Convolutional Neural Networks</em></summary>
+<details open><summary><em>Module 23-24: Final Project and Building Convolutional Neural Networks</em></summary>
 
 <br/>
 
-<details><summary><strong>Module 23 - Deep Neural Network Practice and CNNs</strong></summary>
+<details open><summary><strong>Module 23 - Deep Neural Network Practice and CNNs</strong></summary>
 
 ### 23-1 Deep Neural Networks with MNIST Handwriting Dataset & Final Project
 
