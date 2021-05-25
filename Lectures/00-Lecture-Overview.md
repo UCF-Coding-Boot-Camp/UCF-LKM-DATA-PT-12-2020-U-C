@@ -1527,9 +1527,11 @@ _Note:_ This lecture uses AWS resources that are free for the first year after y
 
 <details open><summary><strong>Module 23 - Deep Neural Network Practice and CNNs</strong></summary>
 
-### 23-1 Deep Neural Networks with MNIST Handwriting Dataset & Final Project
+### [23-1 Deep Neural Networks with MNIST Handwriting Dataset & Final Project](https://zoom.us/rec/share/CmsSreDJvEWwQMW9iPUam7_M1qdD7_lx9c_6Onwi_dcgYwtYW-yN0wefrXZK9Gyy.C5nU5Lg3eVJEok0j?startTime=1621689352000)
 
-* Final Project Requirements: Lectures/23-Final-Project/1/Slideshows/data-23-1-final-project.pdf
+[Full Zoom Recording](https://zoom.us/rec/share/nBVpuOFX1uuY-FI1lBs-1xPInKWcIfY4KSE6Z0e5IdbRvnepf_FwPQXCGHN1TM8X.EP7dQ6gkGFMNuIve)
+
+* [Final Project Requirements](https://zoom.us/rec/share/CmsSreDJvEWwQMW9iPUam7_M1qdD7_lx9c_6Onwi_dcgYwtYW-yN0wefrXZK9Gyy.C5nU5Lg3eVJEok0j?startTime=1621692620000): [](Lectures/23-Final-Project/1/Slideshows/data-23-1-final-project.pdf)
   + Project groups and proposals due today
 * Use MNIST handwriting dataset to practice deep neural network applications
   + Intro to preparing image files
