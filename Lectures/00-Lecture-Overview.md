@@ -94,7 +94,6 @@ Be sure you are in your `PythonData` environment before running these install co
     - `pip install jupyter_contrib_nbextensions`
     - `jupyter contrib nbextension install --user`
     - Restart Jupyter and you should now see the "nbextensions" tab on the file directory page. Go there to read about and install all the supported Jupyter Notebook plugins, such as Hinterland (auto-complete).
-
     </details>
 
 </details>
@@ -1471,7 +1470,7 @@ _Note:_ We will be using Google Colab notebooks to run these exercises. You may 
   + Open office hours
 * After class:
   + [17 Leaflet Homework Solution](https://zoom.us/rec/share/xYHFlFKhcHVrKLKfB4H-0BZ7I0Bvxn6z_0bnZV3jKcb6FyAxp1V38gA73BzIvdw.ZuBjP-X6I_D8oAe0?startTime=1621096684000)
-  + [22 Big Data Homework Help 1/2](https://zoom.us/rec/share/xYHFlFKhcHVrKLKfB4H-0BZ7I0Bvxn6z_0bnZV3jKcb6FyAxp1V38gA73BzIvdw.ZuBjP-X6I_D8oAe0?startTime=1621097468000)
+  + [22 Big Data Homework Help 1/1](https://zoom.us/rec/share/xYHFlFKhcHVrKLKfB4H-0BZ7I0Bvxn6z_0bnZV3jKcb6FyAxp1V38gA73BzIvdw.ZuBjP-X6I_D8oAe0?startTime=1621097468000)
 
 ### [22-2 NLP (Natural Language Processing)](https://zoom.us/rec/share/NCLvv1NIyBXOk-xvdY40RNedUdMgi1zQbY93BAOEH7pFtUwy3tKb9Gdg0U0cR85s.j8vIImr3HL-WuEsE?startTime=1621377074000)
 
@@ -1544,27 +1543,34 @@ _Note:_ This lecture uses AWS resources that are free for the first year after y
   + Open Office Hours
 * After class:
   + Open Office Hours
-  + 22 Big Data Homework Help 2/2
-  + 21 ML Homework Solution
 
-### 23-2 Convolutional Neural Networks
+### 23-2 Final Project Work
 
-* CNNs
-  + Research CNNs vs. deep neural networks
-  + Use a CNN to create and train an image recognition model
-  + Learn how to learn about machine learning
-* Final Projects
+No recordings today.
+
+* Work on final projects
+* Goals: 
+  + Finish proposals 
+  + Begin working on data cleaning and preprocessing
 
 ##### 23-2 Additional Coverage
 
-* Before class:
+* Before class:_
   + Open office hours
 * After class:
   + Open Office Hours
-  + 22 Big Data Homework Solution
 
-### 23-3 Final Project Work
+### 23-3 Final Project Work + Optional Material
 
+[Full Zoom Recording](https://zoom.us/rec/share/G0RYrkiqOBuIJAYXWFaWI83iQkKMMOqgIoKXT8tOPIt_L6PVJRfCOzYO4plSBwcY.nGl3pH3dO4XDhPo-)
+
+* [Time Series Modeling](https://zoom.us/rec/share/yUHdWB6j3pmSGMl5ah-alZiGeoCJJlM22DZBB0MGI8RibLcDil2yu5NLbbZlWUIR.pR6WDnYsRgAxBTAK?startTime=1622158830000)
+  + AR, MA, ARIMA
+* [Convolutional Neural Networks (CNNs)](https://zoom.us/rec/share/yUHdWB6j3pmSGMl5ah-alZiGeoCJJlM22DZBB0MGI8RibLcDil2yu5NLbbZlWUIR.pR6WDnYsRgAxBTAK?startTime=1622162230000)
+  + Note: I mentioned a slideshow on the video, but there's actually no slideshow for this material.
+  + Research CNNs vs. deep neural networks
+  + Use a CNN to create and train an image recognition model
+  + Learn how to learn about machine learning
 * Work on final projects
 * Goals:
   + Finish data prep
@@ -1573,6 +1579,8 @@ _Note:_ This lecture uses AWS resources that are free for the first year after y
 
 ##### 23-3 Additional Coverage
 
+* Before class:
+  + Open office hours
 * After class:
   + Open office hours
 
@@ -1592,6 +1600,8 @@ _Note:_ This lecture uses AWS resources that are free for the first year after y
   + Open office hours
 * After class:
   + Open office hours
+  + 21 ML Homework Solution
+  + 22 Big Data Homework Solution
 
 ### 24-2 Final Project Work
 
@@ -1617,8 +1627,6 @@ _Note:_ This lecture uses AWS resources that are free for the first year after y
 
 ##### 24-3 Additional Coverage
 
-* Before class:
-  + Open office hours
 * After class:
   + Open office hours
 
