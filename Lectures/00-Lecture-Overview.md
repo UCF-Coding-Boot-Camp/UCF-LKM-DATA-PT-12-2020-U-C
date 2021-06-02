@@ -1590,6 +1590,8 @@ No recordings today.
 
 ### 24-1 Final Project Work
 
+[Full Zoom Recording](https://zoom.us/rec/share/dyRlA6IIPjcXgTbJ3CN7iFwSgsQz4OpcLVE7PD6sCtej_blUx4WNvTiMWYv7SxlJ.nPt7ccvls-LYufLp)
+
 * Work on final projects
 * Goals:
   + Machine learning model training in progress
@@ -1600,8 +1602,8 @@ No recordings today.
   + Open office hours
 * After class:
   + Open office hours
-  + 21 ML Homework Solution
-  + 22 Big Data Homework Solution
+  + [21 ML Homework Solution](https://zoom.us/rec/share/cIxayzI_txjwqL4uQwmfSM3ZSHFmZgN9zDu4nLW7ybGIfqecDKMuhabv7MyvnwuY.RoIKa0sdpmQ6tkTn?startTime=1622598128000)
+  + [22 Big Data Homework Solution](https://zoom.us/rec/share/cIxayzI_txjwqL4uQwmfSM3ZSHFmZgN9zDu4nLW7ybGIfqecDKMuhabv7MyvnwuY.RoIKa0sdpmQ6tkTn?startTime=1622599079000)
 
 ### 24-2 Final Project Work
 
