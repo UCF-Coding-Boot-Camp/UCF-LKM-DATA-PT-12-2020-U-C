@@ -1607,6 +1607,8 @@ No recordings today.
 
 ### 24-2 Final Project Work
 
+No recordings today.
+
 * Work on final project
 * Goals:
   + Come with questions!
