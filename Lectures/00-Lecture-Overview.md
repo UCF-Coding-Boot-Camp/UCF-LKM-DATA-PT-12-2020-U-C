@@ -1621,16 +1621,24 @@ No recordings today.
 * After class:
   + Open office hours
 
-### 24-3 Final Project Presentations + Commencement
+### [24-3 Final Project Presentations + Commencement](https://zoom.us/rec/share/mzcUH-U81F5mRkPzbPAuRVLTtpArzrY5lp2fIplZkZFhbTRolxO5XDGc3hWhn93p.r0YLsX7H-qVOaYuW)
 
-* Congratulations!!!!
-  + Receiving certificates
-  + What to do next?
-  + Staying in touch
+[Full Zoom Recording](https://zoom.us/rec/share/mzcUH-U81F5mRkPzbPAuRVLTtpArzrY5lp2fIplZkZFhbTRolxO5XDGc3hWhn93p.r0YLsX7H-qVOaYuW)
+
+* [Congratulations!!!!](https://zoom.us/rec/share/LiX4NI4u9Vuz8C7k2jUKO3dp-c8cwBrUu6SJtMG145JlEr1XS87grv2Oy_Xa43V7.mCvI5NoLtMhgg43M?startTime=1622904801000)
+    - Receiving certificates
+    - What to do next?
+    - Staying in touch
 * Final Presentations
+    1. [Alex Martinez, Brook Miller, Kim Sommer, JJ Williams, Christina Gangi (Group 1)](https://zoom.us/rec/share/LiX4NI4u9Vuz8C7k2jUKO3dp-c8cwBrUu6SJtMG145JlEr1XS87grv2Oy_Xa43V7.mCvI5NoLtMhgg43M?startTime=1622899741000)
+    2. [Howard Mayorga, Candi Shanks, Tabitha Head, Corrie Thomas, Gregory Brown (Group 2)](https://zoom.us/rec/share/LiX4NI4u9Vuz8C7k2jUKO3dp-c8cwBrUu6SJtMG145JlEr1XS87grv2Oy_Xa43V7.mCvI5NoLtMhgg43M?startTime=1622901178000)
+    3. [Jose Robles, Sam Azhari, Stephanie Rivas, Ian Castro (Group 4)](https://zoom.us/rec/share/LiX4NI4u9Vuz8C7k2jUKO3dp-c8cwBrUu6SJtMG145JlEr1XS87grv2Oy_Xa43V7.mCvI5NoLtMhgg43M?startTime=1622902289000)
+    4. [Daniel Larson, Alciluz Gomez, Altricia Latimer (Group 3)](https://zoom.us/rec/share/LiX4NI4u9Vuz8C7k2jUKO3dp-c8cwBrUu6SJtMG145JlEr1XS87grv2Oy_Xa43V7.mCvI5NoLtMhgg43M?startTime=1622903806000)
 
 ##### 24-3 Additional Coverage
 
+* Before class:
+  + Presentation Prep
 * After class:
   + Open office hours
 
